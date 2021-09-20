@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-09-20T15:32:23+00:00</updated><id>/</id><title type="html">UBI Center</title><subtitle>Analyzing universal basic income policies with open-source research</subtitle><entry><title type="html">&amp;amp;#147There you may behold the rent&amp;amp;#148: Effects of a UK land dividend</title><link href="/uk-lvt" rel="alternate" type="text/html" title="&amp;#147There you may behold the rent&amp;#148: Effects of a UK land dividend" /><published>2021-09-19T00:00:00+00:00</published><updated>2021-09-19T00:00:00+00:00</updated><id>/uk-lvt</id><content type="html" xml:base="/uk-lvt">&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;See the simulation in PolicyEngine&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In a 1775 lecture, an English Radical proposed making the land in every parish “the property of the corporation or parish,” and sharing the rents with society.
+About two-thirds of the revenue would fund public services, and the remainder would be divided “among the whole number of souls, male and female, married and single in a parish from the infant of a day old to the second infantage of hoary hairs.”
+That Radical was named Thomas Spence, and the lecture, &lt;em&gt;&lt;a href=&quot;https://quod.lib.umich.edu/e/ecco/004808953.0001.000/1:3?rgn=div1;view=fulltext&quot;&gt;The Meridian Sun of Liberty&lt;/a&gt;&lt;/em&gt;, became the first known mention of a universal basic income (UBI).&lt;/p&gt;
+
+&lt;p&gt;While Spence was the first to call for UBI, proposals for common ownership of land predated him by centuries.
+Today, the only large-scale government UBI, Alaska’s Permanent Fund Dividend, follows this model of funding through natural resources.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we simulate a UBI funded by a land value tax (LVT), or what we call a &lt;em&gt;land dividend&lt;/em&gt;, in the UK.
+We find that a 1 percent land dividend could fund a UBI of £16 per week, reducing poverty by 20% and leaving 70% of the population better off (&lt;a href=&quot;https://uk.policyengine.org/population-results?LVT=1&amp;amp;child_UBI=16&amp;amp;adult_UBI=16&amp;amp;senior_UBI=16&quot;&gt;you can explore the simulation in PolicyEngine&lt;/a&gt;).
+Unlike our previous simulations, this is a tax on wealth, and we discuss challenges measuring distributional effects given imperfect correlation between assets and income.
+But first, some background on the oldest idea in the UBI chronology.&lt;/p&gt;
+
+&lt;h1 id=&quot;history-of-the-land-dividend&quot;&gt;History of the land dividend&lt;/h1&gt;
+
+&lt;p&gt;Five and a half centuries before Spence, King Henry III sealed a pair of revolutionary English documents: the &lt;em&gt;Magna Carta&lt;/em&gt;, and the &lt;em&gt;Charter of the Forest&lt;/em&gt;.
+The latter sought to rebalance access to the commons, following decades of Kings closing off their forests, charging fees, rents, and penalties to those who hunted on or otherwise used the royal lands.
+The 1217 document allowed all to use the forest as pasture, providing that “Every freeman may agest his own wood within our forest at his pleasure, and shall take his pawnage.”
+So began England’s expansion of rights to common lands, and the subsistence they afford.&lt;/p&gt;
+
+&lt;p&gt;Thomas Paine became the first prominent advocate of a land tax, notably in his 1797 pamphlet, &lt;em&gt;Agrarian Justice&lt;/em&gt;, which called for taxing land inheritances.
+While he stopped short of a full UBI, Paine proposed that the land tax be used for semi-universal payments, in what is also described as the first old-age pension proposal:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;[Government must] create a national fund, out of which there shall be paid to every person, when arrived at the age of twenty-one years, the sum of fifteen pounds sterling, as a compensation in part, for the loss of his or her natural inheritance, by the introduction of the system of landed property. And also, the sum of ten pounds per annum, during life, to every person now living, of the age of fifty years, and to all others as they shall arrive at that age.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Spence’s proposal was partly a response to Paine’s (while they were both published in 1796-1797, they had spoken of their respective ideas prior).
+He felt that land was a source of wealth, and that it should be shared with all people—not only once upon a 21st birthday and then in older years.
+In &lt;em&gt;The Meridian Sun of Liberty&lt;/em&gt;, Spence spoke of the universality in liberatory terms:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;By this one bold resolve your chains are eternally broken, and your enemies annihilated. By this one resolve the power, the pride, and the arrogance of the landed interest, those universal and never ceasing scourges and plunderers of your race, are instantane∣ously and for ever broken and cut off. For being thus deprived and shorn of their revenues they become like shorn Sampson, weak as other men; weak as the poor dejected wretches whom they have so long been grinding and treading under toot. There you may behold the rent, which the people have paid into the parish treasuries…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Nearly a century later, American political economist Henry George introduced the idea of an annual land value tax.
+While Paine proposed taxing land upon inheritance and Spence proposed collective ownership of land, George sought to marry the concept of collective land ownership with the administrative difficulty of seizing the land; taxing land values each year based on market rents was his solution.
+George did not call for any specific use of the LVT revenue (such as UBI), but his 1879 book &lt;em&gt;Progress and Poverty&lt;/em&gt; claimed that the private capture of land rents explains the persistence of poverty amid economic progress:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The great cause of inequality in the distribution of wealth is inequality in the ownership of land. The ownership of land is the great fundamental fact which ultimately determines the social, the political, and consequently the intellectual and moral condition of a people.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the modern era, the economist Milton Friedman supported both the LVT and UBI, though not apparently together.
+Friedman, one of the most influential economists of the 20th century, proposed in his 1962 book &lt;a href=&quot;https://en.wikipedia.org/wiki/Capitalism_and_Freedom&quot;&gt;&lt;em&gt;Capitalism and Freedom&lt;/em&gt;&lt;/a&gt; replacing the existing safety net with a negative income tax (a means-tested UBI).
+&lt;a href=&quot;https://www.youtube.com/watch?v=yS7Jb58hcsc&quot;&gt;In 1978&lt;/a&gt;, he then stated his support for LVT:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;There’s a sense in which all taxes are antagonistic to free enterprise – and yet we need taxes. …So the question is, which are the least bad taxes? In my opinion the least bad tax is the property tax on the unimproved value of land, the Henry George argument of many, many years ago.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Today, only one government has enacted a true UBI: Alaska, through its Permanent Fund Dividend.
+Each year, every resident of Alaska receives a payment of between $1,000 and $3,000, regardless of age or income.
+How is it funded?
+The return on the Alaska Permanent Fund, its fund built from oil reserves.
+That is, the only true UBI on Earth is an expression of the shared ownership of land and natural resources.&lt;/p&gt;
+
+&lt;h1 id=&quot;land-and-land-taxation-in-the-uk&quot;&gt;Land and land taxation in the UK&lt;/h1&gt;
+
+&lt;p&gt;The UK Office of National Statistics (ONS) estimates that UK land is worth &lt;a href=&quot;https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/bulletins/nationalbalancesheet/2018&quot;&gt;£5.7 trillion&lt;/a&gt;, 51% of the country’s total net worth; this is a larger share than peer countries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-09-19-uk-lvt/land_wealth_share_G7_countries.png&quot; alt=&quot;Land value as a share of G7 countries net worth&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The UK does not have a direct land value tax, but it does have three taxes that indirectly tax the value of land:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/council-tax&quot;&gt;Council Tax&lt;/a&gt;&lt;/strong&gt; is a tax on residential property levied on residents (owner-occupiers or renters). Councils assign each property a Council Tax band depending on its value, and then levy flat tax levels for all properties in the same band. Council Tax is means tested through &lt;a href=&quot;https://www.gov.uk/apply-council-tax-reduction&quot;&gt;Council Tax Reduction&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/introduction-to-business-rates&quot;&gt;Business rates&lt;/a&gt;&lt;/strong&gt; are taxes on commercial property, set at roughly 0.5% of the property value.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.gov.uk/stamp-duty-land-tax&quot;&gt;Stamp Duty Land Tax&lt;/a&gt;&lt;/strong&gt; (or just “Stamp Duty”) is a tax on the transfer of property, set progressively between 0% and 12% of the sale price. Despite its name, it taxes the full property value, including both land and structures.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For simplicity, our simulation leaves these taxes intact, though we return to these taxes in the conclusion.
+Our simulation did require land value and income in a single dataset; since this does not exist, 
+we &lt;a href=&quot;https://policyengine.github.io/openfisca-uk-data/imputation.html#imputing-land-value-to-the-frs&quot;&gt;fused data from three sources&lt;/a&gt; with machine learning to arrive at our estimates.&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;We model a 1% tax on the £5.5 trillion in non-government land value, which raises £55 billion per year.
+By itself, this tax is essentially flat from a distributional perspective, raising the Gini inequality index by 0.08%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_1_2&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_1_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;However, when distributing the proceeds as UBI, the 1% LVT funds £16 per person per week, and becomes highly progressive.
+The bottom decile’s income would rise 16% and the top decile’s income would fall by 2%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_3_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The 1% land dividend would cut poverty by 20% overall, though with significant heterogeneity by age: child poverty would fall 30%, while pensioner poverty would fall only 4%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_5_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Impacts vary within income deciles as well.
+89% of the bottom decile comes out ahead, though 7% of them would experience net income decreases of 5% or more (high-asset, low-income people, like many pensioners).
+Conversely, two in five members of the upper decile would come out ahead (low-asset, high-income people, like newly-graduated physicians).&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_7_1&quot;).load(&quot;/assets/markdown_assets/uk-lvt/graph_7_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To illustrate the effect on an high-asset low-income person, consider a single pensioner who owns a £1 million home.
+Given the average 62% land value share, they would own £620,000 of land, and thus face a £6,200 annual land tax bill.
+About £830 of which would be offset by the UBI.
+If their main income is the £7,200 from &lt;a href=&quot;https://www.gov.uk/state-pension&quot;&gt;State Pension&lt;/a&gt;, the policy would push them well below the poverty line.&lt;/p&gt;
+
+&lt;p&gt;But is that person actually poor? They’re living in a £1 million home, which, based on the &lt;a href=&quot;https://www.globalpropertyguide.com/Europe/United-Kingdom/price-rent-ratio&quot;&gt;average price-to-rent ratio&lt;/a&gt;, would cost £28,000 per year to rent.
+If they were renting instead of being a homeowner, they’d need £28,000 extra income; indeed, it’s as if they are a renter in their own home, paying themselves rent each month. This concept has a name: &lt;em&gt;imputed rent&lt;/em&gt;.
+Imputed rents factor prominently into measurements like GDP and inflation, but they’re not part of poverty measurements.&lt;/p&gt;
+
+&lt;p&gt;Or consider if this person doesn’t just have a £1 million home, but also £1 million in equities.
+Under a 1% LVT, they’d pay another £3,300 per year in taxes through their £330,000 in indirect land holdings.
+But in practice, this would just lower the value of their holdings, rather than being a tax they’d pay in that year, as our accounting would assume.&lt;/p&gt;
+
+&lt;p&gt;These scenarios can also intersect.
+Suppose the pensioner wanted to sell some stock to pay the LVT bill on their home.
+Even if we included capital gains in income (neither we nor the UK government do), we lack the behavioral knowledge to model how much they would sell.&lt;/p&gt;
+
+&lt;p&gt;There’s no straightforward way to marry asset-based taxes like LVT with income-based measurements like poverty.
+Accounting for imputed rents and capital gains would be a start, but ultimately these concepts differ in ways that cannot be fully reconciled, only explained.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-pro-growth-step-toward-ubi&quot;&gt;A pro-growth step toward UBI&lt;/h2&gt;
+
+&lt;p&gt;Economic theory states that the deadweight loss (economic inefficiency) of a tax depends, in part, on how elastic (responsive) the supply is to the tax.
+Personal income taxes shrink the economy because people reduce their labor supply in response to the tax; VATs shrink the economy because people reduce their consumption in response to the tax; and so on.
+Sometimes this responsiveness can grow the economy, when the reduced behavior has negative externalities, and these Pigouvian taxes like &lt;a href=&quot;http://ubicenter.org/us-carbon-dividend&quot;&gt;carbon taxes&lt;/a&gt; are generally considered the most economically efficient taxes.&lt;/p&gt;
+
+&lt;p&gt;Short of Pigouvian taxes, though, land taxes are most efficient, because their supply is fixed.
+That is, there is zero deadweight loss from land value taxes, because the price elasticity of supply is zero.
+A &lt;a href=&quot;https://www.oecd-ilibrary.org/docserver/241216205486.pdf?expires=1625154113&amp;amp;id=id&amp;amp;accname=guest&amp;amp;checksum=1C37382017FFC08ADBEAB9DB5DD0F96C&quot;&gt;2008 paper from the OECD Economics Department&lt;/a&gt; confirms this theory:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The reviewed evidence and the empirical work suggests recurrent taxes on immovable property being the least distortive tax instrument in terms of reducing long-run GDP per capita.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;LVTs will be more efficient than the property taxes lauded in the OECD report, which include Council Tax and Business rates in the UK.
+Property taxes tax both land and structures, and taxes on structures suppress construction.
+LVT will be especially more efficient than the non-recurrent Stamp Duty, which discourages transferring property to owners that can make more productive use of it.
+The &lt;a href=&quot;https://fairershare.org.uk&quot;&gt;Fairer Share campaign&lt;/a&gt; proposes replacing these three taxes with a proportional property tax, reducing complexity and distortions from Stamp Duty, though stopping short of removing the tax on structures as an LVT would.&lt;/p&gt;
+
+&lt;p&gt;LVT is far from new: most of the world levies some form of land tax, even if it’s typically paired with an equal tax on structures and dubbed a property tax.
+In addition, some jurisdictions levy land only taxes, such as the progressive land tax up to 2.25% of &lt;a href=&quot;https://www.sro.vic.gov.au/land-tax&quot;&gt;Victoria, Australia&lt;/a&gt;, and the flat 4% tax (atop a 1% property tax) of &lt;a href=&quot;https://www.strongtowns.org/journal/2019/3/6/non-glamorous-gains-the-pennsylvania-land-tax-experiment&quot;&gt;Allentown, Pennsylvania, USA&lt;/a&gt;.
+Progressive land taxes can be avoided by splitting parcels, while flat land taxes can produce distributional issues if not offset by transfers.
+This analysis shows that pairing LVT with UBI can produce economically efficient, progressive redistribution.&lt;/p&gt;</content><author><name>max, nikhil, charles</name></author><category term="uk" /><category term="policyengine" /><category term="land" /><summary type="html">Funding universal basic income with a land value tax would reduce poverty and inequality, while raising questions about distributional measurement.</summary></entry><entry><title type="html">Introducing PolicyEngine UK</title><link href="/introducing-policyengine" rel="alternate" type="text/html" title="Introducing PolicyEngine UK" /><published>2021-09-01T00:00:00+00:00</published><updated>2021-09-01T00:00:00+00:00</updated><id>/introducing-policyengine</id><content type="html" xml:base="/introducing-policyengine">&lt;h2 id=&quot;try-it-at-policyengineorg&quot;&gt;Try it at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Here at the UBI Center, technology has long supported our mission to make universal basic income the world’s most thoroughly researched economic policy.
+Along with our &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;first analysis&lt;/a&gt;, we created &lt;a href=&quot;plans.ubicenter.org&quot;&gt;Plan Explorer&lt;/a&gt; to help people understand the impact of Andrew Yang’s Freedom Dividend on households like theirs.
+We’ve since integrated interactive graphics to a growing share of our reports.
+And just last month, we launched the &lt;a href=&quot;bib.ubicenter.org&quot;&gt;Basic Income Builder&lt;/a&gt; to enable anyone to model the impact of various budget-neutral UBI policies on poverty and inequality in the US.&lt;/p&gt;
+
+&lt;p&gt;We’ve also built technology behind the scenes to model taxes and benefits as demanded by UBI policies.
+Over the past year, we’ve developed &lt;a href=&quot;https://github.com/PSLmodels/openfisca-uk/&quot;&gt;OpenFisca UK&lt;/a&gt;, the UK’s first open source tax and benefit microsimulation model, and we’ve used it to produce &lt;a href=&quot;https://www.ubicenter.org/tag/uk/&quot;&gt;four reports&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/bien-2021&quot;&gt;three conference presentations&lt;/a&gt; on UBI in the UK.
+All of our technologies are open source, and they wouldn’t be possible without the prior work of other open source projects (&lt;a href=&quot;openfisca.org&quot;&gt;OpenFisca&lt;/a&gt;, &lt;a href=&quot;https://pandas.pydata.org/&quot;&gt;pandas&lt;/a&gt;, &lt;a href=&quot;https://github.com/plotly&quot;&gt;plotly&lt;/a&gt;, and &lt;a href=&quot;http://taxcalc.pslmodels.org/&quot;&gt;Tax-Calculator&lt;/a&gt;, just to name a few).&lt;/p&gt;
+
+&lt;p&gt;Today, we’re bringing together these interactive and microsimulation technologies into a new product: &lt;strong&gt;&lt;a href=&quot;https://policyengine.org&quot;&gt;PolicyEngine&lt;/a&gt;&lt;/strong&gt;.
+With PolicyEngine, anyone can reform the UK tax and benefit system, and see how it would affect the UK population as well as their own household.
+See the video below for a quick overview of how PolicyEngine works.&lt;/p&gt;
+
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/nv_gVtokikU&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;As an example, let’s reproduce the reform we studied in July to &lt;a href=&quot;https://www.ubicenter.org/personal-allowance&quot;&gt;replace the personal allowance with a UBI&lt;/a&gt;.
+On the &lt;em&gt;Policy&lt;/em&gt; page, start by selecting &lt;em&gt;Tax &amp;gt; Income tax &amp;gt; Allowances&lt;/em&gt;, and drag the &lt;em&gt;Personal allowance&lt;/em&gt; slider to £0.&lt;sup id=&quot;fnref:params&quot;&gt;&lt;a href=&quot;#fn:params&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+Then head to &lt;em&gt;Benefits &amp;gt; UBI&lt;/em&gt;, and toggle &lt;em&gt;AutoUBI&lt;/em&gt; to calculate the budget-neutral UBI.
+PolicyEngine finds that repealing the personal allowance funds a UBI of £29 per week, matching our July report.&lt;/p&gt;
+
+&lt;p&gt;From there, you can click &lt;em&gt;Simulate on the population&lt;/em&gt; to see the poverty impact (-29%, mirroring our report), the budget impact by provision, and other distributional effects.
+You can also enter information about your household to see how the reform would affect your net income, as well as the impact to your net income and marginal tax rates depending on your earnings.&lt;/p&gt;
+
+&lt;p&gt;PolicyEngine supports millions of policy reforms, including those not involving UBI.
+We’ll be enhancing it every week and leveraging it for all future UK research.
+We’re also working on bringing PolicyEngine to the US and hope to expand its reach more broadly (please consider &lt;a href=&quot;https://ubicenter.org/donate&quot;&gt;supporting these development and hosting costs&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;What policy reforms have you been waiting to simulate?
+Try them out at &lt;a href=&quot;https://policyengine.org&quot;&gt;policyengine.org&lt;/a&gt; and &lt;a href=&quot;https://zej8fnylwn9.typeform.com/to/XFFu15Xq&quot;&gt;let us know what you think&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://us02web.zoom.us/meeting/register/tZAlde6prz4sHNH7Pj1AWRokyrnr7yJDK7tt&quot;&gt;&lt;em&gt;Join us at 6PM BST today for a tour and Q&amp;amp;A of PolicyEngine.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:params&quot;&gt;
+      &lt;p&gt;PolicyEngine uses policy parameters as of 2021-01-01, when the personal allowance was £12,500, rather than its current value of £12,570. We’re working on updating policy parameters to the current date. Our FAQ shows other caveats. &lt;a href=&quot;#fnref:params&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;max&quot;, &quot;nikhil&quot;]</name></author><category term="policyengine" /><category term="uk" /><summary type="html">Our new product democratises tax and benefit analysis. Try it at policyengine.org.</summary></entry><entry><title type="html">Research we’re presenting at the upcoming Basic Income Earth Network Congress</title><link href="/bien-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming Basic Income Earth Network Congress" /><published>2021-08-17T00:00:00+00:00</published><updated>2021-08-17T00:00:00+00:00</updated><id>/bien-2021</id><content type="html" xml:base="/bien-2021">&lt;h2 id=&quot;register-to-attend-the-bien-congress-here&quot;&gt;Register to attend the BIEN Congress &lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;From Wednesday through Saturday, the &lt;a href=&quot;https://basicincome.org/&quot;&gt;Basic Income Earth Network (BIEN)&lt;/a&gt; will hold its &lt;a href=&quot;https://cbin.scot/bien2021/&quot;&gt;annual BIEN Congress&lt;/a&gt;.
+The virtual conference includes presentations from researchers and activists around the world, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;Here are the sessions we’ll be presenting (times are given as British Standard Time; subtract five hours for Eastern Time and eight hours for Pacific Time):&lt;/p&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-lessons-for-basic-income-policies-pilots-and-modelling&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841162&quot;&gt;Thursday at 6:30PM BST: Lessons for Basic Income policies, pilots and modelling&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their paper, &lt;a href=&quot;https://www.ubicenter.org/uk-blank-slate-ubi&quot;&gt;“Blank Slate UBI”&lt;/a&gt; (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt; and &lt;a href=&quot;https://www.ubicenter.org/author/deepak&quot;&gt;Deepak Singh&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Rick Evans will present progress toward constructing a general equilibrium model of UBI in the UK (a collaboration with Nikhil Woodruff, Jason DeBacker, Jonathan Pycroft, and Max Ghenis).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;thursday-at-630pm-bst-considering-public-attitudes-to-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841151&quot;&gt;Thursday at 6:30PM BST: Considering public attitudes to Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/katarina/&quot;&gt;Katarina van Alebeek&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/will&quot;&gt;Will Fedder&lt;/a&gt; will present our new UBI Poll Tracker (link coming soon).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;friday-at-900am-bst-guaranteeing-a-standard-of-living-with-a-basic-income&quot;&gt;&lt;a href=&quot;https://whova.com/portal/webapp/bienc_202108/Agenda/1841181&quot;&gt;Friday at 9:00AM BST: Guaranteeing a standard of living with a Basic Income&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present his paper, &lt;a href=&quot;https://whova.com/xems/whova_backend/get_event_s3_file_api/?eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;event_id=bienc_202108&amp;amp;file_url=https://whova.com/xems/whova_backend/get_event_s3_file_api/?event_id=bienc_202108&amp;amp;eventkey=38ae0ff901227210feb25976e3eceb821e34e4b024f69cfedacb41701f5c98dd&amp;amp;file_url=https://d1keuthy5s86c8.cloudfront.net/static/ems/upload/files/wkqdf_Allowances_Paper.pdf&quot;&gt;“Replacing tax and benefit allowances with UBI in the UK”&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/max/&quot;&gt;Max Ghenis&lt;/a&gt; and &lt;a href=&quot;https://ubicenter.org/author/nikhil&quot;&gt;Nikhil Woodruff&lt;/a&gt; will present their research on funding a UBI with a land value tax in the UK (co-authored with &lt;a href=&quot;https://www.ubicenter.org/author/charles&quot;&gt;Charles Bauman&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-bien-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://actionnetwork.org/events/attend-the-basic-income-earth-network-congress-glasgow-2021&quot;&gt;Registration for BIEN is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content><author><name>[&quot;max&quot;, &quot;nikhil&quot;, &quot;katarina&quot;, &quot;will&quot;, &quot;charles&quot;]</name></author><category term="global" /><category term="conferences" /><summary type="html">We'll give five talks across three sessions on Thursday and Friday.</summary></entry><entry><title type="html">Carbon dividends as anti-poverty policy</title><link href="/us-carbon-dividend" rel="alternate" type="text/html" title="Carbon dividends as anti-poverty policy" /><published>2021-08-05T00:00:00+00:00</published><updated>2021-08-05T00:00:00+00:00</updated><id>/us-carbon-dividend</id><content type="html" xml:base="/us-carbon-dividend">&lt;p&gt;The International Monetary Fund &lt;a href=&quot;https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-on-Country-Level-Estimates-46509&quot;&gt;estimates&lt;/a&gt; that the United States subsidized $649 billion of fossil fuels in 2015.
+Meanwhile, only about &lt;a href=&quot;https://www.eesi.org/papers/view/fact-sheet-fossil-fuel-subsidies-a-closer-look-at-tax-breaks-and-societal-costs&quot;&gt;$20 billion&lt;/a&gt; of that is in the form of direct subsidies.
+The remainder is the &lt;em&gt;implicit&lt;/em&gt; subsidy of misaligning the price of fossil fuels with their societal harms like air pollution and climate change.
+That is, the vast majority of fossil fuel subsidies is the &lt;em&gt;absence of carbon pricing&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;All developed countries except the &lt;a href=&quot;https://citizensclimatelobby.org/laser-talks/carbon-prices-around-world/&quot;&gt;US and Australia&lt;/a&gt; cut down on fossil fuel subsidies by pricing carbon emissions.
+Experts including &lt;a href=&quot;https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biab079/6325731&quot;&gt;scientists&lt;/a&gt; and the &lt;a href=&quot;https://www.igmchicago.org/surveys/carbon-taxes-ii/&quot;&gt;vast majority&lt;/a&gt; of &lt;a href=&quot;http://econstatement.org&quot;&gt;leading economists&lt;/a&gt; have called on the US to follow suit.
+To offset higher prices consumers would face as a result of carbon pricing (or other climate measures), many of these experts suggest rebating the revenue to all Americans as a dividend.
+&lt;a href=&quot;https://clcouncil.org/morning-consult-poll.pdf&quot;&gt;Two thirds&lt;/a&gt; of American voters support this policy, and as of this writing, 80 House Democrats have cosponsored the &lt;a href=&quot;https://energyinnovationact.org/&quot;&gt;Energy Innovation and Carbon Dividend Act&lt;/a&gt; (EICDA) which would make it a reality in the US.&lt;/p&gt;
+
+&lt;p&gt;Beyond the climate impacts of carbon dividend—policies like the EICDA are projected to &lt;a href=&quot;https://www.nature.com/articles/s41558-020-0880-3&quot;&gt;meet the IPCC’s goal&lt;/a&gt; of net zero emissions by 2050 and &lt;a href=&quot;https://www.nature.com/articles/nclimate2935&quot;&gt;avert 295,000 deaths&lt;/a&gt; from air pollution in the first decade—many economists have &lt;a href=&quot;https://www.energypolicy.columbia.edu/sites/default/files/pictures/CGEP_Distributional_Implications_CarbonTax.pdf&quot;&gt;documented the&lt;/a&gt; &lt;a href=&quot;https://taxfoundation.org/carbon-tax/&quot;&gt;progressive&lt;/a&gt; &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;distributional&lt;/a&gt; &lt;a href=&quot;https://www.peoplespolicyproject.org/wp-content/uploads/2018/09/CarbonTax.pdf&quot;&gt;impacts&lt;/a&gt; of carbon dividends.
+As one example, University of Pennsylvania researcher &lt;a href=&quot;https://citizensclimatelobby.org/household-impact-study/&quot;&gt;Kevin Ummel found&lt;/a&gt; that the EICDA would benefit 96% of households in the bottom consumption quintile and 12% in the top quintile, after considering effects on prices, capital income, and the dividend.&lt;/p&gt;
+
+&lt;p&gt;Using Ummel’s data&lt;sup id=&quot;fnref:ummel&quot;&gt;&lt;a href=&quot;#fn:ummel&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and the 2018 American Community Survey,&lt;sup id=&quot;fnref:acsspm&quot;&gt;&lt;a href=&quot;#fn:acsspm&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; I extend this research to estimate the poverty impacts of a carbon dividend&lt;sup id=&quot;fnref:cpsp&quot;&gt;&lt;a href=&quot;#fn:cpsp&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; across a range of prices.&lt;sup id=&quot;fnref:code&quot;&gt;&lt;a href=&quot;#fn:code&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;
+I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 10% at $100 per ton. Effects are larger for child poverty, deep poverty, and especially deep child poverty.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-big-would-the-dividend-be&quot;&gt;How big would the dividend be?&lt;/h1&gt;
+
+&lt;p&gt;Carbon pricing proposals vary in their initial price and the rate at which they increase over time, though they do all increase in some way.
+The EICDA starts at $15 per metric ton in 2021 and rises by $10 per year, while the Senate’s &lt;a href=&quot;https://www.whitehouse.senate.gov/news/release/whitehouse-and-schatz-introduce-save-our-future-act-to-charge-big-polluters-for-emissions-redirect-trillions-to-american-families-and-communities-harmed-by-pollution&quot;&gt;Save Our Future Act&lt;/a&gt; starts at $54 per ton in 2023 and rises by an inflation-adjusted 6% per year (about $4 in the first year).
+Since American households currently emit about &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;5 billion metric tons&lt;/a&gt; of carbon per year, amounting to about 15 tons per person, each $10 carbon price would translate to a monthly dividend of 15 tons * $10 / 12 months = &lt;strong&gt;$13&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/dividend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-overall-poverty&quot;&gt;How would the carbon dividend affect overall poverty?&lt;/h1&gt;
+
+&lt;p&gt;Poverty and deep poverty (the population share with income below half their poverty threshold) fall roughly linearly with respect to the carbon price: each $10 carbon price would reduce poverty by 1% and deep poverty by 1.2%. A carbon dividend of $100 per ton would reduce poverty by 10% and deep poverty by 12%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/pov_line.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-age&quot;&gt;How would the carbon dividend affect poverty by age?&lt;/h1&gt;
+
+&lt;p&gt;Child and adult poverty also fall linearly with the carbon price, but child poverty falls about three times as quickly. A $100 carbon price would reduce child poverty by 19% and deep child poverty by 27%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/age.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-state&quot;&gt;How would the carbon dividend affect poverty by state?&lt;/h1&gt;
+
+&lt;p&gt;Poverty impacts also vary geographically, largely in line with states’ per-capita carbon emissions, which in turn correlate to &lt;a href=&quot;https://doi.org/10.1016/S0928-7655(00)00027-0&quot;&gt;cold weather&lt;/a&gt; and &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0301421516300167?via%3Dihub&quot;&gt;low population density&lt;/a&gt;. For example, consider the two extremes of how carbon dividends lower poverty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;California ranks &lt;a href=&quot;http://www.usa.com/rank/us--average-temperature--state-rank.htm&quot;&gt;#10 on average temperature&lt;/a&gt;, &lt;a href=&quot;https://skyscraperpage.com/forum/showthread.php?t=211827&quot;&gt;#3 on population density&lt;/a&gt;, &lt;a href=&quot;https://www.eia.gov/environment/emissions/state/analysis/&quot;&gt;#49 on per-capita carbon emissions&lt;/a&gt;, and #1 in terms of poverty reduction from a carbon dividend. A $100 per ton carbon dividend would lower poverty in California by 14%, and lower deep child poverty by 30%.&lt;/li&gt;
+  &lt;li&gt;North Dakota ranks #49 on average temperature, #32 on population density, #2 on per-capita carbon emissions, and #50 in terms of poverty reduction from a carbon dividend. In fact, North Dakota is the only state for which a carbon dividend would increase poverty, though only by 3% at $100 per ton; child poverty would still fall, and its poverty rate would remain one of the lowest in the country.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/map.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Politicians from &lt;a href=&quot;https://grist.org/climate-energy/sanders-and-boxer-introduce-fee-and-dividend-climate-bill-greens-tickled-pink/&quot;&gt;Bernie Sanders&lt;/a&gt; to &lt;a href=&quot;https://thehill.com/policy/energy-environment/444330-buttigieg-climate-plan-includes-a-carbon-tax&quot;&gt;Pete Buttigieg&lt;/a&gt; to &lt;a href=&quot;https://twitter.com/citizensclimate/status/1369059303995437058&quot;&gt;Mitt Romney&lt;/a&gt; have endorsed carbon dividends, primarily framing the dividend as a way to offset potential regressive effects of the carbon price.
+However, the dividend more than neutralizes the carbon price: it makes a significant reduction to poverty in America. A $20 carbon dividend would cut poverty more than a fully-phased-in $15 minimum wage would,&lt;sup id=&quot;fnref:mw&quot;&gt;&lt;a href=&quot;#fn:mw&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; while a $100 carbon dividend (as the US would reach within a decade under proposed legislation) would approach the impact of the &lt;a href=&quot;http://ubicenter.org/advance-ctc&quot;&gt;expanded Child Tax Credit&lt;/a&gt;.&lt;sup id=&quot;fnref:ctc&quot;&gt;&lt;a href=&quot;#fn:ctc&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;My estimates may even be conservative. For example, I assume that 100% of the carbon price is passed on to consumers, but &lt;a href=&quot;https://cowles.yale.edu/sites/default/files/files/pub/d20/d2038-r.pdf&quot;&gt;one study finds&lt;/a&gt; that only 70% is passed on. In his analysis of the EICDA, Ummel applies pass-through rates of 70%, 85%, and 100%, with the remainder borne by people in proportion to their investable assets; he finds that lower pass-through assumptions yield more progressive distributional impacts.&lt;/p&gt;
+
+&lt;p&gt;Carbon dividends would also create infrastructure for further cash assistance.
+When the US government had to keep Americans afloat with relief checks in the Covid-19 pandemic, they relied on the IRS, and largely failed to reach nonfilers.
+Had even a small universal payment program existed at the time, they could have simply increased the amount instead.&lt;/p&gt;
+
+&lt;p&gt;The carbon dividend is a simple policy that can help the US progress on a slew of objectives: climate change, air pollution, financial resilience, and, yes, even poverty.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ummel&quot;&gt;
+      &lt;p&gt;I’m grateful to Kevin Ummel for sharing and explaining his data and for his permission to use it in this paper. &lt;a href=&quot;#fnref:ummel&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:acsspm&quot;&gt;
+      &lt;p&gt;I use the &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;American Community Survey Supplemental Poverty Measure research file&lt;/a&gt;, which estimates the poverty measure inclusive of taxes, transfers, and housing costs, historically only available in the &lt;a href=&quot;https://www.census.gov/library/publications/2020/demo/p60-272.html&quot;&gt;Current Population Survey&lt;/a&gt;. &lt;a href=&quot;#fnref:acsspm&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cpsp&quot;&gt;
+      &lt;p&gt;The only other study I’m aware of that estimates the impact of a carbon dividend on poverty is from the &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/carbontax&quot;&gt;Columbia Center on Poverty and Social Policy&lt;/a&gt;. They found that a carbon dividend of $42 per ton would reduce poverty by 1.1% and child poverty by 4.6%, where I found effects of 4% and 8%, respectively, for a $40 carbon dividend. Our analyses differed in terms of carbon footprint estimation in the Consumer Expenditure Survey (CPSP only considered direct energy consumption, where Ummel’s data considered all consumption categories), poverty dataset (CPSP used the Current Population Survey where I used the American Community Survey), and other factors (e.g., CPSP imputed receipt of underreported benefits with the TRIM3 program, where I did not). &lt;a href=&quot;#fnref:cpsp&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:code&quot;&gt;
+      &lt;p&gt;All data and code powering this analysis is at &lt;a href=&quot;http://github.com/UBICenter/us-carbon-dividend&quot;&gt;github.com/UBICenter/us-carbon-dividend&lt;/a&gt;. &lt;a href=&quot;#fnref:code&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:mw&quot;&gt;
+      &lt;p&gt;The Congressional Budget Office &lt;a href=&quot;https://www.cbo.gov/publication/55681&quot;&gt;estimated&lt;/a&gt; that the Raise the Wage Act of 2021 would reduce the number of people in poverty by 0.7 million by 2028, or about 1.8% of the roughly 40 million people in poverty. A $20 carbon dividend would lower poverty by 2%. CBO applied the Official Poverty Measure rather than Supplemental Poverty Measure. &lt;a href=&quot;#fnref:mw&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ctc&quot;&gt;
+      &lt;p&gt;Carbon dividends may also have greater success fulfilling their theoretical antipoverty potential, since they are universal and thus can be administered outside the tax system. The Child Tax Credit is expected to reach only 90% of eligible children, and the remaining 10% are disproportionately poor children whose parents don’t earn enough to have to file taxes. &lt;a href=&quot;#fnref:ctc&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Max Ghenis</name></author><category term="us" /><category term="carbon pricing" /><summary type="html">A $100-per-ton carbon dividend would cut poverty by 10% and deep child poverty by 27%.</summary></entry><entry><title type="html">Ilhan Omar’s Near-UBI Guaranteed Income Bill</title><link href="/omar-support-act" rel="alternate" type="text/html" title="Ilhan Omar's Near-UBI Guaranteed Income Bill" /><published>2021-08-02T00:00:00+00:00</published><updated>2021-08-02T00:00:00+00:00</updated><id>/omar-support-act</id><content type="html" xml:base="/omar-support-act">&lt;p&gt;On Friday, July 30, Representative Ilhan Omar &lt;a href=&quot;https://omar.house.gov/media/press-releases/rep-omar-introduces-guaranteed-income-bill-and-gdp-alternative-legislation&quot;&gt;introduced the SUPPORT Act of 2021&lt;/a&gt;, which would commit the US to studying and eventually implementing a national guaranteed income. The first phase of the bill would provide an annual $500 million in grants to fund and evaluate local guaranteed income pilot programs. In 2028, the bill would establish the Guaranteed Income Tax Credit (GITC), which would create an income floor across the entire United States. This paper describes the GITC’s structure and estimates its budgetary and distributional impacts.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-support-acts-guaranteed-income-tax-credit&quot;&gt;The SUPPORT Act’s Guaranteed Income Tax Credit&lt;/h1&gt;
+
+&lt;p&gt;Beginning in 2028, the GITC would provide $1,200 per month for single filers and $2,400 for joint filers; it would also provide $600 per month for each dependent under age 18, but none for adult dependents like college students.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Tax filers with adjusted gross income (AGI) above $75,000 ($112,500 for heads of household, $150,000 for joint filers) would have their annual payment reduced by $5 per $100 of AGI in excess of those thresholds. For example, a single childless adult with income of $100,000 would receive ($1,200 * 12) - (5% * $25,000) = $14,400 - $1,250 = $13,150.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_2&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_5_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The 5% phase-out rate is significantly lower than other guaranteed income proposals, such as the New School’s &lt;a href=&quot;https://drive.google.com/file/d/1UDFPwUYu2Rf4RGgXuOTacmBj2Gt9paAV/view&quot;&gt;Guaranteed Income for the 21st Century&lt;/a&gt;. Lower phase-out rates avoids stark work disincentives, as benefit phase-outs operate identically to marginal tax rates; the GITC in effect levies a new 5% marginal tax rate on filers with income in the phase-out region. It also makes the bill similar to a full universal basic income; for example, married filers with at least two children would receive at least some of the GITC even with income above $1 million.&lt;/p&gt;
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;Simulating the policy with the 2019 Current Population Survey, we found that the GITC would cost $3.75 trillion per year if implemented today.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Because the payments phase out slowly starting at relatively high incomes, 99.6% of people live in a family that will receive a payment.&lt;/p&gt;
+
+&lt;p&gt;The program would, for all intents and purposes, eliminate poverty, reducing the poverty rate by 96% and deep poverty by 98%, with larger effects for children. Two in three people still in poverty after the program are in families with negative current resources, a scenario typically associated with business losses.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_12_1&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_12_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_12_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The GITC would also reduce inequality. The income share held by the top 10% would fall by 21%, and the income share held by the top 1% would fall by 29%. The Gini index, a broader measure of inequality, would fall 24%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_14_1&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_14_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_14_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;As of 2019, the Guaranteed Income Tax Credit would cost about a fifth of GDP, nearly doubling the federal budget. By 2028, however, the Congressional Budget Office &lt;a href=&quot;https://www.cbo.gov/publication/57339&quot;&gt;projects&lt;/a&gt; that GDP will be more than 40% higher than it was in &lt;a href=&quot;https://www.bea.gov/news/2020/gross-domestic-product-fourth-quarter-and-year-2019-advance-estimate&quot;&gt;2019&lt;/a&gt;, and federal revenues will be more than 50% higher. Since the phase-out thresholds are set in nominal terms, the budgetary impact would be somewhat smaller in 2028 than our estimates suggest; nevertheless, it would be very costly, and without funding provisions, our distributional analysis is limited.&lt;/p&gt;
+
+&lt;p&gt;By providing a generous benefit without any work requirement or phase-in, the GITC would virtually end poverty. If the &lt;a href=&quot;https://www.ubicenter.org/advance-ctc&quot;&gt;monthly Child Tax Credit&lt;/a&gt; is any indication, though, operating the program through the tax code threatens its ability to reach the poorest families who don’t normally file taxes. Making the GITC universal would enable it to operate outside the tax code, such as through the Social Security Administration (like &lt;a href=&quot;ubicenter.org/family-security-act&quot;&gt;Senator Mitt Romney’s child allowance proposal&lt;/a&gt;) which could bring it the higher accuracy of Social Security payments; universalizing the GITC would add 11% to its cost.&lt;/p&gt;
+
+&lt;p&gt;The SUPPORT Act’s Guaranteed Income Tax Credit may be the closest legislation to universal basic income the US has seen. While many important details are as yet undefined, it could mark the beginning of a new conversation around basic income legislation.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://omar.house.gov/sites/omar.house.gov/files/OMARMN_046_SUPPORT%20Act.pdf&quot;&gt;SUPPORT Act text&lt;/a&gt; states: “In the case of an eligible individual, there shall be allowed as a credit against the tax imposed by this subtitle for the taxable year an amount equal to—(1) $14,400, plus (2) $600 multiplied by the number of dependents (as defined in section 152) under the age of 18 of the taxpayer.” However, the accompanying &lt;a href=&quot;https://omar.house.gov/sites/omar.house.gov/files/SUPPORT%20Act%20-%20One%20Pager%20and%20Section-By-Section%202021.pdf&quot;&gt;one-pager&lt;/a&gt; specifies that the GITC provides $600 per month for child dependent and $2,400 for two-adult households. We assume the one-pager is correct. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Code powering this analysis is available at &lt;a href=&quot;http://github.com/UBICenter/omar-support-act&quot;&gt;github.com/UBICenter/omar-support-act&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;nate&quot;, &quot;max&quot;]</name></author><category term="us" /><summary type="html">The House representative's SUPPORT Act tax credit would reach 99.6% of Americans.</summary></entry><entry><title type="html">Mapping the impact of a $100 monthly child allowance</title><link href="/local-child-allowance-maps" rel="alternate" type="text/html" title="Mapping the impact of a $100 monthly child allowance" /><published>2021-08-02T00:00:00+00:00</published><updated>2021-08-02T00:00:00+00:00</updated><id>/local-child-allowance-maps</id><content type="html" xml:base="/local-child-allowance-maps">&lt;p&gt;When the American Rescue Plan &lt;a href=&quot;http://ubicenter.org/advance-ctc&quot;&gt;expanded the Child Tax Credit,&lt;/a&gt; it brought child poverty into the limelight. Beyond the federal government making that expansion permanent, state and local governments have an opportunity to reduce child poverty through child allowances of their own. Building on our &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;state-level child allowance impacts&lt;/a&gt;, here we present two maps, for upper and lower state legislative districts, of a simple policy: $100 per month for each child under age 18.&lt;/p&gt;
+
+&lt;p&gt;Nationwide, a $100 monthly child allowance would reduce child poverty by 20%,&lt;sup id=&quot;fnref:discrepancy&quot;&gt;&lt;a href=&quot;#fn:discrepancy&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; but in some districts, like Minnesota’s 18B House district (Glencoe), it would cut child poverty by over 50%, and in others, like California’s 17th Assembly district (San Francisco), the effect would be under 10%. The policy generally has larger antipoverty effects in districts with lower housing costs.&lt;/p&gt;
+
+&lt;p&gt;How would a child allowance affect child poverty in your state legislative district? Explore the maps below to find out.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;These may take a few seconds to load, and zooming will be slow. Sorry, we’re working on speeding it up!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;map-by-upper-state-legislative-district&quot;&gt;Map by upper state legislative district&lt;/h1&gt;
+
+&lt;p&gt;For example, this shows each California Senate district.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/markdown_assets/local-child-allowance-maps/upper_district.html&quot;&gt;&lt;em&gt;Load it fullscreen here.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#upper_district&quot;).load(&quot;/assets/markdown_assets/local-child-allowance-maps/upper_district.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;upper_district&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;map-by-lower-state-legislative-district&quot;&gt;Map by lower state legislative district&lt;/h1&gt;
+
+&lt;p&gt;For example, this shows each California Assembly district.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/markdown_assets/local-child-allowance-maps/lower_district.html&quot;&gt;&lt;em&gt;Load it fullscreen here.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#lower_district&quot;).load(&quot;/assets/markdown_assets/local-child-allowance-maps/lower_district.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;lower_district&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;appendix-how-we-built-it&quot;&gt;Appendix: how we built it&lt;/h1&gt;
+
+&lt;p&gt;All prior UBI Center analyses in the US have used the Current Population Survey March Supplement, which contains official estimates of the Official Poverty Measure and Supplemental Poverty Measure (SPM, which we favor for its inclusion of taxes, transfers, and housing costs). This is the most in-depth household survey, but because of its small sample size, the Census Bureau doesn’t release microdata at the local level.&lt;/p&gt;
+
+&lt;p&gt;This analysis instead uses the American Community Survey (ACS), which has a larger sample size and, accordingly, finer geographic detail. Only recently has the ACS provided a comprehensive poverty measure like the SPM, thanks to Census Bureau estimates described in &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/working-papers/2020/demo/SEHSD-WP2020-09.pdf&quot;&gt;Fox, Glassman, and Pacas (2020)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To construct this map, we merged multiple datasets:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Population by block (the Census Bureau’s finest geographical unit) from the 2010 Census Summary File 1 (via the &lt;a href=&quot;https://github.com/jtleider/censusdata&quot;&gt;CensusData Python package&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Population by block group from the 2019 ACS (via &lt;a href=&quot;https://www.nhgis.org/&quot;&gt;NHGIS&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;A crosswalk from block (the Census’s smallest geographic unit) to state legislative district&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From these datasets, we produced a block-level dataset with population (adjusted for growth from 2010 to 2019) and all geographic groupings (ACS public use microdata areas, census tracts, counties, and upper and lower state legislative districts). We’ve made this block-level dataset, along with aggregations by PUMA and legislative district which power these maps, available &lt;a href=&quot;https://github.com/UBICenter/local-child-allowance/tree/main/data&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:discrepancy&quot;&gt;
+      &lt;p&gt;Our &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;state-level child allowance post&lt;/a&gt; found that a $100 monthly child allowance would reduce child poverty by 22% instead of 20%. This discrepancy is due to different data sources: that used the Current Population Survey, where this uses the American Community Survey. &lt;a href=&quot;#fnref:discrepancy&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;ben&quot;, &quot;nicholas&quot;]</name></author><category term="us" /><category term="child allowance" /><category term="local" /><summary type="html">The policy would cut child poverty by a fifth nationwide, but effects would vary geographically.</summary></entry><entry><title type="html">Funding UBI by eliminating the UK personal allowance</title><link href="/personal-allowance" rel="alternate" type="text/html" title="Funding UBI by eliminating the UK personal allowance" /><published>2021-07-26T00:00:00+00:00</published><updated>2021-07-26T00:00:00+00:00</updated><id>/personal-allowance</id><content type="html" xml:base="/personal-allowance">&lt;p&gt;Among several potential pay-fors in their recent &lt;a href=&quot;https://d3n8a8pro7vhmx.cloudfront.net/libdems/pages/1811/attachments/original/1621669347/145_-_Universal_Basic_Income.docx_%281%29.pdf?1621669347&quot;&gt;UBI discussion paper&lt;/a&gt;, the Liberal Democrats considered lowering the personal allowance from its current value of £12,570 to £2,500. That is, the first £2,500 of an individual’s annual earnings would be exempted from taxation, rather than the first £12,570. &lt;a href=&quot;https://www.ubicenter.org/lib-dem-policy-paper&quot;&gt;As my colleague Nikhil Woodruff found&lt;/a&gt;, this would raise about £60 billion which, when funding a UBI, significantly lowers poverty and inequality.&lt;/p&gt;
+
+&lt;p&gt;The Liberal Democrats were not the first to connect the personal allowance and UBI. The Green Party has also &lt;a href=&quot;https://www.greenparty.ie/wp-content/uploads/2018/07/Green-Party-Universal-Basic-Income-Policy.pdf&quot;&gt;proposed&lt;/a&gt; effectively exchanging the two policies,&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and several think tanks have modeled UBIs involving reductions or repeals of the personal allowance. While the personal allowance is highly salient— a 2014 poll found that &lt;a href=&quot;https://www.ipsos.com/ipsos-mori/en-uk/personal-allowances-rise-most-popular-conference-season-tax-pledges&quot;&gt;85% of the public&lt;/a&gt; supported raising it—it’s also a large source of potential revenue for the costly proposition of paying every member of society every month.&lt;/p&gt;
+
+&lt;p&gt;In this analysis, I extend the literature around the personal allowance and UBI by modeling a range of personal allowance values and outcomes. I find that repealing the personal allowance could fund a £29 weekly UBI to all members of society, including children. This reform would cut the overall poverty rate by 29%, deep poverty by 46%, and child poverty by 51%. I also find that personal allowance reductions matter on the margin: each £2,000 cut, when funding a UBI, yields around a 5% decrease in poverty.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-the-personal-allowance-works&quot;&gt;How the personal allowance works&lt;/h3&gt;
+
+&lt;p&gt;The personal allowance was &lt;a href=&quot;http://taxhistory.co.uk/Income%20Tax%20Allowances.htm&quot;&gt;introduced in 1979&lt;/a&gt;, and it has grown almost every year since. Liberal Democrats accelerated its growth by &lt;a href=&quot;https://www.standard.co.uk/news/politics/libdems-to-let-1-3m-low-earners-avoid-paying-tax-8506838.html&quot;&gt;calling&lt;/a&gt; for expanding it from £10,000 in 2015 to £12,500 in 2020; this succeeded, and it now sits at £12,570, where it is &lt;a href=&quot;https://www.reuters.com/article/uk-health-coronavirus-britain-budget-inc-idUSKBN2AV1LP&quot;&gt;expected to remain until April 2026&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;While many countries have a tax-free band like the personal allowance, the UK also makes the uncommon decision to phase it out for higher earners. Individuals earning above £100,000 lose £1 of personal allowance for every £2 in earnings, phasing out fully for those earning £125,140 per year and creating 62% marginal tax rates for earners in this range.&lt;/p&gt;
+
+&lt;p&gt;These components combine to produce a policy that is neither clearly progressive nor clearly regressive. Because households in the bottom decile have little to no earned income, the personal allowance provides them only small benefits. And while those in the upper individual decile are mostly excluded from the personal allowance, those in the upper household decile &lt;a href=&quot;https://ifs.org.uk/publications/6045&quot;&gt;still benefit significantly from it&lt;/a&gt;, due to marriage between high earners and non-high earners.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Repealing the personal allowance would raise £97 billion (£3,585 per worker) and raise the Gini inequality index from 0.386 to 0.396,&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; indicating that the personal allowance is slightly progressive on a net basis.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_3_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_2&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_3_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The benefit for low earners is also constrained by its interaction with means tested benefits. Since Universal Credit phases out with respect to post-tax income, any tax reduction also reduces Universal Credit payments. As &lt;a href=&quot;https://www.politics.co.uk/opinion-former/press-release/2018/10/29/personal-allowance-increase-does-little-for-those-on-lowest-income/&quot;&gt;explained&lt;/a&gt; by Victoria Todd, Head of the Low Income Tax Reform Group, regarding the 2019 changes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“[Universal credit recipients] will not see the full tax gain of £130 from the increase in the personal allowance; instead, they will only gain overall by £48.10, as their Universal Credit award will be reduced by £81.90. However, those earning above £11,850 who receive tax credits will benefit from the full £130 because tax credits are based on gross income.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Similarly, the &lt;a href=&quot;https://www.resolutionfoundation.org/app/uploads/2014/12/Missing-the-target1.pdf&quot;&gt;Resolution Foundation&lt;/a&gt; found that the Liberal Democrats’ plan to increase the personal allowance from £10,600 in 2015 to £12,500 by 2020 gave only around £18 of additional annual income to the bottom 10% of households and £203 to the top 10%.&lt;/p&gt;
+&lt;h3 id=&quot;replacing-the-personal-allowance-with-ubi&quot;&gt;Replacing the personal allowance with UBI&lt;/h3&gt;
+
+&lt;p&gt;While the personal allowance is only slightly progressive by itself, using revenue from repealing the personal allowance to fund a UBI is highly progressive. Fully repealing the Personal Allowance could fund a weekly UBI of £29 per person, and this lowers the Gini index from 0.386 to 0.369.&lt;/p&gt;
+
+&lt;p&gt;Each £1,000 decrease in the personal allowance could fund an increase in the UBI amount of around £110 annually, or just over £2 a week.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_6_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_6_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_6_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;This policy would, in general, serve as an income transfer from the richest 40% to the poorest 60%. You can adjust the personal allowance amount with the slider to see how partial personal allowance replacements fare: with further cuts to the personal allowance and higher universal basic incomes, reforms achieve stronger redistributive effects.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_9_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_9_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_9_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;For the three lowest deciles, this would mean an annual household income increase of 24%, 11%, and 7% respectively. In contrast, the income reductions for the highest deciles don’t exceed 3%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_11_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_11_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_11_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Additionally, each £1000 reduction in personal allowance buys a 0.0015 reduction in the Gini coefficient.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_13_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_13_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_13_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Median household income would increase by about £525, and this number is over five times greater for those living in poverty. This is an income gain of 1.4% for the overall population, 21% for people in poverty, and 53% for people in deep poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_15_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_15_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_15_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Part of the large gains for poor households owe to the fact that poor households tend to have more children, and therefore receive more UBI payments. Similarly, households in deep poverty tend to have fewer children than other poor households, which explains why the median gain is slightly lower for this group.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_17_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_17_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_17_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Overall, since households with children receive more UBI payments, they are disproportionately benefited.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_19_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_19_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_19_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;In fact, this policy would benefit children more than any other group, as children do not lose income to a personal allowance decrease, and exclusively gain from the UBI amount given to them. Child poverty would fall 50%, and deep child poverty by 72%.&lt;/p&gt;
+
+&lt;p&gt;Overall poverty would fall by 29% and overall deep poverty would fall by 44%. In contrast, UBI funded through only partial reductions in the personal allowance would produce smaller poverty impacts than a full replacement. Each £2,000 of personal allowance reduced buys around a 5% decrease in poverty, meaning each £2,000 of personal allowance preserved decreases the poverty effect by 5 percentage points.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_23_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_23_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_23_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;On average, the policy would serve as a transfer from older adults to children. The average child under 18 would see their household net income rise by £2,622 under full replacement of the personal allowance with a UBI.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_26_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_26_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_26_1&quot;&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;impacts-for-specific-household-types&quot;&gt;Impacts for specific household types&lt;/h4&gt;
+&lt;p&gt;Entirely replacing the personal allowance with UBI would benefit 52% on a net basis, most of them belonging to the bottom four deciles. 91% of the lowest decile, 73% of the second-lowest decile, and 62% of the third-lowest decile would see their incomes rise by over 5%. In contrast, most people who see their income decrease are in the upper deciles, and these people mostly lose less than 5%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_30_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_30_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_30_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;A single individual living alone would see their income rise when they make under £17,000 and over £117,000.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_33_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_33_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_33_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Additionally, the marginal tax rate would rise for single individuals earning lower incomes, and decrease for single individuals making between £100,000 and £125,140—the range in which the personal allowance phases out.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_36_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_36_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_36_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;In contrast, for a couple with two children, household net income always rises regardless of employment income.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_40_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_40_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_40_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The effect on their marginal tax rate is similar to that of a single individual, but the rise for those earning lower incomes is less significant.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_43_1&quot;).load(&quot;/assets/markdown_assets/personal-allowance/graph_43_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_43_1&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;My research aligns with other analyses showing the progressivity of replacing the personal allowance with UBI. In 2019, the New Economics Foundation &lt;a href=&quot;https://neweconomics.org/2019/03/nothing-personal&quot;&gt;modeled&lt;/a&gt; replacing the personal allowance with a budget-neutral Weekly National Allowance paid to adults and an increase in the child benefit, making the payments non-taxable but included in means tests. They found progressive results, stating it would “[lift] 200,000 families out of poverty and shift the £8bn currently spent on tax allowances for the 35% highest income families to the remaining 65% of families.” Compass also &lt;a href=&quot;https://www.compassonline.org.uk/wp-content/uploads/2019/03/Compass_BasicIncomeForAll_2019.pdf&quot;&gt;modeled&lt;/a&gt; replacing the personal allowance with a budget-neutral flat payment of £25 a week for children and adults of working age, as well as a flat rate citizen’s pension of £164.35. They too found progressive results, with the Gini coefficient decreasing from 0.337 to 0.365. Most recently, &lt;a href=&quot;https://www.ubicenter.org/progressive-adjustments-lib-dem-working-group&quot;&gt;my colleagues found&lt;/a&gt; that the policy in the Liberal Democrats discussion paper could be made more progressive by repealing all, rather than part, of the personal allowance.&lt;/p&gt;
+
+&lt;p&gt;Beyond these other papers, I’ve found that the impacts occur roughly linearly on the margin, meaning that the policy concept can operate incrementally. Furthermore, the policy disproportionately benefits children, and &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;separate studies&lt;/a&gt; show that this will in turn improve educational and health outcomes. The impacts are largely but not uniformly beneficial to low income households, though losses are small.&lt;/p&gt;
+
+&lt;p&gt;Reforms that broaden the tax base are often regressive on their own, but how the revenue is spent matters. Repealing the personal allowance is one such instance: using the revenue to fund a UBI switches the distributional sign from regressive to highly progressive.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;The Green Party states that in their model, UBI will be taxable, but “all income tax payers will have a tax-free allowance which is the equivalent to their Universal Basic Income amount”; this means that, in practice, the UBI would not be taxed and the personal allowance would effectively be eliminated. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;This and the remaining analysis uses the OpenFisca-UK microsimulation model with data from 2020, when the personal allowance was set at £12,500. Source code is at &lt;a href=&quot;https://github.com/ubicenter/personal-allowance&quot;&gt;github.com/UBICenter/personal-allowance&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;The Gini coefficients used throughout are calculated using total household net income weighted by people. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Ines Fernandez</name></author><category term="uk" /><summary type="html">The budget-neutral reform would lower poverty by up to 29%.</summary></entry><entry><title type="html">Introducing the Basic Income Builder</title><link href="/introducing-basic-income-builder" rel="alternate" type="text/html" title="Introducing the Basic Income Builder" /><published>2021-07-21T00:00:00+00:00</published><updated>2021-07-21T00:00:00+00:00</updated><id>/introducing-basic-income-builder</id><content type="html" xml:base="/introducing-basic-income-builder">&lt;h1 id=&quot;try-the-basic-income-builder-at-bibubicenterorg&quot;&gt;Try the Basic Income Builder at &lt;a href=&quot;http://bib.ubicenter.org&quot;&gt;bib.ubicenter.org&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Using Python and Plotly Dash’s dashboarding tools, we’ve created the Basic Income Builder: an interactive calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal’s effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead. Read on for more information, or try it yourself at &lt;a href=&quot;http://bib.ubicenter.org&quot;&gt;bib.ubicenter.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;Our recent research at the UBI Center has demonstrated the remarkable effectiveness of unconditional cash transfers in reducing poverty and inequality across different demographics and regions in the United States. We have found that the UBI shrinks &lt;a href=&quot;https://www.ubicenter.org/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps&quot;&gt;racial poverty and wealth gaps&lt;/a&gt;, reduces poverty among &lt;a href=&quot;https://www.ubicenter.org/ada30&quot;&gt;people with disabilities&lt;/a&gt;, and is more progressive than cancelling &lt;a href=&quot;https://www.ubicenter.org/student-debt&quot;&gt;student loan debt&lt;/a&gt; in terms of wealth inequality.&lt;/p&gt;
+
+&lt;p&gt;Inspired by calculators such as &lt;a href=&quot;https://taxjusticenow.org/#/#makeYourOwnTaxPlan&quot;&gt;Tax Justice Now&lt;/a&gt;, &lt;a href=&quot;https://ubicalculator.com/&quot;&gt;UBI Calculator&lt;/a&gt;, and PSL’s &lt;a href=&quot;https://compute.studio/PSLmodels/Tax-Brain/new/&quot;&gt;Tax Brain&lt;/a&gt;, and building on our prior work with the &lt;a href=&quot;plans.ubicenter.org&quot;&gt;UBI Plan Explorer&lt;/a&gt;, we created Basic Income Builder, an interactive, customizable policy simulation tool built on our own research on UBI proposals. We sought to create a tool that is useful for policy analysts and policy makers at both the state and federal level, while yielding comprehensible results for a general audience.&lt;/p&gt;
+
+&lt;p&gt;As our research has shown that funding Basic Income with a &lt;a href=&quot;https://www.ubicenter.org/us-flat-tax&quot;&gt;flat tax&lt;/a&gt; of 25% or more would reduce both poverty and inequality, we can create a funding mechanism that funds a robust UBI program, but does not require the user to create or adjust complicated income tax brackets.&lt;/p&gt;
+
+&lt;p&gt;All code powering this calculator is at &lt;a href=&quot;https://github.com/UBICenter/us-calc&quot;&gt;github.com/UBICenter/us-calc&lt;/a&gt;, and the app is hosted on the open source &lt;a href=&quot;http://compute.studio&quot;&gt;Compute Studio platform&lt;/a&gt;.&lt;sup id=&quot;fnref:hank&quot;&gt;&lt;a href=&quot;#fn:hank&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;data&quot;&gt;Data&lt;/h1&gt;
+
+&lt;p&gt;We use three years of data (2017-2019) from the Annual Social and Economic Supplement (ASEC) of the Current Population Survey (CPS). The CPS is a monthly survey of U.S. households conducted by the U.S. Census Bureau and the Bureau of Labor Statistics. The CPS is conducted for the purposes of finding employment and earnings statistics of all individuals 15 and over in the household. Data is reported on the level of the individual persons in the household.&lt;/p&gt;
+
+&lt;p&gt;The ASEC provides additional information such as after-tax money income and non-cash benefits. The ASEC also calculates the poverty thresholds for each unit used in our calculations. The ASEC includes all CPS survey respondents in March, with additional oversamples from other months.&lt;/p&gt;
+
+&lt;p&gt;The ASEC provides weighted individual and household level economic and demographic variables that we use to determine the total revenue impacts of our available tax, benefit, and eligibility criteria, as well as the impact on poverty and inequality for the entire population, and the impact on poverty rates for a number of selected demographics.&lt;/p&gt;
+
+&lt;p&gt;We use the Census Bureau’s Supplemental Poverty Measure (SPM) rather than the official poverty measure. The SPM resource measure is cash income plus in-kind benefits minus non discretionary expenses (including taxes, out of pocket health expenses, and work-related expenses). The SPM poverty thresholds are based on a core of annually updated core expenditures, adjusted for the size of the SPM resource unit and geographical variation in the cost of living.&lt;/p&gt;
+
+&lt;p&gt;All of our simulation’s results with respect to poverty are calculated in terms of SPM resources, adjusted for the size of the UBI benefit, as well as any changes to the tax and benefit system selected by the user.&lt;/p&gt;
+
+&lt;p&gt;The SPM resource unit is a broadened definition of the traditional Census family of related individuals, expanded to include any cohabiters and their relatives who are likely to share resources. We use the Gini coefficient of SPM resources among SPM units as our primary inequality measure.&lt;/p&gt;
+
+&lt;p&gt;Our data is limited in two primary ways:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The systematic underreporting of means-tested benefits in survey responses; depending on the benefit, up to half may be missing from the Current Population Survey (&lt;a href=&quot;https://harris.uchicago.edu/files/underreporting.pdf&quot;&gt;Meyer Mok and Sullivan 2015&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;The underreporting of incomes above one million dollars, due to the Census Bureau’s income “top-coding” which intends to avoid disclosure of respondents’ personally identifiable data.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;simulation&quot;&gt;Simulation&lt;/h1&gt;
+
+&lt;p&gt;The user does not select a UBI benefit amount directly – rather, the user selects from a number of budget-neutral “pay-fors”, which produces a benefit size as an output.&lt;/p&gt;
+
+&lt;p&gt;On the tax side, users can repeal the personal income tax and the employee-side payroll tax. In addition, there is a slider available for the user to select an additional flat tax of 0% to 50% on all adjusted gross income (AGI) above $0.&lt;/p&gt;
+
+&lt;p&gt;On the benefit side, the user can repeal the Child Tax Credit, Supplemental Security Income (SSI), Supplemental Nutrition Assistance Program (SNAP, formerly food stamps), Earned Income Tax Credit, Unemployment Benefits, and the Low Income Heating and Energy Assistance Program (LIHEAP).&lt;/p&gt;
+
+&lt;p&gt;Users may also select whether adults, children, and/or non-citizens are eligible for benefits.&lt;/p&gt;
+
+&lt;p&gt;We can describe our model as follows, where &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt; is the additional tax rate (0% to 50%) on all AGI above $0 as selected by user and &lt;script type=&quot;math/tex&quot;&gt;NT_i&lt;/script&gt; is the value of a new user-specified tax on AGI for SPM unit &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;NT_i = t * \max(AGI_i, 0)&lt;/script&gt;
+
+&lt;p&gt;RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where &lt;script type=&quot;math/tex&quot;&gt;r_n&lt;/script&gt; represents a Boolean where a value of &lt;script type=&quot;math/tex&quot;&gt;r_n=1&lt;/script&gt; indicates that the user has chosen to repeal the benefit, and &lt;script type=&quot;math/tex&quot;&gt;r_n=0&lt;/script&gt; if not.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;RT_i = r_{IT}IT_i + r_{PT}PT_i&lt;/script&gt;
+
+&lt;p&gt;We define &lt;script type=&quot;math/tex&quot;&gt;RB&lt;/script&gt; as the value of SPM unit’s benefits that have been repealed by the user.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;RB_i = r_{CTC} * CTC_i + r_{SSI} * SSI_i + r_{SNAP} * SNAP_i + r_{EITC} * EITC_i + r_{UI} * UI_i + r_{LIHEAP} * LIHEAP_i&lt;/script&gt;
+
+&lt;p&gt;Thus, the total revenue raised by the user is equal to:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Revenue = \sum_i NT_i - RT_i + RB_i&lt;/script&gt;
+
+&lt;p&gt;The new UBI amount paid out to each eligible beneficiary is simply equal to:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;UBI = \frac{\it Revenue}{\it NumberOfBeneficiaries}&lt;/script&gt;
+
+&lt;p&gt;We then adjust the SPM resources of each unit to account for the new UBI payment, as well as the earlier changes made to taxes and benefits. The new SPM resource amount is expressed by the following equation, where n represents the number of eligible UBI beneficiaries in the SPM unit.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;NewSPMResources_i = CurrentSPMResources_i + UBI * n_i + RT_i -NT_i - B_i&lt;/script&gt;
+
+&lt;p&gt;We then assign a new value indicating poverty status for each person belonging to an SPM unit where their new SPM resources are below the Census-provided SPM poverty threshold. We then divide the count of all individuals living under this poverty line by the total population.&lt;/p&gt;
+
+&lt;p&gt;The poverty gap is the sum of the total amount of additional resources required to lift each SPM unit to the SPM poverty threshold. Using our new SPM resources value for each SPM unit i, we calculate the poverty gap with the following formula:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;PovertyGap = \sum_i \max(SPMPovertyThreshold_i - NewSPMResources_i, 0)&lt;/script&gt;
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;To illustrate Basic Income Builder’s capabilities, we present the results of three different budget-neutral UBI reforms. Each reform provides an equal UBI to child and adult citizens.&lt;/p&gt;
+
+&lt;p&gt;In the first reform, we repeal all six available benefits while holding all else constant; this funds a $64 monthly UBI. To illustrate how our app works in practice, the below screenshot shows the configuration necessary to create this scenario:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-1.png&quot; alt=&quot;alt_text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While this leaves most of the population at least slightly better off, it causes poverty and inequality to increase across all categories, as shown by the simulation results below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the second reform, we keep all taxes and benefits as is, but apply an additional 1% income tax on top of the existing system. This funds a $31 monthly benefit, but reduces poverty and inequality across all measures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-3.png&quot; alt=&quot;alt_text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our third reform entails a repeal of the existing income tax system (preserving payroll taxes and benefits), replaced with a 25% flat income tax. This funds a $400 monthly UBI while leaving 51% of Americans better off, while reducing poverty overall by 39% and across each demographic group by between 21% and 55%.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;Baseline
+   &lt;/td&gt;
+   &lt;td&gt;Repeal All Benefits
+   &lt;/td&gt;
+   &lt;td&gt;1% Income Tax Increase
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat tax, repeal income tax
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Monthly UBI
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$64
+   &lt;/td&gt;
+   &lt;td&gt;$31
+   &lt;/td&gt;
+   &lt;td&gt;$400
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Share better off
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;0.641
+   &lt;/td&gt;
+   &lt;td&gt;0.641[^1]
+   &lt;/td&gt;
+   &lt;td&gt;0.513
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Average change in resources per person
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty Gap (Billions USD)
+   &lt;/td&gt;
+   &lt;td&gt;$173 B
+   &lt;/td&gt;
+   &lt;td&gt;+19.1%
+   &lt;/td&gt;
+   &lt;td&gt;-6.1%
+   &lt;/td&gt;
+   &lt;td&gt;-41.7%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Gini Index
+   &lt;/td&gt;
+   &lt;td&gt;0.446
+   &lt;/td&gt;
+   &lt;td&gt;+2.2%
+   &lt;/td&gt;
+   &lt;td&gt;-1.4%
+   &lt;/td&gt;
+   &lt;td&gt;-8.0%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty rate
+   &lt;/td&gt;
+   &lt;td&gt;0.128
+   &lt;/td&gt;
+   &lt;td&gt;+20.9%
+   &lt;/td&gt;
+   &lt;td&gt;-6.1%
+   &lt;/td&gt;
+   &lt;td&gt;-38.5%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Child
+   &lt;/td&gt;
+   &lt;td&gt;0.139
+   &lt;/td&gt;
+   &lt;td&gt;+42.3%
+   &lt;/td&gt;
+   &lt;td&gt;-8.3%
+   &lt;/td&gt;
+   &lt;td&gt;-45.7%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Adult
+   &lt;/td&gt;
+   &lt;td&gt;0.125
+   &lt;/td&gt;
+   &lt;td&gt;+13.6%
+   &lt;/td&gt;
+   &lt;td&gt;-5.4%
+   &lt;/td&gt;
+   &lt;td&gt;-36.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  People with Disabilities
+   &lt;/td&gt;
+   &lt;td&gt;0.203
+   &lt;/td&gt;
+   &lt;td&gt;+18.2%
+   &lt;/td&gt;
+   &lt;td&gt;-6.2%
+   &lt;/td&gt;
+   &lt;td&gt;-55.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  White
+   &lt;/td&gt;
+   &lt;td&gt;0.089
+   &lt;/td&gt;
+   &lt;td&gt;+12.8%
+   &lt;/td&gt;
+   &lt;td&gt;-6.3%
+   &lt;/td&gt;
+   &lt;td&gt;-46.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Black
+   &lt;/td&gt;
+   &lt;td&gt;0.201
+   &lt;/td&gt;
+   &lt;td&gt;+26.4%
+   &lt;/td&gt;
+   &lt;td&gt;-7.5%
+   &lt;/td&gt;
+   &lt;td&gt;-52.3%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Hispanic
+   &lt;/td&gt;
+   &lt;td&gt;0.201
+   &lt;/td&gt;
+   &lt;td&gt;+28.6%
+   &lt;/td&gt;
+   &lt;td&gt;-5.3%
+   &lt;/td&gt;
+   &lt;td&gt;-21.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;To demonstrate Basic Income Builder’s state-level capabilities, we return to the reform that replaces existing income taxes with a 25% flat income tax, focusing on North Carolina as an example. When selecting North Carolina from the state menu and leaving everything else unchanged, the calculator shows the effect of the federal reform on North Carolina. The UBI amount is the same ($400 per month), but other distributional effects differ, and we can see that North Carolinians come out ahead by an average of $276 per person per year.&lt;/p&gt;
+
+&lt;p&gt;When selecting “State” as the Reform level, the 25% flat income tax instead replaces the North Carolina state income tax. This results in a larger UBI, primarily due to North Carolina’s state income tax raising less revenue than the federal income tax in North Carolina. Consequently, the poverty impacts are substantially greater with this reform, even as it’s no longer a net inflow to the state.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;Baseline (NC)
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat Tax, Federal
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat Tax, State
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Monthly UBI
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$400
+   &lt;/td&gt;
+   &lt;td&gt;$561
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Share better off
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;0.554
+   &lt;/td&gt;
+   &lt;td&gt;0.635
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Average change in resources per person
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$276
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty Gap (Billions USD)
+   &lt;/td&gt;
+   &lt;td&gt;$5 B
+   &lt;/td&gt;
+   &lt;td&gt;-44.6%
+   &lt;/td&gt;
+   &lt;td&gt;-58.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Gini Index
+   &lt;/td&gt;
+   &lt;td&gt;0.449
+   &lt;/td&gt;
+   &lt;td&gt;-10.2%
+   &lt;/td&gt;
+   &lt;td&gt;-26.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty rate
+   &lt;/td&gt;
+   &lt;td&gt;0.136
+   &lt;/td&gt;
+   &lt;td&gt;-44.9%
+   &lt;/td&gt;
+   &lt;td&gt;-68.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Child
+   &lt;/td&gt;
+   &lt;td&gt;0.149
+   &lt;/td&gt;
+   &lt;td&gt;-57.8%
+   &lt;/td&gt;
+   &lt;td&gt;-85.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Adult
+   &lt;/td&gt;
+   &lt;td&gt;0.132
+   &lt;/td&gt;
+   &lt;td&gt;-40.9%
+   &lt;/td&gt;
+   &lt;td&gt;-62.5%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;People with Disabilities
+   &lt;/td&gt;
+   &lt;td&gt;0.210
+   &lt;/td&gt;
+   &lt;td&gt;-55.5%
+   &lt;/td&gt;
+   &lt;td&gt;-73.4%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;White
+   &lt;/td&gt;
+   &lt;td&gt;0.099
+   &lt;/td&gt;
+   &lt;td&gt;-49.3%
+   &lt;/td&gt;
+   &lt;td&gt;-69.8%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Black
+   &lt;/td&gt;
+   &lt;td&gt;0.203
+   &lt;/td&gt;
+   &lt;td&gt;-62.8%
+   &lt;/td&gt;
+   &lt;td&gt;-76.2%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Hispanic
+   &lt;/td&gt;
+   &lt;td&gt;0.198
+   &lt;/td&gt;
+   &lt;td&gt;+5.1%
+   &lt;/td&gt;
+   &lt;td&gt;-50.2%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;For each of these scenarios, checking the “Children” and “Non-citizens” boxes reveals that including children and non-citizens in the UBI produces larger poverty and inequality reductions. This aligns with other research, such as &lt;a href=&quot;https://www.ubicenter.org/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19&quot;&gt;Ghenis (2020)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;future-research&quot;&gt;Future research&lt;/h1&gt;
+
+&lt;p&gt;We aim to improve Basic Income Builder in the future in several ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Addressing income data deficiencies by incorporating data from the IRS Public Use File&lt;/li&gt;
+  &lt;li&gt;Addressing benefit deficiencies by imputing unreported benefits with algorithms like PSL’s &lt;a href=&quot;https://github.com/PSLmodels/C-TAM&quot;&gt;CPS Transfer Augmentation Model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Adjusting for labor supply responses to the changes in the tax code, any effects of repealed benefits on marginal tax rates for low-income individuals, or the income effects of the UBI itself.&lt;/li&gt;
+  &lt;li&gt;Supporting side-by-side comparison of different user specified proposals.&lt;/li&gt;
+  &lt;li&gt;Including more tax and benefit reforms on both the federal level, such as repealing deductions.&lt;/li&gt;
+  &lt;li&gt;Relaxing the requirement for budget-neutrality; instead of determining the UBI amount by changing taxes and benefits, the user could select the desired UBI amount and explore different ways to meet that target.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The UBI Center Basic Income Builder provides users with access to rapid experimentation and analysis to determine the effects of UBI. Some results are intuitive, such as the regressiveness of replacing benefits with UBI without also raising additional tax revenue, while other results may surprise some audiences, such as the large effects on poverty from even modest taxes—even flat income taxes. We hope that this tool and others like it empower the public to learn more about public policy impacts and that they ultimately produce more evidence-based policymaking.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:hank&quot;&gt;
+      &lt;p&gt;We’re grateful to Hank Doupe of Compute Studio for technical assistance and hosting of this app. &lt;a href=&quot;#fnref:hank&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>[&quot;will&quot;, &quot;max&quot;, &quot;nate&quot;]</name></author><category term="us" /><summary type="html">Our new tool lets you design and analyze budget-neutral universal basic income policies in real time.</summary></entry><entry><title type="html">The beginning of a new Child Tax Credit</title><link href="/advance-ctc" rel="alternate" type="text/html" title="The beginning of a new Child Tax Credit" /><published>2021-07-18T00:00:00+00:00</published><updated>2021-07-18T00:00:00+00:00</updated><id>/advance-ctc</id><content type="html" xml:base="/advance-ctc">&lt;p&gt;On Thursday, millions of families started receiving their first monthly Child Tax Credit payments, in the American Rescue Plan’s broadest transfer since its $1,400 relief payments. The poorest children in the country are newly eligible for the full value of the Child Tax Credit, including these monthly payments, and as a result, deep child poverty could fall by as much as half.&lt;/p&gt;
+
+&lt;p&gt;It’s an historic time for antipoverty policy, and activists are fighting to make the policy permanent. And yet, the program’s design will result in overpayments, underpayments, exclusion errors, and high marginal tax rates for parents. In this post, I review the changes underway, alternative policy designs to address these issues, and our research on child allowances.&lt;/p&gt;
+
+&lt;h1 id=&quot;history-of-the-child-tax-credit&quot;&gt;History of the Child Tax Credit&lt;/h1&gt;
+
+&lt;p&gt;The Clinton administration created the Child Tax Credit (CTC) in 1997, coinciding with broader welfare reform. In his book, &lt;a href=&quot;https://www.google.com/books/edition/The_Fiscalization_of_Social_Policy/0VVYDwAAQBAJ?hl=en&quot;&gt;The Fiscalization of Social Policy&lt;/a&gt;, sociologist Joshua McCabe describes how tax credits became major components of American welfare policy, and argues that they evolved as a “strategic adaptation to austerity.”&lt;/p&gt;
+
+&lt;p&gt;The CTC has historically been &lt;em&gt;partially refundable.&lt;/em&gt; Tax credit refundability refers to whether tax filers with no net federal tax liability benefit; refundable tax credits are therefore more progressive than non-refundable credits, since lower-income tax filers are less likely to have net tax liability. A portion of the CTC, called the &lt;em&gt;Additional Child Tax Credit&lt;/em&gt;, is refundable, though this portion also phases in with income. The full value is only available to those with federal tax liability, reducing that liability toward zero. The credit also phases out with income for higher earners. Tax filers receive the benefit once they do taxes the following year.&lt;/p&gt;
+
+&lt;p&gt;Since its creation, the CTC has been expanded multiple times, most recently as part of the 2017 Tax Cuts and Jobs Act. &lt;a href=&quot;https://taxfoundation.org/child-tax-credit/&quot;&gt;This reform&lt;/a&gt; doubled the maximum amount to $2,000 per child, increased the refundable portion, extended the phase-out threshold, and limited the credit for children and dependents without Social Security numbers. The Joint Committee on Taxation &lt;a href=&quot;https://www.jct.gov/publications/2017/jcx-67-17/&quot;&gt;estimated&lt;/a&gt; that these CTC reforms cost $544 billion from 2018 to 2027, 37% of the bill’s $1.5 trillion net cost over that period.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-18-advance-ctc/tf_tcja_ctc.png&quot; alt=&quot;How TCJA changed the Child Tax Credit&quot; title=&quot;How TCJA changed the Child Tax Credit&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-the-american-rescue-plan-changed-the-child-tax-credit&quot;&gt;How the American Rescue Plan changed the Child Tax Credit&lt;/h1&gt;
+
+&lt;p&gt;For the 2021 tax year only, the American Rescue Plan makes four major changes to the CTC:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Extends eligibility to 17-year-olds&lt;/li&gt;
+  &lt;li&gt;Raises the maximum amount from $2,000 per child to $3,600 for children under age 6 and $3,000 for children aged 6 to 17; this higher amount is available to parents with income below $75,000 (single) or $150,000 (married)&lt;/li&gt;
+  &lt;li&gt;Makes the credit fully refundable&lt;/li&gt;
+  &lt;li&gt;Prepays half the expected 2021 credit on a monthly basis, beginning in July 2021&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The below chart from the &lt;a href=&quot;https://crsreports.congress.gov/product/pdf/IN/IN11613&quot;&gt;Congressional Research Service&lt;/a&gt; shows the change for a married taxpayer with one child under age six. Families with low income gain the most, especially those with zero income who previously received $0 and now receive the full benefit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-18-advance-ctc/crs_arp_ctc.png&quot; alt=&quot;How ARP changed the Child Tax Credit&quot; title=&quot;How ARP changed the Child Tax Credit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Joint Committee on Taxation &lt;a href=&quot;https://www.jct.gov/publications/2021/jcx-14-21/&quot;&gt;estimates&lt;/a&gt; that this reform costs $110 billion, 6% of the American Rescue Plan’s total $1.9 trillion cost (my &lt;a href=&quot;https://www.openrg.com/reports/QN_ARPA_Distribution.pdf&quot;&gt;research&lt;/a&gt; with OpenRG colleagues estimates the cost at $101 billion). The Niskanen Center &lt;a href=&quot;https://www.niskanencenter.org/wp-content/uploads/2021/02/Analysis-of-the-Romney-Child-Allowance_final.pdf&quot;&gt;projects&lt;/a&gt; that the reform will lower child poverty by 39%, the bulk of the American Rescue Plan’s total child poverty reduction, which the Columbia Center on Poverty and Social Policy &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/2021/presidential-policy/american-family-plan-poverty-impact&quot;&gt;estimates&lt;/a&gt; to be 47%.&lt;/p&gt;
+
+&lt;iframe width=&quot;600&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vRurbf8SIZ9FNptyJt4TpeSoXfHbWJnqhja89b4XhHAewtnDEVnYQzwb1rdorwqzzEf8WPGI1GPK1PL/pubchart?oid=1635111739&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;Evidence we’ve compiled&lt;/a&gt; suggests that these child poverty reductions will improve educational outcomes, health, and other forms of child development, helping kids grow into more financially successful and long-lived adults.&lt;/p&gt;
+
+&lt;p&gt;However, these poverty estimates assume that the credit reaches all eligible families. Whether this reflects reality is yet to be seen, and one of the primary concerns child poverty experts have had with the bill.&lt;/p&gt;
+
+&lt;h1 id=&quot;difficulty-reaching-poor-families&quot;&gt;Difficulty reaching poor families&lt;/h1&gt;
+
+&lt;p&gt;The IRS has successfully reached most tax filers for the Advance CTC, as they did with the three rounds of Economic Impact Payments. However, they lack sufficient records to automatically deliver payments to families that don’t earn enough to have to file taxes (“non-filers”), because they must verify that their income doesn’t disqualify them. In April 2020, the IRS created a &lt;a href=&quot;https://www.irs.gov/newsroom/treasury-irs-launch-new-tool-to-help-non-filers-register-for-economic-impact-payments&quot;&gt;tool&lt;/a&gt; for non-filers to enter their information and receive CARES Act recovery payments, which they kept up &lt;a href=&quot;https://www.irs.gov/newsroom/register-by-nov-21-to-get-an-economic-impact-payment-same-deadline-for-federal-beneficiaries-to-get-missed-500-per-child-payments&quot;&gt;until November&lt;/a&gt;. Non-filers who missed that deadline have to file taxes to receive the benefit. Over that time, only about &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/05/17/irs-confirms-major-ctc-participation-problems/&quot;&gt;one in three non-filers&lt;/a&gt; used the tool to sign up for payments, leaving 9 million eligible families without their payment (some will still end up getting it by filing taxes in the future).&lt;/p&gt;
+
+&lt;p&gt;The IRS created a &lt;a href=&quot;https://www.freefilefillableforms.com/#/fd/childtaxcredit&quot;&gt;similar tool&lt;/a&gt; for non-filers to request the Advance Child Tax Credit, targeting the &lt;a href=&quot;https://www.washingtonpost.com/us-policy/2021/07/15/biden-child-tax-credit/&quot;&gt;seven million children&lt;/a&gt; (of America’s ten million total poor children) in non-filer households. As Paul Williams has &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/06/18/the-child-tax-credit-non-filer-tool-is-a-mess/&quot;&gt;documented&lt;/a&gt;, the tool is only designed for computers, which about half of non-filers lack. The site doesn’t have a memorable .gov URL (it’s &lt;a href=&quot;http://freefilefillableforms.com/#/fd/childtaxcredit&quot;&gt;freefilefillableforms.com/#/fd/childtaxcredit&lt;/a&gt;), isn’t quickly linked from official sites (it takes three clicks from &lt;a href=&quot;http://childtaxcredit.gov/&quot;&gt;childtaxcredit.gov&lt;/a&gt;, once you know where to look), &lt;a href=&quot;https://www.washingtonpost.com/business/2021/06/15/irs-child-tax-credit-tool/&quot;&gt;requires an email address&lt;/a&gt;, and doesn’t preview on social media sites. The &lt;a href=&quot;https://www.washingtonpost.com/business/2021/06/15/irs-child-tax-credit-tool/&quot;&gt;720,000 children&lt;/a&gt; whose parents used the Economic Impact Payment non-filer tool will receive the CTC, but according to Matt Bruenig of the People’s Policy Project, the IRS only expects to reach &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/05/17/irs-confirms-major-ctc-participation-problems/&quot;&gt;90 percent of eligible children&lt;/a&gt;, indicating that non-filers will largely miss out.&lt;/p&gt;
+
+&lt;p&gt;Some tax filers will also use &lt;a href=&quot;https://www.irs.gov/credits-deductions/child-tax-credit-update-portal&quot;&gt;IRS tools&lt;/a&gt; to track eligibility, update their family structure (number of children and marital status), income, or bank details, or to opt out. Updating income will not be possible until later in the summer. Since the payment is based on income in 2020, which was lower than income in 2021 overall due to the pandemic, many families will have to reconcile overpayments in 2022 unless they use these tools. Pandemic aside, those with volatile incomes may have to update their information regularly to avoid unexpected tax bills; this is one way in which means-tested programs require people to effectively do their taxes multiple times per year.&lt;/p&gt;
+
+&lt;p&gt;Why these issues? Some are unavoidable with means-tested programs: the IRS has to verify income somehow, and that’s harder than simply verifying a person’s existence, especially as many families see incomes rise and fall over time. Some also trace to an &lt;a href=&quot;https://www.federalregister.gov/documents/2002/11/04/02-27909/irs-intent-to-enter-into-an-agreement-with-free-file-alliance-llc-ie-free-file-alliance&quot;&gt;agreement&lt;/a&gt; the IRS has with the Free Filer Alliance, a consortium of tax preparers, stating that those tax preparers, rather than the IRS, will provide free filing services. The IRS considers non-filer tools for Economic Impact Payments and the Advance CTC as tax filing services, hence the freefilefillableforms.com rather than irs.gov domain. On the same day the Advance CTC started delivering payments, Intuit, which makes TurboTax, announced that it would &lt;a href=&quot;https://www.intuit.com/blog/news-social/accelerating-technology-innovation-to-better-help-consumers-solve-their-most-pressing-financial-problems/&quot;&gt;leave the Free Filer Alliance&lt;/a&gt;, as H&amp;amp;R Block did in &lt;a href=&quot;https://news.bloombergtax.com/daily-tax-report/irss-free-file-partners-moving-forward-without-h-r-block&quot;&gt;June 2020&lt;/a&gt;. Whether or not this is a sign that the IRS could renegotiate the Free Filer Alliance agreement and provide their own non-filer tool, policymakers can consider designing the program without the need to collect income information.&lt;/p&gt;
+
+&lt;h1 id=&quot;advantages-of-a-universal-child-allowance&quot;&gt;Advantages of a universal child allowance&lt;/h1&gt;
+
+&lt;p&gt;While means-testing the CTC expansion lowers poverty more for a given budget (at least on paper, assuming full take-up), universality offers other advantages.&lt;/p&gt;
+
+&lt;p&gt;Senator Mitt Romney’s &lt;a href=&quot;https://www.ubicenter.org/family-security-act&quot;&gt;Family Security Act&lt;/a&gt; child allowance bill takes a different path than the ARP CTC, by&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phasing out at higher incomes: $200,000 for singles and $400,000 for married filers&lt;/li&gt;
+  &lt;li&gt;Delivering to all parents, and then has ineligible parents repay the following year at tax time&lt;/li&gt;
+  &lt;li&gt;Being administered through the Social Security Administration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Social Security Administration has &lt;a href=&quot;https://www.ssa.gov/org/&quot;&gt;over 1,200 field offices&lt;/a&gt; across the country, and enrolls every newborn in their system. Running short-term programs through the IRS allows payments to quickly reach those who have filed taxes, but long-term programs may have greater success with a brick-and-mortar footprint (it’s rare to hear concerns that people eligible for Social Security aren’t receiving benefits).&lt;/p&gt;
+
+&lt;p&gt;But the Social Security Administration doesn’t have income information. This can be an advantage, as it forces the program eligibility rules to be simple, as the Romney bill’s rules are. But to the extent that payments are means-tested, they’ll have to be repaid at tax time. High-income parents can weather those surprise tax bills, and many have significant reconciliation anyway, but a $6,000 surprise tax bill could significantly disrupt the finances of a single parent with $100,000 income.&lt;/p&gt;
+
+&lt;p&gt;Beyond facilitating the Social Security Administration distributing child benefits and avoiding over- and under-payments, making the benefit universal avoids disparate taxation by parental status. Both the ARP CTC and Romney’s bill levy higher marginal tax rates on high-income parents than high-income people without children. In effect, means-testing places the cost of a universal child allowance on high-income parents; making it truly universal costs more, but if funded by progressive taxation, those costs would be more equitably borne by &lt;em&gt;all&lt;/em&gt; high-income people.&lt;/p&gt;
+
+&lt;h1 id=&quot;parents-may-work-less-in-the-market-but-kids-will-benefit&quot;&gt;Parents may work less in the market, but kids will benefit&lt;/h1&gt;
+
+&lt;p&gt;As I wrote in a paper on Romney’s &lt;a href=&quot;https://www.ubicenter.org/family-security-act&quot;&gt;Family Security Act&lt;/a&gt;, child allowances will likely modestly reduce parental formal labor supply. That bill, like ARP’s CTC expansion, removes the benefit’s phase-in, creating a relative increase to low-income parents’ marginal tax rates. Families with income around the phase-out region will also face higher marginal tax rates. People respond to higher marginal tax rates by &lt;a href=&quot;https://www.cbo.gov/sites/default/files/cbofiles/attachments/10-25-2012-Labor_Supply_and_Fiscal_Policy.pdf&quot;&gt;working less&lt;/a&gt;, so we can expect parents with income in the affected regions to spend less time in the formal labor market.&lt;/p&gt;
+
+&lt;p&gt;These effects on marginal tax rates outweigh the effects of the assistance itself. The extent to which people work less when they have more income, the &lt;em&gt;income effect&lt;/em&gt;, is empirically small: the Congressional Budget Office estimates that each 1% increase to income reduces labor supply by 0.05% (about a sixth the size of labor supply responses to higher marginal tax rates). To the extent that extra income causes parents to work less, they may also spend more time with their children.&lt;/p&gt;
+
+&lt;p&gt;This extra parental involvement and purchasing power will benefit kids. Cash assistance differs from restrictive in-kind benefits like nutrition assistance, childcare subsidies, or housing vouchers, which are more costly to administer and more complicated to use. Evidence of the tangible gains to children whose families receive cash assistance indicates that parents use cash wisely; if the money were routinely squandered, giving money to parents wouldn’t help kids. If anything, cash transfers generally &lt;a href=&quot;https://www.journals.uchicago.edu/doi/abs/10.1086/689575&quot;&gt;reduce consumption of temptation goods&lt;/a&gt;, and &lt;a href=&quot;https://www.ubicenter.org/canada-homelessness-experiment&quot;&gt;our analysis&lt;/a&gt; of a study in Canada found that parents experiencing homelessness increased spending on kids more than any other category. Restricting low-income parents’ purchases is costly and unnecessary.&lt;/p&gt;
+
+&lt;h1 id=&quot;our-past-and-future-research&quot;&gt;Our past and future research&lt;/h1&gt;
+
+&lt;p&gt;Several of our studies find that child allowances cost-effectively reduce poverty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;Across US states&lt;/a&gt;, a $300 per month child allowance generally cuts child poverty in half and overall poverty by 20-25%.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/child-ubi-share&quot;&gt;Including children in fixed UBI budgets&lt;/a&gt; makes policies more progressive (we’ve also found this &lt;a href=&quot;https://www.ubicenter.org/progressive-adjustments-lib-dem-working-group&quot;&gt;in the UK&lt;/a&gt;), and for smaller budgets, planners can optimize poverty and inequality by giving _more _to children than adults.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1gLO94eKp3b1m19Ev14deGrd4TxjdCnHv/view&quot;&gt;Compared to childcare subsidies&lt;/a&gt;, budget-equivalent child allowances reduce poverty and inequality more. Replacing childcare costs has about a third of the poverty impact as spending the money on universal cash, and a transfer equal to the cost of childcare in one’s state to all parents is also less progressive than a uniform national child allowance, because richer parents live in areas where childcare is more expensive.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;uscalc.ubicenter.org&quot;&gt;Our budget-neutral UBI calculator&lt;/a&gt; shows that a variety of child allowance policies reduce child poverty, even when replacing benefit programs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’re continuing to invest in child allowance research; for example, in the near future we’ll publish interactive maps of child allowance poverty impacts by local area, such as state legislative districts.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Before Thursday, 28% of Americans lived in households receiving a monthly check from the federal government. The new CTC &lt;a href=&quot;https://twitter.com/MattBruenig/status/1416585999707164672&quot;&gt;more than doubled that share&lt;/a&gt; to 65%. Alongside the $1,400 recovery payments, it makes the American Rescue Plan perhaps the &lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;largest step toward universal basic income&lt;/a&gt; the US has taken in decades. But policymakers shouldn’t rest on their laurels: fixing technical issues will enhance the antipoverty impact, and designing a robust post-2021 policy will make the changes durable.&lt;/p&gt;</content><author><name>Max Ghenis</name></author><category term="us" /><category term="child allowance" /><summary type="html">On paper, the monthly payment halves deep child poverty, but fulfilling its potential will take work.</summary></entry><entry><title type="html">Research we’re presenting at the upcoming NABIG conference</title><link href="/nabig-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming NABIG conference" /><published>2021-06-15T22:00:00+00:00</published><updated>2021-06-15T22:00:00+00:00</updated><id>/nabig-2021</id><content type="html" xml:base="/nabig-2021">&lt;p&gt;&lt;em&gt;Post-NABIG update: You can watch the recordings for the &lt;a href=&quot;https://www.crowdcast.io/e/ubi-center-research-on&quot;&gt;UBI Center session&lt;/a&gt; and the &lt;a href=&quot;https://www.crowdcast.io/e/6zbq7dz8&quot;&gt;Feminism session&lt;/a&gt; at the NABIG Crowdcast site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From Thursday through Sunday, &lt;a href=&quot;https://usbig.net/&quot;&gt;USBIG&lt;/a&gt; will hold the &lt;a href=&quot;https://www.crowdcast.io/nabigcongress&quot;&gt;19th North America Basic Income Guarantee (NABIG) Congress&lt;/a&gt;. The virtual conference includes presentations from researchers and activists in the US and Canada, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday at 9AM ET,&lt;/strong&gt; &lt;a href=&quot;https://www.ubicenter.org/author/john/&quot;&gt;John Walker&lt;/a&gt; will present his paper, &lt;a href=&quot;https://drive.google.com/file/d/1gLO94eKp3b1m19Ev14deGrd4TxjdCnHv/view?usp=sharing&quot;&gt;“Benchmarking a child allowance against free childcare,”&lt;/a&gt; in a session on &lt;a href=&quot;https://www.crowdcast.io/e/6zbq7dz8/register&quot;&gt;“Feminism, UBI and the Politics of Caring Labor.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Saturday at 4PM ET,&lt;/strong&gt; several of our researchers will present papers in a dedicated session, &lt;a href=&quot;https://www.crowdcast.io/e/ubi-center-research-on/register&quot;&gt;“UBI Center Research on Policies, Politics, and Economic Consequences”&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I’ll discuss my paper, &lt;a href=&quot;https://drive.google.com/file/d/1_PnYOuJ4TiuOdsCfuzlSUkWDAzAYXyhC/view?usp=sharing&quot;&gt;“UBI and child allowances in California”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/nate/&quot;&gt;Nate Golden&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/open?id=1Zw1JysANBjeWi2JnY4quUpiptXaCigtU&quot;&gt;“The impact of UBI on likely voters”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/will/&quot;&gt;Will Fedder&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/open?id=1gHLxtP-cduWrP3dlN0WV4to--c2aNCQa&quot;&gt;“Designing and analyzing budget-neutral UBI policies with a real-time web tool”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/joshua/&quot;&gt;Joshua Miller&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/file/d/1BMiRmdPWgWT1lnb20J8-PiZs5MijoCYy/view?usp=sharing&quot;&gt;“UBI and inflation: reviewing theory and evidence”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;UBI Center advisor &lt;a href=&quot;https://www.bakerinstitute.org/experts/richard-evans/&quot;&gt;Richard Evans&lt;/a&gt; will discuss his paper, “A general equilibrium model of UBI in the US” (link forthcoming)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-nabig-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://www.eventbrite.com/e/19th-annual-nabig-congress-2021-june-17-19-2021-tickets-147319186653&quot;&gt;Registration for NABIG is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content><author><name>Max Ghenis</name></author><category term="us" /><category term="conferences" /><summary type="html">We'll share six papers across two sessions on Friday and Saturday.</summary></entry></feed>

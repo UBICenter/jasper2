@@ -1,0 +1,1847 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="/tag/us/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2021-09-20T15:32:23+00:00</updated>
+  <id>/tag/us/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">UBI Center | </title>
+  
+
+  
+    <subtitle>Analyzing universal basic income policies with open-source research</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Carbon dividends as anti-poverty policy</title>
+      <link href="/us-carbon-dividend" rel="alternate" type="text/html" title="Carbon dividends as anti-poverty policy" />
+      <published>2021-08-05T00:00:00+00:00</published>
+      <updated>2021-08-05T00:00:00+00:00</updated>
+      <id>/us-carbon-dividend</id>
+      <content type="html" xml:base="/us-carbon-dividend">&lt;p&gt;The International Monetary Fund &lt;a href=&quot;https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-on-Country-Level-Estimates-46509&quot;&gt;estimates&lt;/a&gt; that the United States subsidized $649 billion of fossil fuels in 2015.
+Meanwhile, only about &lt;a href=&quot;https://www.eesi.org/papers/view/fact-sheet-fossil-fuel-subsidies-a-closer-look-at-tax-breaks-and-societal-costs&quot;&gt;$20 billion&lt;/a&gt; of that is in the form of direct subsidies.
+The remainder is the &lt;em&gt;implicit&lt;/em&gt; subsidy of misaligning the price of fossil fuels with their societal harms like air pollution and climate change.
+That is, the vast majority of fossil fuel subsidies is the &lt;em&gt;absence of carbon pricing&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;All developed countries except the &lt;a href=&quot;https://citizensclimatelobby.org/laser-talks/carbon-prices-around-world/&quot;&gt;US and Australia&lt;/a&gt; cut down on fossil fuel subsidies by pricing carbon emissions.
+Experts including &lt;a href=&quot;https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biab079/6325731&quot;&gt;scientists&lt;/a&gt; and the &lt;a href=&quot;https://www.igmchicago.org/surveys/carbon-taxes-ii/&quot;&gt;vast majority&lt;/a&gt; of &lt;a href=&quot;http://econstatement.org&quot;&gt;leading economists&lt;/a&gt; have called on the US to follow suit.
+To offset higher prices consumers would face as a result of carbon pricing (or other climate measures), many of these experts suggest rebating the revenue to all Americans as a dividend.
+&lt;a href=&quot;https://clcouncil.org/morning-consult-poll.pdf&quot;&gt;Two thirds&lt;/a&gt; of American voters support this policy, and as of this writing, 80 House Democrats have cosponsored the &lt;a href=&quot;https://energyinnovationact.org/&quot;&gt;Energy Innovation and Carbon Dividend Act&lt;/a&gt; (EICDA) which would make it a reality in the US.&lt;/p&gt;
+
+&lt;p&gt;Beyond the climate impacts of carbon dividend—policies like the EICDA are projected to &lt;a href=&quot;https://www.nature.com/articles/s41558-020-0880-3&quot;&gt;meet the IPCC’s goal&lt;/a&gt; of net zero emissions by 2050 and &lt;a href=&quot;https://www.nature.com/articles/nclimate2935&quot;&gt;avert 295,000 deaths&lt;/a&gt; from air pollution in the first decade—many economists have &lt;a href=&quot;https://www.energypolicy.columbia.edu/sites/default/files/pictures/CGEP_Distributional_Implications_CarbonTax.pdf&quot;&gt;documented the&lt;/a&gt; &lt;a href=&quot;https://taxfoundation.org/carbon-tax/&quot;&gt;progressive&lt;/a&gt; &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;distributional&lt;/a&gt; &lt;a href=&quot;https://www.peoplespolicyproject.org/wp-content/uploads/2018/09/CarbonTax.pdf&quot;&gt;impacts&lt;/a&gt; of carbon dividends.
+As one example, University of Pennsylvania researcher &lt;a href=&quot;https://citizensclimatelobby.org/household-impact-study/&quot;&gt;Kevin Ummel found&lt;/a&gt; that the EICDA would benefit 96% of households in the bottom consumption quintile and 12% in the top quintile, after considering effects on prices, capital income, and the dividend.&lt;/p&gt;
+
+&lt;p&gt;Using Ummel’s data&lt;sup id=&quot;fnref:ummel&quot;&gt;&lt;a href=&quot;#fn:ummel&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and the 2018 American Community Survey,&lt;sup id=&quot;fnref:acsspm&quot;&gt;&lt;a href=&quot;#fn:acsspm&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; I extend this research to estimate the poverty impacts of a carbon dividend&lt;sup id=&quot;fnref:cpsp&quot;&gt;&lt;a href=&quot;#fn:cpsp&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; across a range of prices.&lt;sup id=&quot;fnref:code&quot;&gt;&lt;a href=&quot;#fn:code&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;
+I find that carbon dividends reduce poverty roughly linearly with respect to the price, for example by 10% at $100 per ton. Effects are larger for child poverty, deep poverty, and especially deep child poverty.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-big-would-the-dividend-be&quot;&gt;How big would the dividend be?&lt;/h1&gt;
+
+&lt;p&gt;Carbon pricing proposals vary in their initial price and the rate at which they increase over time, though they do all increase in some way.
+The EICDA starts at $15 per metric ton in 2021 and rises by $10 per year, while the Senate’s &lt;a href=&quot;https://www.whitehouse.senate.gov/news/release/whitehouse-and-schatz-introduce-save-our-future-act-to-charge-big-polluters-for-emissions-redirect-trillions-to-american-families-and-communities-harmed-by-pollution&quot;&gt;Save Our Future Act&lt;/a&gt; starts at $54 per ton in 2023 and rises by an inflation-adjusted 6% per year (about $4 in the first year).
+Since American households currently emit about &lt;a href=&quot;https://www.rff.org/publications/data-tools/carbon-pricing-calculator/&quot;&gt;5 billion metric tons&lt;/a&gt; of carbon per year, amounting to about 15 tons per person, each $10 carbon price would translate to a monthly dividend of 15 tons * $10 / 12 months = &lt;strong&gt;$13&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_1_2&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/dividend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_1_2&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-overall-poverty&quot;&gt;How would the carbon dividend affect overall poverty?&lt;/h1&gt;
+
+&lt;p&gt;Poverty and deep poverty (the population share with income below half their poverty threshold) fall roughly linearly with respect to the carbon price: each $10 carbon price would reduce poverty by 1% and deep poverty by 1.2%. A carbon dividend of $100 per ton would reduce poverty by 10% and deep poverty by 12%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_3_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/pov_line.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_3_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-age&quot;&gt;How would the carbon dividend affect poverty by age?&lt;/h1&gt;
+
+&lt;p&gt;Child and adult poverty also fall linearly with the carbon price, but child poverty falls about three times as quickly. A $100 carbon price would reduce child poverty by 19% and deep child poverty by 27%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/age.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;how-would-the-carbon-dividend-affect-poverty-by-state&quot;&gt;How would the carbon dividend affect poverty by state?&lt;/h1&gt;
+
+&lt;p&gt;Poverty impacts also vary geographically, largely in line with states’ per-capita carbon emissions, which in turn correlate to &lt;a href=&quot;https://doi.org/10.1016/S0928-7655(00)00027-0&quot;&gt;cold weather&lt;/a&gt; and &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0301421516300167?via%3Dihub&quot;&gt;low population density&lt;/a&gt;. For example, consider the two extremes of how carbon dividends lower poverty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;California ranks &lt;a href=&quot;http://www.usa.com/rank/us--average-temperature--state-rank.htm&quot;&gt;#10 on average temperature&lt;/a&gt;, &lt;a href=&quot;https://skyscraperpage.com/forum/showthread.php?t=211827&quot;&gt;#3 on population density&lt;/a&gt;, &lt;a href=&quot;https://www.eia.gov/environment/emissions/state/analysis/&quot;&gt;#49 on per-capita carbon emissions&lt;/a&gt;, and #1 in terms of poverty reduction from a carbon dividend. A $100 per ton carbon dividend would lower poverty in California by 14%, and lower deep child poverty by 30%.&lt;/li&gt;
+  &lt;li&gt;North Dakota ranks #49 on average temperature, #32 on population density, #2 on per-capita carbon emissions, and #50 in terms of poverty reduction from a carbon dividend. In fact, North Dakota is the only state for which a carbon dividend would increase poverty, though only by 3% at $100 per ton; child poverty would still fall, and its poverty rate would remain one of the lowest in the country.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_7_1&quot;).load(&quot;/assets/markdown_assets/us-carbon-dividend/map.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_7_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Politicians from &lt;a href=&quot;https://grist.org/climate-energy/sanders-and-boxer-introduce-fee-and-dividend-climate-bill-greens-tickled-pink/&quot;&gt;Bernie Sanders&lt;/a&gt; to &lt;a href=&quot;https://thehill.com/policy/energy-environment/444330-buttigieg-climate-plan-includes-a-carbon-tax&quot;&gt;Pete Buttigieg&lt;/a&gt; to &lt;a href=&quot;https://twitter.com/citizensclimate/status/1369059303995437058&quot;&gt;Mitt Romney&lt;/a&gt; have endorsed carbon dividends, primarily framing the dividend as a way to offset potential regressive effects of the carbon price.
+However, the dividend more than neutralizes the carbon price: it makes a significant reduction to poverty in America. A $20 carbon dividend would cut poverty more than a fully-phased-in $15 minimum wage would,&lt;sup id=&quot;fnref:mw&quot;&gt;&lt;a href=&quot;#fn:mw&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; while a $100 carbon dividend (as the US would reach within a decade under proposed legislation) would approach the impact of the &lt;a href=&quot;http://ubicenter.org/advance-ctc&quot;&gt;expanded Child Tax Credit&lt;/a&gt;.&lt;sup id=&quot;fnref:ctc&quot;&gt;&lt;a href=&quot;#fn:ctc&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;My estimates may even be conservative. For example, I assume that 100% of the carbon price is passed on to consumers, but &lt;a href=&quot;https://cowles.yale.edu/sites/default/files/files/pub/d20/d2038-r.pdf&quot;&gt;one study finds&lt;/a&gt; that only 70% is passed on. In his analysis of the EICDA, Ummel applies pass-through rates of 70%, 85%, and 100%, with the remainder borne by people in proportion to their investable assets; he finds that lower pass-through assumptions yield more progressive distributional impacts.&lt;/p&gt;
+
+&lt;p&gt;Carbon dividends would also create infrastructure for further cash assistance.
+When the US government had to keep Americans afloat with relief checks in the Covid-19 pandemic, they relied on the IRS, and largely failed to reach nonfilers.
+Had even a small universal payment program existed at the time, they could have simply increased the amount instead.&lt;/p&gt;
+
+&lt;p&gt;The carbon dividend is a simple policy that can help the US progress on a slew of objectives: climate change, air pollution, financial resilience, and, yes, even poverty.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:ummel&quot;&gt;
+      &lt;p&gt;I’m grateful to Kevin Ummel for sharing and explaining his data and for his permission to use it in this paper. &lt;a href=&quot;#fnref:ummel&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:acsspm&quot;&gt;
+      &lt;p&gt;I use the &lt;a href=&quot;https://www.census.gov/data/datasets/time-series/demo/supplemental-poverty-measure/acs-research-files.html&quot;&gt;American Community Survey Supplemental Poverty Measure research file&lt;/a&gt;, which estimates the poverty measure inclusive of taxes, transfers, and housing costs, historically only available in the &lt;a href=&quot;https://www.census.gov/library/publications/2020/demo/p60-272.html&quot;&gt;Current Population Survey&lt;/a&gt;. &lt;a href=&quot;#fnref:acsspm&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:cpsp&quot;&gt;
+      &lt;p&gt;The only other study I’m aware of that estimates the impact of a carbon dividend on poverty is from the &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/carbontax&quot;&gt;Columbia Center on Poverty and Social Policy&lt;/a&gt;. They found that a carbon dividend of $42 per ton would reduce poverty by 1.1% and child poverty by 4.6%, where I found effects of 4% and 8%, respectively, for a $40 carbon dividend. Our analyses differed in terms of carbon footprint estimation in the Consumer Expenditure Survey (CPSP only considered direct energy consumption, where Ummel’s data considered all consumption categories), poverty dataset (CPSP used the Current Population Survey where I used the American Community Survey), and other factors (e.g., CPSP imputed receipt of underreported benefits with the TRIM3 program, where I did not). &lt;a href=&quot;#fnref:cpsp&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:code&quot;&gt;
+      &lt;p&gt;All data and code powering this analysis is at &lt;a href=&quot;http://github.com/UBICenter/us-carbon-dividend&quot;&gt;github.com/UBICenter/us-carbon-dividend&lt;/a&gt;. &lt;a href=&quot;#fnref:code&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:mw&quot;&gt;
+      &lt;p&gt;The Congressional Budget Office &lt;a href=&quot;https://www.cbo.gov/publication/55681&quot;&gt;estimated&lt;/a&gt; that the Raise the Wage Act of 2021 would reduce the number of people in poverty by 0.7 million by 2028, or about 1.8% of the roughly 40 million people in poverty. A $20 carbon dividend would lower poverty by 2%. CBO applied the Official Poverty Measure rather than Supplemental Poverty Measure. &lt;a href=&quot;#fnref:mw&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:ctc&quot;&gt;
+      &lt;p&gt;Carbon dividends may also have greater success fulfilling their theoretical antipoverty potential, since they are universal and thus can be administered outside the tax system. The Child Tax Credit is expected to reach only 90% of eligible children, and the remaining 10% are disproportionately poor children whose parents don’t earn enough to have to file taxes. &lt;a href=&quot;#fnref:ctc&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="carbon pricing" />
+      
+
+      
+        <summary type="html">A $100-per-ton carbon dividend would cut poverty by 10% and deep child poverty by 27%.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Ilhan Omar’s Near-UBI Guaranteed Income Bill</title>
+      <link href="/omar-support-act" rel="alternate" type="text/html" title="Ilhan Omar's Near-UBI Guaranteed Income Bill" />
+      <published>2021-08-02T00:00:00+00:00</published>
+      <updated>2021-08-02T00:00:00+00:00</updated>
+      <id>/omar-support-act</id>
+      <content type="html" xml:base="/omar-support-act">&lt;p&gt;On Friday, July 30, Representative Ilhan Omar &lt;a href=&quot;https://omar.house.gov/media/press-releases/rep-omar-introduces-guaranteed-income-bill-and-gdp-alternative-legislation&quot;&gt;introduced the SUPPORT Act of 2021&lt;/a&gt;, which would commit the US to studying and eventually implementing a national guaranteed income. The first phase of the bill would provide an annual $500 million in grants to fund and evaluate local guaranteed income pilot programs. In 2028, the bill would establish the Guaranteed Income Tax Credit (GITC), which would create an income floor across the entire United States. This paper describes the GITC’s structure and estimates its budgetary and distributional impacts.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-support-acts-guaranteed-income-tax-credit&quot;&gt;The SUPPORT Act’s Guaranteed Income Tax Credit&lt;/h1&gt;
+
+&lt;p&gt;Beginning in 2028, the GITC would provide $1,200 per month for single filers and $2,400 for joint filers; it would also provide $600 per month for each dependent under age 18, but none for adult dependents like college students.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Tax filers with adjusted gross income (AGI) above $75,000 ($112,500 for heads of household, $150,000 for joint filers) would have their annual payment reduced by $5 per $100 of AGI in excess of those thresholds. For example, a single childless adult with income of $100,000 would receive ($1,200 * 12) - (5% * $25,000) = $14,400 - $1,250 = $13,150.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_1&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_5_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_1&quot;&gt;&lt;/div&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_5_2&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_5_2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_5_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The 5% phase-out rate is significantly lower than other guaranteed income proposals, such as the New School’s &lt;a href=&quot;https://drive.google.com/file/d/1UDFPwUYu2Rf4RGgXuOTacmBj2Gt9paAV/view&quot;&gt;Guaranteed Income for the 21st Century&lt;/a&gt;. Lower phase-out rates avoids stark work disincentives, as benefit phase-outs operate identically to marginal tax rates; the GITC in effect levies a new 5% marginal tax rate on filers with income in the phase-out region. It also makes the bill similar to a full universal basic income; for example, married filers with at least two children would receive at least some of the GITC even with income above $1 million.&lt;/p&gt;
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;Simulating the policy with the 2019 Current Population Survey, we found that the GITC would cost $3.75 trillion per year if implemented today.&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Because the payments phase out slowly starting at relatively high incomes, 99.6% of people live in a family that will receive a payment.&lt;/p&gt;
+
+&lt;p&gt;The program would, for all intents and purposes, eliminate poverty, reducing the poverty rate by 96% and deep poverty by 98%, with larger effects for children. Two in three people still in poverty after the program are in families with negative current resources, a scenario typically associated with business losses.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_12_1&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_12_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_12_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The GITC would also reduce inequality. The income share held by the top 10% would fall by 21%, and the income share held by the top 1% would fall by 29%. The Gini index, a broader measure of inequality, would fall 24%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_14_1&quot;).load(&quot;/assets/markdown_assets/omar-support-act/graph_14_1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_14_1&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;As of 2019, the Guaranteed Income Tax Credit would cost about a fifth of GDP, nearly doubling the federal budget. By 2028, however, the Congressional Budget Office &lt;a href=&quot;https://www.cbo.gov/publication/57339&quot;&gt;projects&lt;/a&gt; that GDP will be more than 40% higher than it was in &lt;a href=&quot;https://www.bea.gov/news/2020/gross-domestic-product-fourth-quarter-and-year-2019-advance-estimate&quot;&gt;2019&lt;/a&gt;, and federal revenues will be more than 50% higher. Since the phase-out thresholds are set in nominal terms, the budgetary impact would be somewhat smaller in 2028 than our estimates suggest; nevertheless, it would be very costly, and without funding provisions, our distributional analysis is limited.&lt;/p&gt;
+
+&lt;p&gt;By providing a generous benefit without any work requirement or phase-in, the GITC would virtually end poverty. If the &lt;a href=&quot;https://www.ubicenter.org/advance-ctc&quot;&gt;monthly Child Tax Credit&lt;/a&gt; is any indication, though, operating the program through the tax code threatens its ability to reach the poorest families who don’t normally file taxes. Making the GITC universal would enable it to operate outside the tax code, such as through the Social Security Administration (like &lt;a href=&quot;ubicenter.org/family-security-act&quot;&gt;Senator Mitt Romney’s child allowance proposal&lt;/a&gt;) which could bring it the higher accuracy of Social Security payments; universalizing the GITC would add 11% to its cost.&lt;/p&gt;
+
+&lt;p&gt;The SUPPORT Act’s Guaranteed Income Tax Credit may be the closest legislation to universal basic income the US has seen. While many important details are as yet undefined, it could mark the beginning of a new conversation around basic income legislation.&lt;/p&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://omar.house.gov/sites/omar.house.gov/files/OMARMN_046_SUPPORT%20Act.pdf&quot;&gt;SUPPORT Act text&lt;/a&gt; states: “In the case of an eligible individual, there shall be allowed as a credit against the tax imposed by this subtitle for the taxable year an amount equal to—(1) $14,400, plus (2) $600 multiplied by the number of dependents (as defined in section 152) under the age of 18 of the taxpayer.” However, the accompanying &lt;a href=&quot;https://omar.house.gov/sites/omar.house.gov/files/SUPPORT%20Act%20-%20One%20Pager%20and%20Section-By-Section%202021.pdf&quot;&gt;one-pager&lt;/a&gt; specifies that the GITC provides $600 per month for child dependent and $2,400 for two-adult households. We assume the one-pager is correct. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Code powering this analysis is available at &lt;a href=&quot;http://github.com/UBICenter/omar-support-act&quot;&gt;github.com/UBICenter/omar-support-act&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;nate&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">The House representative's SUPPORT Act tax credit would reach 99.6% of Americans.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Mapping the impact of a $100 monthly child allowance</title>
+      <link href="/local-child-allowance-maps" rel="alternate" type="text/html" title="Mapping the impact of a $100 monthly child allowance" />
+      <published>2021-08-02T00:00:00+00:00</published>
+      <updated>2021-08-02T00:00:00+00:00</updated>
+      <id>/local-child-allowance-maps</id>
+      <content type="html" xml:base="/local-child-allowance-maps">&lt;p&gt;When the American Rescue Plan &lt;a href=&quot;http://ubicenter.org/advance-ctc&quot;&gt;expanded the Child Tax Credit,&lt;/a&gt; it brought child poverty into the limelight. Beyond the federal government making that expansion permanent, state and local governments have an opportunity to reduce child poverty through child allowances of their own. Building on our &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;state-level child allowance impacts&lt;/a&gt;, here we present two maps, for upper and lower state legislative districts, of a simple policy: $100 per month for each child under age 18.&lt;/p&gt;
+
+&lt;p&gt;Nationwide, a $100 monthly child allowance would reduce child poverty by 20%,&lt;sup id=&quot;fnref:discrepancy&quot;&gt;&lt;a href=&quot;#fn:discrepancy&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; but in some districts, like Minnesota’s 18B House district (Glencoe), it would cut child poverty by over 50%, and in others, like California’s 17th Assembly district (San Francisco), the effect would be under 10%. The policy generally has larger antipoverty effects in districts with lower housing costs.&lt;/p&gt;
+
+&lt;p&gt;How would a child allowance affect child poverty in your state legislative district? Explore the maps below to find out.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;These may take a few seconds to load, and zooming will be slow. Sorry, we’re working on speeding it up!&lt;/em&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;map-by-upper-state-legislative-district&quot;&gt;Map by upper state legislative district&lt;/h1&gt;
+
+&lt;p&gt;For example, this shows each California Senate district.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/markdown_assets/local-child-allowance-maps/upper_district.html&quot;&gt;&lt;em&gt;Load it fullscreen here.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#upper_district&quot;).load(&quot;/assets/markdown_assets/local-child-allowance-maps/upper_district.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;upper_district&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;map-by-lower-state-legislative-district&quot;&gt;Map by lower state legislative district&lt;/h1&gt;
+
+&lt;p&gt;For example, this shows each California Assembly district.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/markdown_assets/local-child-allowance-maps/lower_district.html&quot;&gt;&lt;em&gt;Load it fullscreen here.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#lower_district&quot;).load(&quot;/assets/markdown_assets/local-child-allowance-maps/lower_district.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;lower_district&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;appendix-how-we-built-it&quot;&gt;Appendix: how we built it&lt;/h1&gt;
+
+&lt;p&gt;All prior UBI Center analyses in the US have used the Current Population Survey March Supplement, which contains official estimates of the Official Poverty Measure and Supplemental Poverty Measure (SPM, which we favor for its inclusion of taxes, transfers, and housing costs). This is the most in-depth household survey, but because of its small sample size, the Census Bureau doesn’t release microdata at the local level.&lt;/p&gt;
+
+&lt;p&gt;This analysis instead uses the American Community Survey (ACS), which has a larger sample size and, accordingly, finer geographic detail. Only recently has the ACS provided a comprehensive poverty measure like the SPM, thanks to Census Bureau estimates described in &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/working-papers/2020/demo/SEHSD-WP2020-09.pdf&quot;&gt;Fox, Glassman, and Pacas (2020)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To construct this map, we merged multiple datasets:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Population by block (the Census Bureau’s finest geographical unit) from the 2010 Census Summary File 1 (via the &lt;a href=&quot;https://github.com/jtleider/censusdata&quot;&gt;CensusData Python package&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;Population by block group from the 2019 ACS (via &lt;a href=&quot;https://www.nhgis.org/&quot;&gt;NHGIS&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;A crosswalk from block (the Census’s smallest geographic unit) to state legislative district&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;From these datasets, we produced a block-level dataset with population (adjusted for growth from 2010 to 2019) and all geographic groupings (ACS public use microdata areas, census tracts, counties, and upper and lower state legislative districts). We’ve made this block-level dataset, along with aggregations by PUMA and legislative district which power these maps, available &lt;a href=&quot;https://github.com/UBICenter/local-child-allowance/tree/main/data&quot;&gt;on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:discrepancy&quot;&gt;
+      &lt;p&gt;Our &lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;state-level child allowance post&lt;/a&gt; found that a $100 monthly child allowance would reduce child poverty by 22% instead of 20%. This discrepancy is due to different data sources: that used the Current Population Survey, where this uses the American Community Survey. &lt;a href=&quot;#fnref:discrepancy&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;ben&quot;, &quot;nicholas&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+        <category term="local" />
+      
+
+      
+        <summary type="html">The policy would cut child poverty by a fifth nationwide, but effects would vary geographically.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Introducing the Basic Income Builder</title>
+      <link href="/introducing-basic-income-builder" rel="alternate" type="text/html" title="Introducing the Basic Income Builder" />
+      <published>2021-07-21T00:00:00+00:00</published>
+      <updated>2021-07-21T00:00:00+00:00</updated>
+      <id>/introducing-basic-income-builder</id>
+      <content type="html" xml:base="/introducing-basic-income-builder">&lt;h1 id=&quot;try-the-basic-income-builder-at-bibubicenterorg&quot;&gt;Try the Basic Income Builder at &lt;a href=&quot;http://bib.ubicenter.org&quot;&gt;bib.ubicenter.org&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Using Python and Plotly Dash’s dashboarding tools, we’ve created the Basic Income Builder: an interactive calculator that uses U.S. Census microdata to simulate distributional effects of a customizable UBI policy program. Users can experiment with a wide variety of inputs, from the size of the and type of taxation to reforms of the existing safety net programs. The calculator then produces interactive data visualizations that allow the user to explore the proposal’s effect on the poverty rate for selected demographics, the poverty gap, and an estimate of what share of individuals come out ahead. Read on for more information, or try it yourself at &lt;a href=&quot;http://bib.ubicenter.org&quot;&gt;bib.ubicenter.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;background&quot;&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;Our recent research at the UBI Center has demonstrated the remarkable effectiveness of unconditional cash transfers in reducing poverty and inequality across different demographics and regions in the United States. We have found that the UBI shrinks &lt;a href=&quot;https://www.ubicenter.org/how-universal-basic-income-would-affect-the-black-white-poverty-and-wealth-gaps&quot;&gt;racial poverty and wealth gaps&lt;/a&gt;, reduces poverty among &lt;a href=&quot;https://www.ubicenter.org/ada30&quot;&gt;people with disabilities&lt;/a&gt;, and is more progressive than cancelling &lt;a href=&quot;https://www.ubicenter.org/student-debt&quot;&gt;student loan debt&lt;/a&gt; in terms of wealth inequality.&lt;/p&gt;
+
+&lt;p&gt;Inspired by calculators such as &lt;a href=&quot;https://taxjusticenow.org/#/#makeYourOwnTaxPlan&quot;&gt;Tax Justice Now&lt;/a&gt;, &lt;a href=&quot;https://ubicalculator.com/&quot;&gt;UBI Calculator&lt;/a&gt;, and PSL’s &lt;a href=&quot;https://compute.studio/PSLmodels/Tax-Brain/new/&quot;&gt;Tax Brain&lt;/a&gt;, and building on our prior work with the &lt;a href=&quot;plans.ubicenter.org&quot;&gt;UBI Plan Explorer&lt;/a&gt;, we created Basic Income Builder, an interactive, customizable policy simulation tool built on our own research on UBI proposals. We sought to create a tool that is useful for policy analysts and policy makers at both the state and federal level, while yielding comprehensible results for a general audience.&lt;/p&gt;
+
+&lt;p&gt;As our research has shown that funding Basic Income with a &lt;a href=&quot;https://www.ubicenter.org/us-flat-tax&quot;&gt;flat tax&lt;/a&gt; of 25% or more would reduce both poverty and inequality, we can create a funding mechanism that funds a robust UBI program, but does not require the user to create or adjust complicated income tax brackets.&lt;/p&gt;
+
+&lt;p&gt;All code powering this calculator is at &lt;a href=&quot;https://github.com/UBICenter/us-calc&quot;&gt;github.com/UBICenter/us-calc&lt;/a&gt;, and the app is hosted on the open source &lt;a href=&quot;http://compute.studio&quot;&gt;Compute Studio platform&lt;/a&gt;.&lt;sup id=&quot;fnref:hank&quot;&gt;&lt;a href=&quot;#fn:hank&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;data&quot;&gt;Data&lt;/h1&gt;
+
+&lt;p&gt;We use three years of data (2017-2019) from the Annual Social and Economic Supplement (ASEC) of the Current Population Survey (CPS). The CPS is a monthly survey of U.S. households conducted by the U.S. Census Bureau and the Bureau of Labor Statistics. The CPS is conducted for the purposes of finding employment and earnings statistics of all individuals 15 and over in the household. Data is reported on the level of the individual persons in the household.&lt;/p&gt;
+
+&lt;p&gt;The ASEC provides additional information such as after-tax money income and non-cash benefits. The ASEC also calculates the poverty thresholds for each unit used in our calculations. The ASEC includes all CPS survey respondents in March, with additional oversamples from other months.&lt;/p&gt;
+
+&lt;p&gt;The ASEC provides weighted individual and household level economic and demographic variables that we use to determine the total revenue impacts of our available tax, benefit, and eligibility criteria, as well as the impact on poverty and inequality for the entire population, and the impact on poverty rates for a number of selected demographics.&lt;/p&gt;
+
+&lt;p&gt;We use the Census Bureau’s Supplemental Poverty Measure (SPM) rather than the official poverty measure. The SPM resource measure is cash income plus in-kind benefits minus non discretionary expenses (including taxes, out of pocket health expenses, and work-related expenses). The SPM poverty thresholds are based on a core of annually updated core expenditures, adjusted for the size of the SPM resource unit and geographical variation in the cost of living.&lt;/p&gt;
+
+&lt;p&gt;All of our simulation’s results with respect to poverty are calculated in terms of SPM resources, adjusted for the size of the UBI benefit, as well as any changes to the tax and benefit system selected by the user.&lt;/p&gt;
+
+&lt;p&gt;The SPM resource unit is a broadened definition of the traditional Census family of related individuals, expanded to include any cohabiters and their relatives who are likely to share resources. We use the Gini coefficient of SPM resources among SPM units as our primary inequality measure.&lt;/p&gt;
+
+&lt;p&gt;Our data is limited in two primary ways:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The systematic underreporting of means-tested benefits in survey responses; depending on the benefit, up to half may be missing from the Current Population Survey (&lt;a href=&quot;https://harris.uchicago.edu/files/underreporting.pdf&quot;&gt;Meyer Mok and Sullivan 2015&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;The underreporting of incomes above one million dollars, due to the Census Bureau’s income “top-coding” which intends to avoid disclosure of respondents’ personally identifiable data.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;simulation&quot;&gt;Simulation&lt;/h1&gt;
+
+&lt;p&gt;The user does not select a UBI benefit amount directly – rather, the user selects from a number of budget-neutral “pay-fors”, which produces a benefit size as an output.&lt;/p&gt;
+
+&lt;p&gt;On the tax side, users can repeal the personal income tax and the employee-side payroll tax. In addition, there is a slider available for the user to select an additional flat tax of 0% to 50% on all adjusted gross income (AGI) above $0.&lt;/p&gt;
+
+&lt;p&gt;On the benefit side, the user can repeal the Child Tax Credit, Supplemental Security Income (SSI), Supplemental Nutrition Assistance Program (SNAP, formerly food stamps), Earned Income Tax Credit, Unemployment Benefits, and the Low Income Heating and Energy Assistance Program (LIHEAP).&lt;/p&gt;
+
+&lt;p&gt;Users may also select whether adults, children, and/or non-citizens are eligible for benefits.&lt;/p&gt;
+
+&lt;p&gt;We can describe our model as follows, where &lt;script type=&quot;math/tex&quot;&gt;t&lt;/script&gt; is the additional tax rate (0% to 50%) on all AGI above $0 as selected by user and &lt;script type=&quot;math/tex&quot;&gt;NT_i&lt;/script&gt; is the value of a new user-specified tax on AGI for SPM unit &lt;script type=&quot;math/tex&quot;&gt;i&lt;/script&gt;:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;NT_i = t * \max(AGI_i, 0)&lt;/script&gt;
+
+&lt;p&gt;RT is the value of SPM unit’s taxes paid that have been repealed by the user, where IT refers to income taxes paid and PT refers to employee-side payroll taxes. Where &lt;script type=&quot;math/tex&quot;&gt;r_n&lt;/script&gt; represents a Boolean where a value of &lt;script type=&quot;math/tex&quot;&gt;r_n=1&lt;/script&gt; indicates that the user has chosen to repeal the benefit, and &lt;script type=&quot;math/tex&quot;&gt;r_n=0&lt;/script&gt; if not.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;RT_i = r_{IT}IT_i + r_{PT}PT_i&lt;/script&gt;
+
+&lt;p&gt;We define &lt;script type=&quot;math/tex&quot;&gt;RB&lt;/script&gt; as the value of SPM unit’s benefits that have been repealed by the user.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;RB_i = r_{CTC} * CTC_i + r_{SSI} * SSI_i + r_{SNAP} * SNAP_i + r_{EITC} * EITC_i + r_{UI} * UI_i + r_{LIHEAP} * LIHEAP_i&lt;/script&gt;
+
+&lt;p&gt;Thus, the total revenue raised by the user is equal to:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Revenue = \sum_i NT_i - RT_i + RB_i&lt;/script&gt;
+
+&lt;p&gt;The new UBI amount paid out to each eligible beneficiary is simply equal to:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;UBI = \frac{\it Revenue}{\it NumberOfBeneficiaries}&lt;/script&gt;
+
+&lt;p&gt;We then adjust the SPM resources of each unit to account for the new UBI payment, as well as the earlier changes made to taxes and benefits. The new SPM resource amount is expressed by the following equation, where n represents the number of eligible UBI beneficiaries in the SPM unit.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;NewSPMResources_i = CurrentSPMResources_i + UBI * n_i + RT_i -NT_i - B_i&lt;/script&gt;
+
+&lt;p&gt;We then assign a new value indicating poverty status for each person belonging to an SPM unit where their new SPM resources are below the Census-provided SPM poverty threshold. We then divide the count of all individuals living under this poverty line by the total population.&lt;/p&gt;
+
+&lt;p&gt;The poverty gap is the sum of the total amount of additional resources required to lift each SPM unit to the SPM poverty threshold. Using our new SPM resources value for each SPM unit i, we calculate the poverty gap with the following formula:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;PovertyGap = \sum_i \max(SPMPovertyThreshold_i - NewSPMResources_i, 0)&lt;/script&gt;
+
+&lt;h1 id=&quot;results&quot;&gt;Results&lt;/h1&gt;
+
+&lt;p&gt;To illustrate Basic Income Builder’s capabilities, we present the results of three different budget-neutral UBI reforms. Each reform provides an equal UBI to child and adult citizens.&lt;/p&gt;
+
+&lt;p&gt;In the first reform, we repeal all six available benefits while holding all else constant; this funds a $64 monthly UBI. To illustrate how our app works in practice, the below screenshot shows the configuration necessary to create this scenario:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-1.png&quot; alt=&quot;alt_text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;While this leaves most of the population at least slightly better off, it causes poverty and inequality to increase across all categories, as shown by the simulation results below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the second reform, we keep all taxes and benefits as is, but apply an additional 1% income tax on top of the existing system. This funds a $31 monthly benefit, but reduces poverty and inequality across all measures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-21-basic-income-builder/us-calc-results-image-3.png&quot; alt=&quot;alt_text&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our third reform entails a repeal of the existing income tax system (preserving payroll taxes and benefits), replaced with a 25% flat income tax. This funds a $400 monthly UBI while leaving 51% of Americans better off, while reducing poverty overall by 39% and across each demographic group by between 21% and 55%.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;Baseline
+   &lt;/td&gt;
+   &lt;td&gt;Repeal All Benefits
+   &lt;/td&gt;
+   &lt;td&gt;1% Income Tax Increase
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat tax, repeal income tax
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Monthly UBI
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$64
+   &lt;/td&gt;
+   &lt;td&gt;$31
+   &lt;/td&gt;
+   &lt;td&gt;$400
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Share better off
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;0.641
+   &lt;/td&gt;
+   &lt;td&gt;0.641[^1]
+   &lt;/td&gt;
+   &lt;td&gt;0.513
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Average change in resources per person
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty Gap (Billions USD)
+   &lt;/td&gt;
+   &lt;td&gt;$173 B
+   &lt;/td&gt;
+   &lt;td&gt;+19.1%
+   &lt;/td&gt;
+   &lt;td&gt;-6.1%
+   &lt;/td&gt;
+   &lt;td&gt;-41.7%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Gini Index
+   &lt;/td&gt;
+   &lt;td&gt;0.446
+   &lt;/td&gt;
+   &lt;td&gt;+2.2%
+   &lt;/td&gt;
+   &lt;td&gt;-1.4%
+   &lt;/td&gt;
+   &lt;td&gt;-8.0%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty rate
+   &lt;/td&gt;
+   &lt;td&gt;0.128
+   &lt;/td&gt;
+   &lt;td&gt;+20.9%
+   &lt;/td&gt;
+   &lt;td&gt;-6.1%
+   &lt;/td&gt;
+   &lt;td&gt;-38.5%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Child
+   &lt;/td&gt;
+   &lt;td&gt;0.139
+   &lt;/td&gt;
+   &lt;td&gt;+42.3%
+   &lt;/td&gt;
+   &lt;td&gt;-8.3%
+   &lt;/td&gt;
+   &lt;td&gt;-45.7%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Adult
+   &lt;/td&gt;
+   &lt;td&gt;0.125
+   &lt;/td&gt;
+   &lt;td&gt;+13.6%
+   &lt;/td&gt;
+   &lt;td&gt;-5.4%
+   &lt;/td&gt;
+   &lt;td&gt;-36.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  People with Disabilities
+   &lt;/td&gt;
+   &lt;td&gt;0.203
+   &lt;/td&gt;
+   &lt;td&gt;+18.2%
+   &lt;/td&gt;
+   &lt;td&gt;-6.2%
+   &lt;/td&gt;
+   &lt;td&gt;-55.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  White
+   &lt;/td&gt;
+   &lt;td&gt;0.089
+   &lt;/td&gt;
+   &lt;td&gt;+12.8%
+   &lt;/td&gt;
+   &lt;td&gt;-6.3%
+   &lt;/td&gt;
+   &lt;td&gt;-46.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Black
+   &lt;/td&gt;
+   &lt;td&gt;0.201
+   &lt;/td&gt;
+   &lt;td&gt;+26.4%
+   &lt;/td&gt;
+   &lt;td&gt;-7.5%
+   &lt;/td&gt;
+   &lt;td&gt;-52.3%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;  Hispanic
+   &lt;/td&gt;
+   &lt;td&gt;0.201
+   &lt;/td&gt;
+   &lt;td&gt;+28.6%
+   &lt;/td&gt;
+   &lt;td&gt;-5.3%
+   &lt;/td&gt;
+   &lt;td&gt;-21.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;To demonstrate Basic Income Builder’s state-level capabilities, we return to the reform that replaces existing income taxes with a 25% flat income tax, focusing on North Carolina as an example. When selecting North Carolina from the state menu and leaving everything else unchanged, the calculator shows the effect of the federal reform on North Carolina. The UBI amount is the same ($400 per month), but other distributional effects differ, and we can see that North Carolinians come out ahead by an average of $276 per person per year.&lt;/p&gt;
+
+&lt;p&gt;When selecting “State” as the Reform level, the 25% flat income tax instead replaces the North Carolina state income tax. This results in a larger UBI, primarily due to North Carolina’s state income tax raising less revenue than the federal income tax in North Carolina. Consequently, the poverty impacts are substantially greater with this reform, even as it’s no longer a net inflow to the state.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;Baseline (NC)
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat Tax, Federal
+   &lt;/td&gt;
+   &lt;td&gt;25% Flat Tax, State
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Monthly UBI
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$400
+   &lt;/td&gt;
+   &lt;td&gt;$561
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Share better off
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;0.554
+   &lt;/td&gt;
+   &lt;td&gt;0.635
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Average change in resources per person
+   &lt;/td&gt;
+   &lt;td&gt; 
+   &lt;/td&gt;
+   &lt;td&gt;$276
+   &lt;/td&gt;
+   &lt;td&gt;$0
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty Gap (Billions USD)
+   &lt;/td&gt;
+   &lt;td&gt;$5 B
+   &lt;/td&gt;
+   &lt;td&gt;-44.6%
+   &lt;/td&gt;
+   &lt;td&gt;-58.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Gini Index
+   &lt;/td&gt;
+   &lt;td&gt;0.449
+   &lt;/td&gt;
+   &lt;td&gt;-10.2%
+   &lt;/td&gt;
+   &lt;td&gt;-26.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Poverty rate
+   &lt;/td&gt;
+   &lt;td&gt;0.136
+   &lt;/td&gt;
+   &lt;td&gt;-44.9%
+   &lt;/td&gt;
+   &lt;td&gt;-68.1%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Child
+   &lt;/td&gt;
+   &lt;td&gt;0.149
+   &lt;/td&gt;
+   &lt;td&gt;-57.8%
+   &lt;/td&gt;
+   &lt;td&gt;-85.6%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Adult
+   &lt;/td&gt;
+   &lt;td&gt;0.132
+   &lt;/td&gt;
+   &lt;td&gt;-40.9%
+   &lt;/td&gt;
+   &lt;td&gt;-62.5%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;People with Disabilities
+   &lt;/td&gt;
+   &lt;td&gt;0.210
+   &lt;/td&gt;
+   &lt;td&gt;-55.5%
+   &lt;/td&gt;
+   &lt;td&gt;-73.4%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;White
+   &lt;/td&gt;
+   &lt;td&gt;0.099
+   &lt;/td&gt;
+   &lt;td&gt;-49.3%
+   &lt;/td&gt;
+   &lt;td&gt;-69.8%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Black
+   &lt;/td&gt;
+   &lt;td&gt;0.203
+   &lt;/td&gt;
+   &lt;td&gt;-62.8%
+   &lt;/td&gt;
+   &lt;td&gt;-76.2%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Hispanic
+   &lt;/td&gt;
+   &lt;td&gt;0.198
+   &lt;/td&gt;
+   &lt;td&gt;+5.1%
+   &lt;/td&gt;
+   &lt;td&gt;-50.2%
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;For each of these scenarios, checking the “Children” and “Non-citizens” boxes reveals that including children and non-citizens in the UBI produces larger poverty and inequality reductions. This aligns with other research, such as &lt;a href=&quot;https://www.ubicenter.org/how-universal-basic-income-can-keep-poverty-from-rising-amid-covid19&quot;&gt;Ghenis (2020)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;future-research&quot;&gt;Future research&lt;/h1&gt;
+
+&lt;p&gt;We aim to improve Basic Income Builder in the future in several ways:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Addressing income data deficiencies by incorporating data from the IRS Public Use File&lt;/li&gt;
+  &lt;li&gt;Addressing benefit deficiencies by imputing unreported benefits with algorithms like PSL’s &lt;a href=&quot;https://github.com/PSLmodels/C-TAM&quot;&gt;CPS Transfer Augmentation Model&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Adjusting for labor supply responses to the changes in the tax code, any effects of repealed benefits on marginal tax rates for low-income individuals, or the income effects of the UBI itself.&lt;/li&gt;
+  &lt;li&gt;Supporting side-by-side comparison of different user specified proposals.&lt;/li&gt;
+  &lt;li&gt;Including more tax and benefit reforms on both the federal level, such as repealing deductions.&lt;/li&gt;
+  &lt;li&gt;Relaxing the requirement for budget-neutrality; instead of determining the UBI amount by changing taxes and benefits, the user could select the desired UBI amount and explore different ways to meet that target.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;The UBI Center Basic Income Builder provides users with access to rapid experimentation and analysis to determine the effects of UBI. Some results are intuitive, such as the regressiveness of replacing benefits with UBI without also raising additional tax revenue, while other results may surprise some audiences, such as the large effects on poverty from even modest taxes—even flat income taxes. We hope that this tool and others like it empower the public to learn more about public policy impacts and that they ultimately produce more evidence-based policymaking.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:hank&quot;&gt;
+      &lt;p&gt;We’re grateful to Hank Doupe of Compute Studio for technical assistance and hosting of this app. &lt;a href=&quot;#fnref:hank&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;will&quot;, &quot;max&quot;, &quot;nate&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">Our new tool lets you design and analyze budget-neutral universal basic income policies in real time.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The beginning of a new Child Tax Credit</title>
+      <link href="/advance-ctc" rel="alternate" type="text/html" title="The beginning of a new Child Tax Credit" />
+      <published>2021-07-18T00:00:00+00:00</published>
+      <updated>2021-07-18T00:00:00+00:00</updated>
+      <id>/advance-ctc</id>
+      <content type="html" xml:base="/advance-ctc">&lt;p&gt;On Thursday, millions of families started receiving their first monthly Child Tax Credit payments, in the American Rescue Plan’s broadest transfer since its $1,400 relief payments. The poorest children in the country are newly eligible for the full value of the Child Tax Credit, including these monthly payments, and as a result, deep child poverty could fall by as much as half.&lt;/p&gt;
+
+&lt;p&gt;It’s an historic time for antipoverty policy, and activists are fighting to make the policy permanent. And yet, the program’s design will result in overpayments, underpayments, exclusion errors, and high marginal tax rates for parents. In this post, I review the changes underway, alternative policy designs to address these issues, and our research on child allowances.&lt;/p&gt;
+
+&lt;h1 id=&quot;history-of-the-child-tax-credit&quot;&gt;History of the Child Tax Credit&lt;/h1&gt;
+
+&lt;p&gt;The Clinton administration created the Child Tax Credit (CTC) in 1997, coinciding with broader welfare reform. In his book, &lt;a href=&quot;https://www.google.com/books/edition/The_Fiscalization_of_Social_Policy/0VVYDwAAQBAJ?hl=en&quot;&gt;The Fiscalization of Social Policy&lt;/a&gt;, sociologist Joshua McCabe describes how tax credits became major components of American welfare policy, and argues that they evolved as a “strategic adaptation to austerity.”&lt;/p&gt;
+
+&lt;p&gt;The CTC has historically been &lt;em&gt;partially refundable.&lt;/em&gt; Tax credit refundability refers to whether tax filers with no net federal tax liability benefit; refundable tax credits are therefore more progressive than non-refundable credits, since lower-income tax filers are less likely to have net tax liability. A portion of the CTC, called the &lt;em&gt;Additional Child Tax Credit&lt;/em&gt;, is refundable, though this portion also phases in with income. The full value is only available to those with federal tax liability, reducing that liability toward zero. The credit also phases out with income for higher earners. Tax filers receive the benefit once they do taxes the following year.&lt;/p&gt;
+
+&lt;p&gt;Since its creation, the CTC has been expanded multiple times, most recently as part of the 2017 Tax Cuts and Jobs Act. &lt;a href=&quot;https://taxfoundation.org/child-tax-credit/&quot;&gt;This reform&lt;/a&gt; doubled the maximum amount to $2,000 per child, increased the refundable portion, extended the phase-out threshold, and limited the credit for children and dependents without Social Security numbers. The Joint Committee on Taxation &lt;a href=&quot;https://www.jct.gov/publications/2017/jcx-67-17/&quot;&gt;estimated&lt;/a&gt; that these CTC reforms cost $544 billion from 2018 to 2027, 37% of the bill’s $1.5 trillion net cost over that period.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-18-advance-ctc/tf_tcja_ctc.png&quot; alt=&quot;How TCJA changed the Child Tax Credit&quot; title=&quot;How TCJA changed the Child Tax Credit&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;how-the-american-rescue-plan-changed-the-child-tax-credit&quot;&gt;How the American Rescue Plan changed the Child Tax Credit&lt;/h1&gt;
+
+&lt;p&gt;For the 2021 tax year only, the American Rescue Plan makes four major changes to the CTC:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Extends eligibility to 17-year-olds&lt;/li&gt;
+  &lt;li&gt;Raises the maximum amount from $2,000 per child to $3,600 for children under age 6 and $3,000 for children aged 6 to 17; this higher amount is available to parents with income below $75,000 (single) or $150,000 (married)&lt;/li&gt;
+  &lt;li&gt;Makes the credit fully refundable&lt;/li&gt;
+  &lt;li&gt;Prepays half the expected 2021 credit on a monthly basis, beginning in July 2021&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The below chart from the &lt;a href=&quot;https://crsreports.congress.gov/product/pdf/IN/IN11613&quot;&gt;Congressional Research Service&lt;/a&gt; shows the change for a married taxpayer with one child under age six. Families with low income gain the most, especially those with zero income who previously received $0 and now receive the full benefit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-07-18-advance-ctc/crs_arp_ctc.png&quot; alt=&quot;How ARP changed the Child Tax Credit&quot; title=&quot;How ARP changed the Child Tax Credit&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Joint Committee on Taxation &lt;a href=&quot;https://www.jct.gov/publications/2021/jcx-14-21/&quot;&gt;estimates&lt;/a&gt; that this reform costs $110 billion, 6% of the American Rescue Plan’s total $1.9 trillion cost (my &lt;a href=&quot;https://www.openrg.com/reports/QN_ARPA_Distribution.pdf&quot;&gt;research&lt;/a&gt; with OpenRG colleagues estimates the cost at $101 billion). The Niskanen Center &lt;a href=&quot;https://www.niskanencenter.org/wp-content/uploads/2021/02/Analysis-of-the-Romney-Child-Allowance_final.pdf&quot;&gt;projects&lt;/a&gt; that the reform will lower child poverty by 39%, the bulk of the American Rescue Plan’s total child poverty reduction, which the Columbia Center on Poverty and Social Policy &lt;a href=&quot;https://www.povertycenter.columbia.edu/news-internal/2021/presidential-policy/american-family-plan-poverty-impact&quot;&gt;estimates&lt;/a&gt; to be 47%.&lt;/p&gt;
+
+&lt;iframe width=&quot;600&quot; height=&quot;371&quot; seamless=&quot;&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vRurbf8SIZ9FNptyJt4TpeSoXfHbWJnqhja89b4XhHAewtnDEVnYQzwb1rdorwqzzEf8WPGI1GPK1PL/pubchart?oid=1635111739&amp;amp;format=interactive&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://child-allowance.ubicenter.org/empirical&quot;&gt;Evidence we’ve compiled&lt;/a&gt; suggests that these child poverty reductions will improve educational outcomes, health, and other forms of child development, helping kids grow into more financially successful and long-lived adults.&lt;/p&gt;
+
+&lt;p&gt;However, these poverty estimates assume that the credit reaches all eligible families. Whether this reflects reality is yet to be seen, and one of the primary concerns child poverty experts have had with the bill.&lt;/p&gt;
+
+&lt;h1 id=&quot;difficulty-reaching-poor-families&quot;&gt;Difficulty reaching poor families&lt;/h1&gt;
+
+&lt;p&gt;The IRS has successfully reached most tax filers for the Advance CTC, as they did with the three rounds of Economic Impact Payments. However, they lack sufficient records to automatically deliver payments to families that don’t earn enough to have to file taxes (“non-filers”), because they must verify that their income doesn’t disqualify them. In April 2020, the IRS created a &lt;a href=&quot;https://www.irs.gov/newsroom/treasury-irs-launch-new-tool-to-help-non-filers-register-for-economic-impact-payments&quot;&gt;tool&lt;/a&gt; for non-filers to enter their information and receive CARES Act recovery payments, which they kept up &lt;a href=&quot;https://www.irs.gov/newsroom/register-by-nov-21-to-get-an-economic-impact-payment-same-deadline-for-federal-beneficiaries-to-get-missed-500-per-child-payments&quot;&gt;until November&lt;/a&gt;. Non-filers who missed that deadline have to file taxes to receive the benefit. Over that time, only about &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/05/17/irs-confirms-major-ctc-participation-problems/&quot;&gt;one in three non-filers&lt;/a&gt; used the tool to sign up for payments, leaving 9 million eligible families without their payment (some will still end up getting it by filing taxes in the future).&lt;/p&gt;
+
+&lt;p&gt;The IRS created a &lt;a href=&quot;https://www.freefilefillableforms.com/#/fd/childtaxcredit&quot;&gt;similar tool&lt;/a&gt; for non-filers to request the Advance Child Tax Credit, targeting the &lt;a href=&quot;https://www.washingtonpost.com/us-policy/2021/07/15/biden-child-tax-credit/&quot;&gt;seven million children&lt;/a&gt; (of America’s ten million total poor children) in non-filer households. As Paul Williams has &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/06/18/the-child-tax-credit-non-filer-tool-is-a-mess/&quot;&gt;documented&lt;/a&gt;, the tool is only designed for computers, which about half of non-filers lack. The site doesn’t have a memorable .gov URL (it’s &lt;a href=&quot;http://freefilefillableforms.com/#/fd/childtaxcredit&quot;&gt;freefilefillableforms.com/#/fd/childtaxcredit&lt;/a&gt;), isn’t quickly linked from official sites (it takes three clicks from &lt;a href=&quot;http://childtaxcredit.gov/&quot;&gt;childtaxcredit.gov&lt;/a&gt;, once you know where to look), &lt;a href=&quot;https://www.washingtonpost.com/business/2021/06/15/irs-child-tax-credit-tool/&quot;&gt;requires an email address&lt;/a&gt;, and doesn’t preview on social media sites. The &lt;a href=&quot;https://www.washingtonpost.com/business/2021/06/15/irs-child-tax-credit-tool/&quot;&gt;720,000 children&lt;/a&gt; whose parents used the Economic Impact Payment non-filer tool will receive the CTC, but according to Matt Bruenig of the People’s Policy Project, the IRS only expects to reach &lt;a href=&quot;https://www.peoplespolicyproject.org/2021/05/17/irs-confirms-major-ctc-participation-problems/&quot;&gt;90 percent of eligible children&lt;/a&gt;, indicating that non-filers will largely miss out.&lt;/p&gt;
+
+&lt;p&gt;Some tax filers will also use &lt;a href=&quot;https://www.irs.gov/credits-deductions/child-tax-credit-update-portal&quot;&gt;IRS tools&lt;/a&gt; to track eligibility, update their family structure (number of children and marital status), income, or bank details, or to opt out. Updating income will not be possible until later in the summer. Since the payment is based on income in 2020, which was lower than income in 2021 overall due to the pandemic, many families will have to reconcile overpayments in 2022 unless they use these tools. Pandemic aside, those with volatile incomes may have to update their information regularly to avoid unexpected tax bills; this is one way in which means-tested programs require people to effectively do their taxes multiple times per year.&lt;/p&gt;
+
+&lt;p&gt;Why these issues? Some are unavoidable with means-tested programs: the IRS has to verify income somehow, and that’s harder than simply verifying a person’s existence, especially as many families see incomes rise and fall over time. Some also trace to an &lt;a href=&quot;https://www.federalregister.gov/documents/2002/11/04/02-27909/irs-intent-to-enter-into-an-agreement-with-free-file-alliance-llc-ie-free-file-alliance&quot;&gt;agreement&lt;/a&gt; the IRS has with the Free Filer Alliance, a consortium of tax preparers, stating that those tax preparers, rather than the IRS, will provide free filing services. The IRS considers non-filer tools for Economic Impact Payments and the Advance CTC as tax filing services, hence the freefilefillableforms.com rather than irs.gov domain. On the same day the Advance CTC started delivering payments, Intuit, which makes TurboTax, announced that it would &lt;a href=&quot;https://www.intuit.com/blog/news-social/accelerating-technology-innovation-to-better-help-consumers-solve-their-most-pressing-financial-problems/&quot;&gt;leave the Free Filer Alliance&lt;/a&gt;, as H&amp;amp;R Block did in &lt;a href=&quot;https://news.bloombergtax.com/daily-tax-report/irss-free-file-partners-moving-forward-without-h-r-block&quot;&gt;June 2020&lt;/a&gt;. Whether or not this is a sign that the IRS could renegotiate the Free Filer Alliance agreement and provide their own non-filer tool, policymakers can consider designing the program without the need to collect income information.&lt;/p&gt;
+
+&lt;h1 id=&quot;advantages-of-a-universal-child-allowance&quot;&gt;Advantages of a universal child allowance&lt;/h1&gt;
+
+&lt;p&gt;While means-testing the CTC expansion lowers poverty more for a given budget (at least on paper, assuming full take-up), universality offers other advantages.&lt;/p&gt;
+
+&lt;p&gt;Senator Mitt Romney’s &lt;a href=&quot;https://www.ubicenter.org/family-security-act&quot;&gt;Family Security Act&lt;/a&gt; child allowance bill takes a different path than the ARP CTC, by&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Phasing out at higher incomes: $200,000 for singles and $400,000 for married filers&lt;/li&gt;
+  &lt;li&gt;Delivering to all parents, and then has ineligible parents repay the following year at tax time&lt;/li&gt;
+  &lt;li&gt;Being administered through the Social Security Administration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Social Security Administration has &lt;a href=&quot;https://www.ssa.gov/org/&quot;&gt;over 1,200 field offices&lt;/a&gt; across the country, and enrolls every newborn in their system. Running short-term programs through the IRS allows payments to quickly reach those who have filed taxes, but long-term programs may have greater success with a brick-and-mortar footprint (it’s rare to hear concerns that people eligible for Social Security aren’t receiving benefits).&lt;/p&gt;
+
+&lt;p&gt;But the Social Security Administration doesn’t have income information. This can be an advantage, as it forces the program eligibility rules to be simple, as the Romney bill’s rules are. But to the extent that payments are means-tested, they’ll have to be repaid at tax time. High-income parents can weather those surprise tax bills, and many have significant reconciliation anyway, but a $6,000 surprise tax bill could significantly disrupt the finances of a single parent with $100,000 income.&lt;/p&gt;
+
+&lt;p&gt;Beyond facilitating the Social Security Administration distributing child benefits and avoiding over- and under-payments, making the benefit universal avoids disparate taxation by parental status. Both the ARP CTC and Romney’s bill levy higher marginal tax rates on high-income parents than high-income people without children. In effect, means-testing places the cost of a universal child allowance on high-income parents; making it truly universal costs more, but if funded by progressive taxation, those costs would be more equitably borne by &lt;em&gt;all&lt;/em&gt; high-income people.&lt;/p&gt;
+
+&lt;h1 id=&quot;parents-may-work-less-in-the-market-but-kids-will-benefit&quot;&gt;Parents may work less in the market, but kids will benefit&lt;/h1&gt;
+
+&lt;p&gt;As I wrote in a paper on Romney’s &lt;a href=&quot;https://www.ubicenter.org/family-security-act&quot;&gt;Family Security Act&lt;/a&gt;, child allowances will likely modestly reduce parental formal labor supply. That bill, like ARP’s CTC expansion, removes the benefit’s phase-in, creating a relative increase to low-income parents’ marginal tax rates. Families with income around the phase-out region will also face higher marginal tax rates. People respond to higher marginal tax rates by &lt;a href=&quot;https://www.cbo.gov/sites/default/files/cbofiles/attachments/10-25-2012-Labor_Supply_and_Fiscal_Policy.pdf&quot;&gt;working less&lt;/a&gt;, so we can expect parents with income in the affected regions to spend less time in the formal labor market.&lt;/p&gt;
+
+&lt;p&gt;These effects on marginal tax rates outweigh the effects of the assistance itself. The extent to which people work less when they have more income, the &lt;em&gt;income effect&lt;/em&gt;, is empirically small: the Congressional Budget Office estimates that each 1% increase to income reduces labor supply by 0.05% (about a sixth the size of labor supply responses to higher marginal tax rates). To the extent that extra income causes parents to work less, they may also spend more time with their children.&lt;/p&gt;
+
+&lt;p&gt;This extra parental involvement and purchasing power will benefit kids. Cash assistance differs from restrictive in-kind benefits like nutrition assistance, childcare subsidies, or housing vouchers, which are more costly to administer and more complicated to use. Evidence of the tangible gains to children whose families receive cash assistance indicates that parents use cash wisely; if the money were routinely squandered, giving money to parents wouldn’t help kids. If anything, cash transfers generally &lt;a href=&quot;https://www.journals.uchicago.edu/doi/abs/10.1086/689575&quot;&gt;reduce consumption of temptation goods&lt;/a&gt;, and &lt;a href=&quot;https://www.ubicenter.org/canada-homelessness-experiment&quot;&gt;our analysis&lt;/a&gt; of a study in Canada found that parents experiencing homelessness increased spending on kids more than any other category. Restricting low-income parents’ purchases is costly and unnecessary.&lt;/p&gt;
+
+&lt;h1 id=&quot;our-past-and-future-research&quot;&gt;Our past and future research&lt;/h1&gt;
+
+&lt;p&gt;Several of our studies find that child allowances cost-effectively reduce poverty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/child-allowance-state-simulation&quot;&gt;Across US states&lt;/a&gt;, a $300 per month child allowance generally cuts child poverty in half and overall poverty by 20-25%.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/child-ubi-share&quot;&gt;Including children in fixed UBI budgets&lt;/a&gt; makes policies more progressive (we’ve also found this &lt;a href=&quot;https://www.ubicenter.org/progressive-adjustments-lib-dem-working-group&quot;&gt;in the UK&lt;/a&gt;), and for smaller budgets, planners can optimize poverty and inequality by giving _more _to children than adults.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://drive.google.com/file/d/1gLO94eKp3b1m19Ev14deGrd4TxjdCnHv/view&quot;&gt;Compared to childcare subsidies&lt;/a&gt;, budget-equivalent child allowances reduce poverty and inequality more. Replacing childcare costs has about a third of the poverty impact as spending the money on universal cash, and a transfer equal to the cost of childcare in one’s state to all parents is also less progressive than a uniform national child allowance, because richer parents live in areas where childcare is more expensive.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;uscalc.ubicenter.org&quot;&gt;Our budget-neutral UBI calculator&lt;/a&gt; shows that a variety of child allowance policies reduce child poverty, even when replacing benefit programs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’re continuing to invest in child allowance research; for example, in the near future we’ll publish interactive maps of child allowance poverty impacts by local area, such as state legislative districts.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;Before Thursday, 28% of Americans lived in households receiving a monthly check from the federal government. The new CTC &lt;a href=&quot;https://twitter.com/MattBruenig/status/1416585999707164672&quot;&gt;more than doubled that share&lt;/a&gt; to 65%. Alongside the $1,400 recovery payments, it makes the American Rescue Plan perhaps the &lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;largest step toward universal basic income&lt;/a&gt; the US has taken in decades. But policymakers shouldn’t rest on their laurels: fixing technical issues will enhance the antipoverty impact, and designing a robust post-2021 policy will make the changes durable.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="child allowance" />
+      
+
+      
+        <summary type="html">On paper, the monthly payment halves deep child poverty, but fulfilling its potential will take work.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Research we’re presenting at the upcoming NABIG conference</title>
+      <link href="/nabig-2021" rel="alternate" type="text/html" title="Research we're presenting at the upcoming NABIG conference" />
+      <published>2021-06-15T22:00:00+00:00</published>
+      <updated>2021-06-15T22:00:00+00:00</updated>
+      <id>/nabig-2021</id>
+      <content type="html" xml:base="/nabig-2021">&lt;p&gt;&lt;em&gt;Post-NABIG update: You can watch the recordings for the &lt;a href=&quot;https://www.crowdcast.io/e/ubi-center-research-on&quot;&gt;UBI Center session&lt;/a&gt; and the &lt;a href=&quot;https://www.crowdcast.io/e/6zbq7dz8&quot;&gt;Feminism session&lt;/a&gt; at the NABIG Crowdcast site.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From Thursday through Sunday, &lt;a href=&quot;https://usbig.net/&quot;&gt;USBIG&lt;/a&gt; will hold the &lt;a href=&quot;https://www.crowdcast.io/nabigcongress&quot;&gt;19th North America Basic Income Guarantee (NABIG) Congress&lt;/a&gt;. The virtual conference includes presentations from researchers and activists in the US and Canada, and we’re delighted to participate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday at 9AM ET,&lt;/strong&gt; &lt;a href=&quot;https://www.ubicenter.org/author/john/&quot;&gt;John Walker&lt;/a&gt; will present his paper, &lt;a href=&quot;https://drive.google.com/file/d/1gLO94eKp3b1m19Ev14deGrd4TxjdCnHv/view?usp=sharing&quot;&gt;“Benchmarking a child allowance against free childcare,”&lt;/a&gt; in a session on &lt;a href=&quot;https://www.crowdcast.io/e/6zbq7dz8/register&quot;&gt;“Feminism, UBI and the Politics of Caring Labor.”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Saturday at 4PM ET,&lt;/strong&gt; several of our researchers will present papers in a dedicated session, &lt;a href=&quot;https://www.crowdcast.io/e/ubi-center-research-on/register&quot;&gt;“UBI Center Research on Policies, Politics, and Economic Consequences”&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I’ll discuss my paper, &lt;a href=&quot;https://drive.google.com/file/d/1_PnYOuJ4TiuOdsCfuzlSUkWDAzAYXyhC/view?usp=sharing&quot;&gt;“UBI and child allowances in California”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/nate/&quot;&gt;Nate Golden&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/open?id=1Zw1JysANBjeWi2JnY4quUpiptXaCigtU&quot;&gt;“The impact of UBI on likely voters”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/will/&quot;&gt;Will Fedder&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/open?id=1gHLxtP-cduWrP3dlN0WV4to--c2aNCQa&quot;&gt;“Designing and analyzing budget-neutral UBI policies with a real-time web tool”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ubicenter.org/author/joshua/&quot;&gt;Joshua Miller&lt;/a&gt; will discuss his paper, &lt;a href=&quot;https://drive.google.com/file/d/1BMiRmdPWgWT1lnb20J8-PiZs5MijoCYy/view?usp=sharing&quot;&gt;“UBI and inflation: reviewing theory and evidence”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;UBI Center advisor &lt;a href=&quot;https://www.bakerinstitute.org/experts/richard-evans/&quot;&gt;Richard Evans&lt;/a&gt; will discuss his paper, “A general equilibrium model of UBI in the US” (link forthcoming)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;registration-for-nabig-is-freely-open-to-the-public&quot;&gt;&lt;a href=&quot;https://www.eventbrite.com/e/19th-annual-nabig-congress-2021-june-17-19-2021-tickets-147319186653&quot;&gt;Registration for NABIG is freely open to the public.&lt;/a&gt;&lt;/h2&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="conferences" />
+      
+
+      
+        <summary type="html">We'll share six papers across two sessions on Friday and Saturday.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How could Andrew Yang’s Basic Income for New York City be designed?</title>
+      <link href="/yang-nyc" rel="alternate" type="text/html" title="How could Andrew Yang's Basic Income for New York City be designed?" />
+      <published>2021-06-15T00:00:00+00:00</published>
+      <updated>2021-06-15T00:00:00+00:00</updated>
+      <id>/yang-nyc</id>
+      <content type="html" xml:base="/yang-nyc">&lt;p&gt;Over the next eight days, New York City Democrats will decide their party nominee for mayor. One of the candidates, former presidential candidate Andrew Yang, has centered his campaign around a shrunk-down local version of his national &lt;a href=&quot;https://www.ubicenter.org/distributional-analysis-of-andrew-yangs-freedom-dividend&quot;&gt;Freedom Dividend&lt;/a&gt;, which he calls &lt;a href=&quot;https://www.yangforny.com/policies/a-basic-income-for-new-york-city&quot;&gt;“A Basic Income for New York City.”&lt;/a&gt; The plan promises to provide an average of $2,000 to each of the city’s 500,000 poorest adults.&lt;/p&gt;
+
+&lt;p&gt;In this post, I explore how this $1 billion program could be codified. I find that the plan can be characterized by a benefit program that guarantees 30% of the poverty line and phases out at 50 cents per dollar of income. Such a plan would reduce deep poverty by 60%, though it would also create significant work disincentives and distort marriage choices among NYC’s deeply poor population.&lt;/p&gt;
+
+&lt;h1 id=&quot;poverty-in-new-york-city&quot;&gt;Poverty in New York City&lt;/h1&gt;
+
+&lt;p&gt;NYC has unusually high poverty: in 2019, 19.2% of the population was in poverty, compared to &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-272.pdf&quot;&gt;11.7% nationally&lt;/a&gt;. That’s based on the Census Bureau’s &lt;a href=&quot;https://www.census.gov/topics/income-poverty/supplemental-poverty-measure.html&quot;&gt;Supplemental Poverty Measure&lt;/a&gt; (SPM), which, unlike the Official Poverty Measure, accounts for a household’s&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in-kind benefits (e.g., food stamps), taxes, and, critically for NYC, housing costs—the SPM estimates that NYC residents face 21% higher cost of living than the national average.&lt;/p&gt;
+
+&lt;p&gt;NYC’s current 19.2% poverty rate is down from 23.9% when the Census Bureau began reporting the SPM, though it hit a high of 28.3% in 2012 in between. The deep poverty rate—the population share under half the poverty threshold—has followed a similar trend, from 7.8% in 2009 to a high of 9.1% in 2011 to its latest value of 4.9% in 2019.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_structured_mobile_1&quot;).load(&quot;/assets/markdown_assets/yang-nyc/pov_trend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_structured_mobile_1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Poverty rates fail to capture dynamics below the threshold, though. If a policy lifts someone from 10% of the poverty line to 90%, that doesn’t change the poverty rate; if it lifts them from 10% to 40%, it also doesn’t change the deep poverty rate.&lt;/p&gt;
+
+&lt;p&gt;So it’s also useful to consider the &lt;em&gt;poverty gap&lt;/em&gt;, the sum of all deviations between a household’s resources and their poverty threshold, among families in poverty; that is, the poverty gap measures the total amount one would have to spend to end poverty, if the transfer were perfectly targeted. Similarly, the &lt;em&gt;deep poverty gap&lt;/em&gt; measures deviations to half the poverty threshold.&lt;/p&gt;
+
+&lt;p&gt;NYC’s poverty gap in 2019 was $6.3 billion, and its deep poverty gap was $1.5 billion. Poverty gaps are less straightforward to interpret over time, since they vary with inflation and population changes, but their pattern roughly mirrors that of the poverty rates, exhibiting modest and inconsistent declines over time.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#graph_graph_structured_mobile_2&quot;).load(&quot;/assets/markdown_assets/yang-nyc/pov_gap_trend.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;graph_graph_structured_mobile_2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To smooth out the year-by-year noise, the rest of this analysis averages the three latest years of data, from 2017 to 2019.&lt;/p&gt;
+
+&lt;h1 id=&quot;andrew-yangs-basic-income-proposal&quot;&gt;Andrew Yang’s Basic Income Proposal&lt;/h1&gt;
+
+&lt;p&gt;Yang’s &lt;a href=&quot;https://www.yangforny.com/policies/a-basic-income-for-new-york-city&quot;&gt;campaign website&lt;/a&gt; spells out core features of the plan, indicating that it would provide monthly transfers averaging $2,000 per year to the “500,000 New Yorkers with the greatest need,” that these transfers would supplement existing benefits, and that the $1 billion program intends to end “extreme poverty.”&lt;/p&gt;
+
+&lt;p&gt;This document leaves some details unspecified, some of which Yang’s campaign staff clarified to me, others of which remain open questions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;What is a “New Yorker”?&lt;/strong&gt; Campaign staff defined this as an adult resident of NYC, in accordance with &lt;a href=&quot;https://www.robinhood.org/wp-content/themes/robinhood/images/poverty-tracker/pdfs/POVERTY_TRACKER_REPORT25.pdf&quot;&gt;poverty reporting&lt;/a&gt; from the NYC-based nonprofit &lt;a href=&quot;https://www.robinhood.org/&quot;&gt;Robin Hood&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How is poverty defined?&lt;/strong&gt; Campaign staff also confirmed to me that the poverty definitions refer to the SPM. Given SPM’s accounting of housing costs, this aligns with Yang’s statement that “Our goal is to […ensure] that every household has an annual income that is at least above extreme poverty, taking into account the true cost of living in New York City.” Robin Hood’s Poverty Tracker emulates the Census Bureau’s approach with regard to the Supplemental Poverty Measure, though its results differ.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How is “extreme poverty” defined?&lt;/strong&gt; This is unclear, so I do not apply it as a defining constraint. Robin Hood’s &lt;a href=&quot;https://www.robinhood.org/wp-content/themes/robinhood/images/poverty-tracker/pdfs/POVERTY_TRACKER_REPORT19.pdf&quot;&gt;2019 report&lt;/a&gt;, based on their &lt;a href=&quot;https://www.robinhood.org/programs/special-initiatives/poverty-tracker/index.html&quot;&gt;Poverty Tracker&lt;/a&gt; survey produced in conjunction with Columbia University, classified 500,000 NYC adults as in “deep poverty,” under the standard poverty definition of below half the poverty line. Meanwhile, the term “extreme poverty” is typically reserved for the World Bank’s global definition of about $2 per person per day—a depth of poverty under which &lt;a href=&quot;https://www.nber.org/papers/w25907&quot;&gt;virtually no Americans fall&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Are the transfers person-based or household-based?&lt;/strong&gt; On one hand, the program is focused on “New Yorkers”—adults—but on the other, it promises to end extreme poverty, which is defined at the household level. I assume that it’s household-based, like other welfare benefits.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;How is income defined for the purposes of qualifying for the benefit?&lt;/strong&gt; The emphasis on the poverty rate suggests that the income measure would be the SPM resource measure; indeed, Yang’s staff confirmed that benefits like SNAP and housing assistance would count toward eligibility (though the reverse is not true). While estimating this resource measure in real time will create administrative difficulties (as I explain later), I assume that doing so is feasible and use it for my calculations.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;What is the maximum amount of the transfer?&lt;/strong&gt; That is, how much should a household with no current income get? If the policy intends to eradicate deep poverty, then it must be at least half the household’s poverty threshold. As I show in the next section, however, this is not feasible given the $1 billion budget, so I explore smaller amounts; and as I explain later, basing the transfer on a household’s poverty threshold may create administrative challenges.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;What is the phase-out rate (i.e. marginal tax rate) of the transfer with respect to income?&lt;/strong&gt; Alternatively, at what income level would the program no longer cover a household? For example, if the benefit maxes out at half a household’s poverty threshold, and it phases out dollar for dollar (100% marginal tax rate), then a household whose income is half their poverty threshold would receive $0; if the marginal tax rate is 50%, they would receive $0 when their income reaches their poverty threshold. The campaign told me that it would phase out at some rate, rather than having a cliff, but they did not specify the rate.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In summary, I assume that the program would guarantee a certain percentage of a household’s SPM poverty threshold and phase out at a certain rate with respect to their SPM resources. To determine the parameters that satisfy Yang’s constraints ($1 billion budget and 500,000 adult recipients), I turned to microsimulation.&lt;/p&gt;
+
+&lt;h1 id=&quot;identifying-a-feasible-reform&quot;&gt;Identifying a feasible reform&lt;/h1&gt;
+
+&lt;p&gt;Yang’s plan has two criteria: it must reach 500,000 adults and cost $1 billion. There are also two unknown policy parameters: the maximum value (as a share of a household’s poverty threshold), and the phase-out rate (with respect to resources). Many potential policies could satisfy either of these conditions, but only one satisfies both.&lt;/p&gt;
+
+&lt;p&gt;Consider, for example, three potential phase-out rates: 25%, 50%, and 100%. The slower the phase-out, the more a given policy costs, &lt;em&gt;ceteris paribus&lt;/em&gt;; UBI, with a 0% phase-out, is the most expensive option, while a 100% phase-out is cheapest (though it removes all incentive to work). At a 25% phase-out, a benefit could only guarantee 20% of the poverty threshold while staying under the $1 billion budget. At a 50% phase-out rate, the benefit could guarantee 30% of the poverty threshold, and a 100% phase-out could guarantee 39%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g3&quot;).load(&quot;/assets/markdown_assets/yang-nyc/cost.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;To reach 500,000 adults, I run the same exercise. At a 25% phase-out, the benefit can only max out at 15% of the poverty threshold. At 50%, it’s 30%, and at 100%, it’s well over 50%.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g4&quot;).load(&quot;/assets/markdown_assets/yang-nyc/reach.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;Combining these constraints, we can map the contours that satisfy each condition. This reveals that the policy that satisfies both (a) guarantees 30% of the poverty line, and (b) phases out at 50 cents per dollar of income.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g5&quot;).load(&quot;/assets/markdown_assets/yang-nyc/cost_reach.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g5&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;the-reforms-impact&quot;&gt;The reform’s impact&lt;/h1&gt;
+
+&lt;p&gt;Poverty rates are ill-suited to evaluating policies that target the deeply poor population the way this does. Since the reform fully phases out for families with resources of 60% of their poverty threshold, it leaves the poverty rate unchanged. This demonstrates limitations of the poverty rate as a policy evaluation tool: it fails to capture reductions in the extent of poverty.&lt;/p&gt;
+
+&lt;p&gt;Even the deep poverty rate largely fails to capture the policy’s impact. The benefit is 83% phased out for families at the deep poverty threshold (50% / 60%), so while it does have some effect, the bulk of the impact is in reducing the depth of deep poverty.&lt;/p&gt;
+
+&lt;p&gt;The policy most affects the deep poverty gap—lowering it by 60%—which makes sense given it aims to reduce the depth of poverty.&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#g6&quot;).load(&quot;/assets/markdown_assets/yang-nyc/impacts.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;g6&quot;&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;administrative-and-incentive-considerations&quot;&gt;Administrative and incentive considerations&lt;/h1&gt;
+
+&lt;p&gt;While this plan would achieve significant deep poverty reduction, it may also face administrative challenges, and it would certainly create perverse incentives for recipients.&lt;/p&gt;
+
+&lt;p&gt;Basing the monthly program on SPM resource values would be difficult. SPM resources include all cash income, as well as in-kind benefits and taxes throughout the year. That means that program officers would have to estimate households’ annual income, benefits, and taxes, each month to determine their payment amount. Recipients would face this administrative burden as well, having to report any change to income, benefits, projected tax liability, or household structure to the city. Tax liability aside, this is largely consistent with other benefit programs, though those other benefit programs do fail to reach some of the poor, and these hoops plausibly explain some of those exclusion errors.&lt;/p&gt;
+
+&lt;p&gt;The program would add 50 percentage points to recipients’ marginal tax rates. According to the &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;Department of Health and Human Services&lt;/a&gt;, most households below 75% of the poverty line (as would be targeted by this program) currently face marginal tax rates of 10% or less. However, by changing that from 10% to 60%, or even 0% to 50%, the program would make the deeply poor population some of the highest taxed segment of the population. Studies find that workers in the lowest income decile are the &lt;a href=&quot;https://www.cbo.gov/sites/default/files/cbofiles/attachments/10-25-2012-Labor_Supply_and_Fiscal_Policy.pdf&quot;&gt;most sensitive to marginal tax rates&lt;/a&gt;, suggesting that labor supply would fall as a result.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;assets/images/2021-06-15-yang-nyc/aspe_hhs_mtr.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The program would also distort marriage incentives, both toward and away from it. For example, someone with no income would gain a larger benefit from staying single than from partnering with someone with income; on the other hand, two people with similar income may gain a larger benefit from partnering, depending on their poverty threshold. This also is not a problem that’s new either to benefit programs or the &lt;a href=&quot;https://taxfoundation.org/understanding-marriage-penalty-and-marriage-bonus/&quot;&gt;tax code&lt;/a&gt;, but the generosity of the payment and steep phase-out make the issue especially prominent.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+
+&lt;p&gt;A policy consistent with Andrew Yang’s policy outline would reduce deep poverty by 60%, largely helping people escape the deeper depths of poverty that cause lasting harms, especially to children. The sharp means-testing could make it harder to reach eligible recipients, and it will distort those recipients’ incentives, but providing cash transfers without a work requirement across NYC would constitute a new step toward an unconditional safety net.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Throughout this analysis, I use “household” as shorthand for Supplemental Poverty Measure unit, a household-like concept created by the Census Bureau to group (actual) household members that share resources. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Max Ghenis</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="new york city" />
+      
+        <category term="andrew yang" />
+      
+
+      
+        <summary type="html">The billion-dollar plan could reduce deep poverty by 60 percent.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">The American Rescue Plan was a step toward universal basic income</title>
+      <link href="/arp-op-ed" rel="alternate" type="text/html" title="The American Rescue Plan was a step toward universal basic income" />
+      <published>2021-05-07T00:00:00+00:00</published>
+      <updated>2021-05-07T00:00:00+00:00</updated>
+      <id>/arp-op-ed</id>
+      <content type="html" xml:base="/arp-op-ed">&lt;h2 id=&quot;read-the-op-ed-here&quot;&gt;&lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;Read the op-ed here&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In my latest op-ed, I argue that cash assistance policies (the expanded Child Tax Credit and $1,400 checks) were some of the most popular and effective parts of the American Rescue Plan; that they would have been even better if closer to universal basic income; and that we should double down on those cash successes with a permanent child allowance and carbon dividend.
+You can &lt;a href=&quot;https://thehill.com/opinion/finance/552333-the-american-rescue-plan-was-a-step-toward-universal-basic-income&quot;&gt;read it at The Hill&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thanks to Joshua Miller for research assistance.&lt;/em&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="op-ed" />
+      
+        <category term="us" />
+      
+
+      
+        <summary type="html">My latest op-ed argues that cash assistance was the key to the American Rescue Plan's success.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">California’s basic income bill still needs work</title>
+      <link href="/california-ab65-calubi" rel="alternate" type="text/html" title="California's basic income bill still needs work" />
+      <published>2021-04-03T00:00:00+00:00</published>
+      <updated>2021-04-03T00:00:00+00:00</updated>
+      <id>/california-ab65-calubi</id>
+      <content type="html" xml:base="/california-ab65-calubi">&lt;p&gt;In 2018, the California Democratic Party &lt;a href=&quot;https://www.cnbc.com/2018/03/12/california-democratic-party-platform-supports-universal-basic-income.html&quot;&gt;added&lt;/a&gt; Universal Basic Income (UBI) to their party platform. Two years later, Assemblymember Evan Low (D-Campbell), who served as a &lt;a href=&quot;https://www.ebar.com/news/latest_news//286838&quot;&gt;national co-chair&lt;/a&gt; for Andrew Yang’s presidential campaign, introduced a &lt;a href=&quot;https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB2712&quot;&gt;UBI bill&lt;/a&gt; for California. In December 2020, Low reintroduced the bill for the 2020-21 legislative session, this time with Senator Scott Wiener (D-San Francisco) as a coauthor and adding some minor revisions.&lt;/p&gt;
+
+&lt;p&gt;That bill, &lt;a href=&quot;https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202120220AB65&quot;&gt;AB65&lt;/a&gt;, establishes the CalUBI program to provide $1,000 per month to most California adults. We estimate that CalUBI would cut poverty by 83% while adding $282 billion to the annual state deficit. In this article, we provide more detail into these estimates and suggest paths toward feasible legislation.&lt;/p&gt;
+
+&lt;h2 id=&quot;californias-extreme-economy&quot;&gt;California’s extreme economy&lt;/h2&gt;
+
+&lt;p&gt;California is both rich and poor. It ranks #8 among US states on &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_GDP_per_capita&quot;&gt;GDP per capita&lt;/a&gt;, and #7 on &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income&quot;&gt;median household income&lt;/a&gt;. It also ranks &lt;a href=&quot;https://www.epi.org/multimedia/unequal-states-of-america/#/California&quot;&gt;#7 on income inequality&lt;/a&gt;,&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; and accordingly, its poverty rate is higher than its GDP would predict, &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_poverty_rate#cite_note-9&quot;&gt;ranking #25&lt;/a&gt; based on the Official Poverty Measure (OPM).&lt;/p&gt;
+
+&lt;p&gt;When using the Supplemental Poverty Measure&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; (SPM), however, California ranks &lt;a href=&quot;https://www.census.gov/content/dam/Census/library/publications/2020/demo/p60-272.pdf&quot;&gt;#1 on both overall poverty and child poverty&lt;/a&gt;: 17.2% of Californians are in poverty, compared to 12.5% of Americans. In fact, California has ranked #1 on SPM poverty every year since the Census Bureau first reported it by state in &lt;a href=&quot;https://www2.census.gov/library/publications/2012/demo/p60-244.pdf&quot;&gt;2011&lt;/a&gt;. That’s because the SPM, unlike the OPM, adjusts for taxes, in-kind benefits (like the Supplemental Nutrition Assistance Program), and, most importantly for California, local housing costs. As a result of its housing shortage (California has the &lt;a href=&quot;https://twitter.com/MaxGhenis/status/1187898060409466882&quot;&gt;fewest housing units per adult&lt;/a&gt; of any state), housing in California is notoriously expensive—&lt;a href=&quot;https://worldpopulationreview.com/state-rankings/cost-of-living-index-by-state&quot;&gt;second only to Hawaii&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;California also stands out in terms of taxation.
+Due to Prop 13 (1978), a ballot measure that limits property taxes, it ranks &lt;a href=&quot;https://wallethub.com/edu/states-with-the-highest-and-lowest-property-taxes/11585&quot;&gt;#35 on local property taxes&lt;/a&gt;.
+The state offsets that revenue loss with high income taxes—its &lt;a href=&quot;https://taxfoundation.org/publications/state-individual-income-tax-rates-and-brackets/&quot;&gt;top marginal rate is 13.3%&lt;/a&gt;, the highest of any state—and high sales taxes—its &lt;a href=&quot;https://taxfoundation.org/2020-sales-taxes/&quot;&gt;state rate is 7.25%&lt;/a&gt;, the highest of any state, and its state and local combined rate ranks #9. It is among the 41 states that &lt;a href=&quot;https://www.cbpp.org/research/state-budget-and-tax/state-taxes-on-capital-gains&quot;&gt;tax capital gains as ordinary income&lt;/a&gt;, which raises significant revenue given its residents claim 8.1% of their income in capital gains, a higher share than all but three states. The net result is a &lt;a href=&quot;https://taxfoundation.org/publications/state-local-tax-burden-rankings/&quot;&gt;state and local tax burden of 11.5%&lt;/a&gt;, ranking #8 across states.&lt;/p&gt;
+
+&lt;p&gt;The state deploys these higher-than-average tax revenues for generous transfers. It matches the federal Earned Income Tax Credit at &lt;a href=&quot;https://www.urban.org/policy-centers/cross-center-initiatives/state-and-local-finance-initiative/state-and-local-backgrounders/state-earned-income-tax-credits&quot;&gt;85% for low income workers&lt;/a&gt;, a higher rate than any other state, and adds a &lt;a href=&quot;https://www.ftb.ca.gov/file/personal/credits/california-earned-income-tax-credit.html&quot;&gt;Young Child Tax Credit&lt;/a&gt; supplement for qualifying families with children under age 6. Due to generously funding the Aid to Dependent Families Children (cash welfare) matching grant in the 1990s, California today gets &lt;a href=&quot;https://www.niskanencenter.org/inequitable-and-inadequate-reforming-federal-grants-for-state-social-assistance-programs/&quot;&gt;more per child&lt;/a&gt; from its replacement, Temporary Assistance for Needy Families (TANF), than all states but New York and Vermont. And while California has &lt;a href=&quot;https://ca.db101.org/ca/programs/income_support/calworks/program2.htm&quot;&gt;not yet eliminated asset limits for TANF&lt;/a&gt;, it is among the 33 states to have &lt;a href=&quot;https://www.cbpp.org/research/food-assistance/snaps-broad-based-categorical-eligibility-supports-working-families-and&quot;&gt;raised income and asset limits for SNAP&lt;/a&gt;. It &lt;a href=&quot;https://www.kff.org/medicaid/issue-brief/status-of-state-medicaid-expansion-decisions-interactive-map/&quot;&gt;expanded Medicaid&lt;/a&gt; as quickly as it could following the passage of the Affordable Care Act, and overall spends more &lt;a href=&quot;https://www.taxpolicycenter.org/statistics/state-and-local-general-expenditures-capita&quot;&gt;per capita on public welfare&lt;/a&gt; than 43 states.&lt;/p&gt;
+
+&lt;p&gt;Lack of welfare spending doesn’t explain California’s highest-in-the-nation poverty rate, but more inclusive and generous welfare programs can nonetheless ameliorate it.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-impact-of-ab65&quot;&gt;The impact of AB65&lt;/h2&gt;
+
+&lt;p&gt;AB65 creates the CalUBI program, which provides $1,000 per month to Californians meeting these eligibility conditions:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(A) Is a resident, and has been a resident for the three most recent consecutive taxable years.&lt;/p&gt;
+
+  &lt;p&gt;(B) Is at least 18 years of age.&lt;/p&gt;
+
+  &lt;p&gt;(C) Is not currently incarcerated in a county jail or the state prison.&lt;/p&gt;
+
+  &lt;p&gt;(D) Reported gross income that does not exceed 200 percent of the median per capita income for the eligible recipient’s current county of residence, as determined by the United States Census Bureau.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;AB65 also levies a 1% tax on incomes above $2 million.&lt;/p&gt;
+
+&lt;p&gt;Using data from the 2017-2019 Current Population Survey March Supplements, we estimate that 58% of Californians would be eligible for CalUBI. 77% meet the age requirement, 83% meet the income requirement,&lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; 97% meet the migration requirement,&lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; and 99.5% meet the incarceration requirement.&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; Providing the $12,000 payment to each of the 23.6 million eligible recipients would cost $283 billion per year.&lt;/p&gt;
+
+&lt;p&gt;Enacting the policy would reduce poverty by 83%, to 3.0%; for context, Minnesota currently has the lowest poverty rate, at 6.5%. It would also reduce inequality by 26%.&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; For these calculations, we assume that the CalUBI would not be counted as income for tax liabilities or benefit eligibility, though this may be unrealistic: Alaska’s Permanent Fund Dividend does not affect eligibility for programs like &lt;a href=&quot;https://ak.db101.org/ak/programs/income_support/ssi/faqs.htm#_q7329&quot;&gt;Supplemental Security Income&lt;/a&gt;, but the payments are &lt;a href=&quot;https://pfd.alaska.gov/Payments/Tax-Information#:~:text=Even%20if%20part%20or%20all,Permanent%20Fund%20Dividend%20is%20%24992.00.&quot;&gt;subject&lt;/a&gt; to federal income tax (Alaska has &lt;a href=&quot;http://tax.alaska.gov/programs/programs/index.aspx?10001&quot;&gt;no state income tax&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;However, the program lacks funding. Using the Policy Simulation Library’s &lt;a href=&quot;https://www.compute.studio/PSLmodels/Tax-Brain/&quot;&gt;TaxBrain&lt;/a&gt; tool and the IRS Public Use File, we estimate that a 1% tax on incomes above $2 million would raise &lt;a href=&quot;https://compute.studio/PSLmodels/Tax-Brain/50389/&quot;&gt;$2.33 billion federally&lt;/a&gt;. Scaling that down to California by its share of personal income in excess of $100,000&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; yields a revenue estimate of $340 million, or 0.1% of CalUBI’s cost.&lt;/p&gt;
+
+&lt;h2 id=&quot;perverse-incentives-from-means-testing&quot;&gt;Perverse incentives from means-testing&lt;/h2&gt;
+
+&lt;p&gt;The CalUBI means-testing approach creates perverse incentives in two ways: its immediate benefit cliff discourages people from working, and its geographic cliff discourages people from residing in lower-income counties.&lt;/p&gt;
+
+&lt;p&gt;As an example, consider a single resident of Santa Clara County earning $100,000 per year, let’s call them Alex. Santa Clara County is home to Google, Apple, San Jose, and Assemblymember Evan Low, and its median personal income is about $53,500, second only to San Francisco County ($55,000) in California. With income below twice the median, Alex would be eligible for CalUBI. Their net income would be $100,000 minus $28,743 in federal, FICA, and state income taxes,&lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; plus $12,000 in CalUBI, totaling $83,257.&lt;/p&gt;
+
+&lt;p&gt;Now suppose Alex is offered a job that pays 10% more. At $110,000 income, they exceed the $107,000 CalUBI threshold for Santa Clara County, so they no longer receive the $12,000 payment. As a result of their raise, Alex’s net income &lt;em&gt;falls 7%&lt;/em&gt; from $83,257 to $77,162. To get back to their original net income, they’d have to earn more than $120,000; if Alex can’t get at least a 20% raise, they’re better off with their current income.&lt;/p&gt;
+
+&lt;p&gt;Suppose that instead of taking a new higher-paying job in Santa Clara County, Alex considers moving to neighboring Santa Cruz County for a job paying the same $100,000. Where the median income in Santa Clara County is over $53,000, it’s under $33,000 in Santa Cruz County. Alex would lose CalUBI eligibility, and their net income would therefore fall $12,000—a full 14%—if they were to cross the county border.&lt;/p&gt;
+
+&lt;p&gt;These welfare cliffs and discontinuities harmfully distort behavior. People like Alex will avoid earning too much money, or perhaps they’ll favor a job with deferred compensation plans to lower their income, or they’ll defer capital gains themselves, all to stay under the threshold in their county. They’ll also avoid moving to lower-income areas, maybe choosing to commute from a more expensive area instead to retain CalUBI eligibility. This would increase geographic inequalities by raising high-income people’s demand to live in high-income areas. Just as &lt;a href=&quot;https://www.sciencedirect.com/science/article/abs/pii/S0094119011000520&quot;&gt;school district boundaries determine housing prices&lt;/a&gt;, county boundaries would do the same under this policy.&lt;/p&gt;
+
+&lt;h2 id=&quot;universal-designs&quot;&gt;Universal designs&lt;/h2&gt;
+
+&lt;p&gt;AB65’s cliff could be mitigated by phasing the benefit out with income, as programs like SNAP and the Earned Income Tax Credit do, and as the &lt;a href=&quot;https://en.wikipedia.org/wiki/Negative_income_tax&quot;&gt;negative income tax&lt;/a&gt; cousin of UBI does. Depending on the design, this could avoid Alex’s quagmire and ensure that any additional dollar they earn raises their net income.&lt;/p&gt;
+
+&lt;p&gt;However, this phase-out would be a hidden tax: if the benefit phases out at 50 cents per dollar of earnings, that’s equivalent to a 50% marginal tax, on top of normal taxes and phase-outs of other benefits. The array of means-tested benefits explains why parents around the poverty line currently face &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;higher marginal tax rates&lt;/a&gt; than any other group in the country, often exceeding 50% and sometimes exceeding 100%.&lt;/p&gt;
+
+&lt;p&gt;Further, if the benefit is means-tested but distributed monthly, recipients would be required to report changes to their income regularly. This costs recipients of existing benefits time and explains some of the &lt;a href=&quot;https://www.cbpp.org/research/romneys-charge-that-most-federal-low-income-spending-goes-for-overhead-and-bureaucrats-is&quot;&gt;high administrative overhead costs&lt;/a&gt;. To support income reporting requirements for the American Rescue Plan’s monthly Child Tax Credit expansion, the IRS is building a portal, an endeavor that’s &lt;a href=&quot;https://abc11.com/child-tax-credit-irs-stimulus-delay/10432494/&quot;&gt;slowing the delivery&lt;/a&gt; of funds to low and middle income parents. The alternative is how refundable tax credits work today: calculated from income often a year or more in the past, without the ability to meet real-time needs, especially when financial circumstances change.&lt;/p&gt;
+
+&lt;p&gt;Other AB65 targeting provisions have drawbacks, too. County-level income thresholds will induce migration even with phase-outs. A three-year residency requirement conflicts with Californians’ &lt;a href=&quot;https://www.latimes.com/california/story/2021-04-01/skelton-ppic-poll-immigration-healthcare-california&quot;&gt;pro-immigration sentiment&lt;/a&gt; (the Alaska Permanent Fund Dividend only has a &lt;a href=&quot;https://pfd.alaska.gov/Eligibility/Requirements&quot;&gt;one-year requirement&lt;/a&gt;). And as our other research shows, excluding children misses an opportunity to &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;improve lifelong development&lt;/a&gt;, and to &lt;a href=&quot;https://blog.ubicenter.org/20210120/child-ubi-share.html&quot;&gt;cost-effectively reduce poverty&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Universality bypasses all of these issues. Universal payments don’t discourage work through hidden taxes or cliffs; they don’t require recipients to report income more than once per tax year; they can be efficiently distributed; they demonstrate inclusiveness toward newcomers; and they provide kids the resources they need to thrive.&lt;/p&gt;
+
+&lt;p&gt;Of course, universality is more expensive. Expanding CalUBI to each person in California would raise the cost from $283 billion to $472 billion—a sixth of the &lt;a href=&quot;https://fred.stlouisfed.org/series/CARGSP&quot;&gt;state’s GDP&lt;/a&gt; and more than twice the &lt;a href=&quot;https://www.gov.ca.gov/2021/01/08/governor-newsom-proposes-2021-22-state-budget&quot;&gt;current state budget&lt;/a&gt;. If funds could be conjured to pay for it, it would drive down the poverty rate to 1.2%.&lt;/p&gt;
+
+&lt;p&gt;But given a fixed budget, poverty is often minimized by spreading it across more of the population in smaller amounts. Spreading the $283 billion across each person in California would give each about $590 per month, and this would have virtually the same antipoverty impact as the original proposal.&lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt; That is, excluding children and newcomers offsets the progressivity of excluding higher-income people (not to mention the distortions).&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, the $283 billion price tag makes AB65 unworkable as written. What policies could make progress toward its goals?&lt;/p&gt;
+
+&lt;h2 id=&quot;a-california-child-allowance&quot;&gt;A California child allowance&lt;/h2&gt;
+
+&lt;p&gt;Monthly cash transfers can efficiently relieve poverty and reduce inequality at the state level, but given to everyone, they’re costly. Even a $100 monthly UBI would cost California $48 billion per year, more than a fifth of the current state budget.&lt;/p&gt;
+
+&lt;p&gt;A focus on children could be a tenable, effective starting point. Given &lt;a href=&quot;https://www.census.gov/quickfacts/CA&quot;&gt;9 million&lt;/a&gt; of California’s 40 million residents are under 18, a $100 monthly child allowance (cash payments given to parents for each child) would cost $11 billion annually. That’s 0.4% of &lt;a href=&quot;https://fred.stlouisfed.org/series/CARGSP&quot;&gt;California’s $2.9 trillion GDP&lt;/a&gt; or 5% of its proposed &lt;a href=&quot;http://www.ebudget.ca.gov/2021-22/pdf/BudgetSummary/SummaryCharts.pdf&quot;&gt;$227 billion budget&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Our &lt;a href=&quot;https://child-allowance.ubicenter.org/simulation.html&quot;&gt;child allowance simulation&lt;/a&gt; shows that this would be achievable and impactful in California. The state could fund a $100 monthly child allowance with a 1% income tax, cutting child poverty by 16%, adult poverty by 5%, and overall poverty by 7%. The bottom decile of Californians would see incomes rise by 11%, and on average only the upper three deciles would lose income, and only by under 1%.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/images/2021-04-03-california-ab65-calubi/deciles_100_child_allowance.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A number of revenue options could fund such a program:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Adding to the income tax, as described in the above simulation.&lt;/li&gt;
+  &lt;li&gt;Applying California’s expected &lt;a href=&quot;https://apnews.com/article/gavin-newsom-california-coronavirus-pandemic-8d01e88ceeb4b0bc6cb1fb0d6a8d72b7&quot;&gt;$15 billion surplus&lt;/a&gt; in 2021. This wouldn’t fund a permanent policy, but could fund a $100 monthly child allowance, plus a $100 monthly young child supplement, for a trial year.&lt;/li&gt;
+  &lt;li&gt;Taxing commercial property at market value would raise between &lt;a href=&quot;https://lao.ca.gov/BallotAnalysis/Proposition?number=15&amp;amp;year=2020#:~:text=The%20measure%20requires%20commercial%20and,over%20time%20starting%20in%202022.&quot;&gt;$6.5 and $11.5 billion&lt;/a&gt; per year. A ballot measure to do this &lt;a href=&quot;https://www.latimes.com/california/story/2020-11-10/proposition-15-commercial-property-tax-defeated&quot;&gt;narrowly lost&lt;/a&gt; in 2020.&lt;/li&gt;
+  &lt;li&gt;Ending the mortgage interest deduction on second homes would raise $250 million per year. &lt;a href=&quot;https://a25.asmdc.org/press-releases/20210219-assemblymember-alex-lee-introduces-repeal-regressive-mortgage-interest&quot;&gt;AB946&lt;/a&gt; proposes to do this, though the revenue is used for a first-time home buyer program.&lt;/li&gt;
+  &lt;li&gt;Conforming parts of the state income tax code with federal tax code changes enacted as part of the 2017 Tax Cuts and Jobs Act; this would raise &lt;a href=&quot;https://lao.ca.gov/Publications/Report/3959&quot;&gt;$1.7 billion&lt;/a&gt; per year.&lt;/li&gt;
+  &lt;li&gt;Replacing other benefit programs, such as CalWORKS (the state TANF program), Special Supplemental Nutrition Program for Women, Infants, and Children (WIC), the child component of CalEITC, and the Young Child Tax Credit.&lt;/li&gt;
+  &lt;li&gt;Instituting an estate tax, as was &lt;a href=&quot;https://sd11.senate.ca.gov/news/20190326-senator-wiener-introduces-california-estate-tax-proposal-fund-programs-reducing-wealth&quot;&gt;proposed in 2017&lt;/a&gt; and which was estimated to raise between $500 million and $1 billion per year.&lt;/li&gt;
+  &lt;li&gt;Repealing other state tax deductions that primarily benefit high income households, such as the property tax deduction.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;or-a-california-young-child-allowance&quot;&gt;Or a California young child allowance&lt;/h2&gt;
+
+&lt;p&gt;For greater affordability, California could focus on the group whose development is most sensitive to financial conditions, and whose needs are most costly due to childcare: young kids. Providing a young child allowance of $100 per month to each of California’s 3 million Californians children under age 6 would cost $4 billion annually.&lt;/p&gt;
+
+&lt;p&gt;Washington and Sacramento have both already prioritized the needs of young kids: the American Rescue Plan’s &lt;a href=&quot;https://www.brookings.edu/blog/up-front/2021/03/11/new-child-tax-credit-could-slash-poverty-now-and-boost-social-mobility-later/&quot;&gt;Child Tax Credit expansion&lt;/a&gt; provides an extra $50 per month to children under age 6 compared to older kids, and California provides a Young Child Tax Credit (YCTC) of up to $1,000 per year to families who qualify for the federal Earned Income Tax Credit and have at least one child under age 6.&lt;/p&gt;
+
+&lt;p&gt;Transforming the YCTC into a young child allowance of $100 per month per child would have several benefits, by:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Including families with no earned income who are ineligible for EITC&lt;/li&gt;
+  &lt;li&gt;Providing more money for families with multiple young children&lt;/li&gt;
+  &lt;li&gt;Avoiding adding a 20% marginal tax to qualifying families with income between the phase-out region of $25,000 and $30,000&lt;/li&gt;
+  &lt;li&gt;Including children whose parents earn above $30,000&lt;/li&gt;
+  &lt;li&gt;Enhancing the benefit by at least $200 per year for all current recipients&lt;/li&gt;
+  &lt;li&gt;Meeting needs on a monthly basis&lt;/li&gt;
+  &lt;li&gt;Potentially sending parents money proactively, rather than relying on families filing tax returns (many of whom don’t have to file since they don’t owe taxes)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;california-can-make-policy-progress-toward-ubi&quot;&gt;California can make policy progress toward UBI&lt;/h2&gt;
+
+&lt;p&gt;California is in many ways the center of the UBI conversation. Its tech community has long promoted the idea as an insurance policy against technological unemployment, supporting Andrew Yang’s candidacy, funding basic income pilots, and donating to &lt;a href=&quot;https://www.givedirectly.org/basic-income/&quot;&gt;GiveDirectly’s basic income experiment&lt;/a&gt; in Kenya. Of the 40 mayors in the &lt;a href=&quot;https://www.mayorsforagi.org/&quot;&gt;Mayors for a Guaranteed Income&lt;/a&gt; network, 6 lead California cities, including its founder, Michael Tubbs. The pilot in Tubbs’s hometown of Stockton was one of the first of a &lt;a href=&quot;https://basicincome.stanford.edu/experiments-map/&quot;&gt;wave&lt;/a&gt; that now includes Compton, Long Beach, Oakland, Marin County, and San Francisco.&lt;/p&gt;
+
+&lt;p&gt;These pilots may provide more precise estimates of how people respond to guaranteed income, but we already know from a slew of studies that cash transfers &lt;a href=&quot;https://child-allowance.ubicenter.org/empirical.html&quot;&gt;improve health, well-being, and educational outcomes&lt;/a&gt;, and that they &lt;a href=&quot;https://scholar.harvard.edu/files/remahanna/files/151016_labor_supply_paper_draft_final.pdf&quot;&gt;don’t reduce labor supply much&lt;/a&gt; or &lt;a href=&quot;https://blogs.worldbank.org/impactevaluations/do-poor-waste-transfers-booze-and-cigarettes-no&quot;&gt;raise spending on vices&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In introducing AB65, Assemblymember Low has started the next phase of California’s UBI conversation. The idea is ready for policy implementation, but if it’s to be more than signaling, it will need to fit in a budget the governor can sign.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nick Rodelo provided research assistance for this post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;California has the 7th highest ratio of top 1% to bottom 99% income: 30.7, compared to 26.3 nationwide. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Poverty researchers &lt;a href=&quot;https://www.vox.com/2015/9/16/9337041/supplemental-poverty-measure&quot;&gt;generally prefer the SPM&lt;/a&gt; over the OPM, and that’s what the UBI Center uses in its analysis. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;We interpreted a county’s “median per capita income” as the median personal income among people with income greater than zero. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;The Current Population Survey only includes migration data from one year ago. 1.0% of Californians lived in a different state one year ago. To approximate the three-year requirement, we tripled the observation weights for this 1%; this also served to “age” the data from the 2017-2019 period to 2021, as it produces a total population estimate of 40.1 million. The University of Virginia Weldon Cooper Center for Public Service &lt;a href=&quot;https://demographics.coopercenter.org/united-states-interactive-map&quot;&gt;projects&lt;/a&gt; that California’s 2020 population was 40.4 million. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;The &lt;a href=&quot;https://www.census.gov/programs-surveys/cps/technical-documentation/methodology.html&quot;&gt;Current Population Survey omits prisoners&lt;/a&gt;, so we used data from the &lt;a href=&quot;https://www.prisonpolicy.org/profiles/CA.html&quot;&gt;Prison Policy Initiative&lt;/a&gt;, which estimates that 213,000 Californians were in state prison or county jail as of 2018. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;We measure inequality as the Gini index of the ratio between a person’s poverty unit’s (similar to a household) resources and its poverty threshold. The current value is 0.42, and under CalUBI it would fall to 0.31. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;High incomes in the Current Population Survey are obscured for privacy, such that only three records show personal income above $2 million. It estimates that Californians have a total of $321 billion of income in excess of $100,000, 15% of the $2.18 trillion of US personal income in excess of $100,000. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;This and other calculations apply &lt;a href=&quot;https://smartasset.com/taxes/california-tax-calculator#VBrctYjFhi&quot;&gt;SmartAsset’s calculator&lt;/a&gt;. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot;&gt;
+      &lt;p&gt;3.08% vs 3.03%. &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="california" />
+      
+
+      
+        <summary type="html">AB65 would cut poverty by 83%, but add $282 billion to the state deficit.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">UBI as a means of reducing gendered poverty</title>
+      <link href="/womens-day-2021" rel="alternate" type="text/html" title="UBI as a means of reducing gendered poverty" />
+      <published>2021-03-08T00:00:00+00:00</published>
+      <updated>2021-03-08T00:00:00+00:00</updated>
+      <id>/womens-day-2021</id>
+      <content type="html" xml:base="/womens-day-2021">&lt;p&gt;This year’s &lt;a href=&quot;https://www.internationalwomensday.com/&quot;&gt;International Women’s Day&lt;/a&gt; asks its celebrants to challenge the world in order to change it (&lt;a href=&quot;https://twitter.com/search?q=%23ChooseToChallenge&quot;&gt;#ChooseToChallenge&lt;/a&gt;).
+The following simulation seeks to challenge the fact that women in the United States are more likely to be impoverished than men.
+In our analysis, we evaluate a Universal Basic Income (UBI), funded by a flat income tax, as a possible solution for both alleviating poverty and narrowing the gendered poverty gap.&lt;sup id=&quot;fnref:modeling&quot;&gt;&lt;a href=&quot;#fn:modeling&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Poverty rates for children are roughly equal between genders, while adult women experience poverty at rates 17 percent greater than adult men: 12.4 percent vs. 10.6 percent.
+As a general trend, the difference in poverty rates between women and men increases with age.
+For example, 20.8 percent of women aged 85 or older are in poverty, compared to only 14.5 percent of men of the same age.
+Among people aged 85 or older, women experience deep poverty at twice the rate of men.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button1&quot; onclick=&quot;f1()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_1&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+import microdf as mdf
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import ubicenter
+
+df = pd.read_csv(
+    &quot;https://github.com/MaxGhenis/datarepo/raw/master/pppub20.csv.gz&quot;,
+    usecols=[
+        &quot;MARSUPWT&quot;,
+        &quot;SPM_RESOURCES&quot;,
+        &quot;SPM_POVTHRESHOLD&quot;,
+        &quot;SPM_WEIGHT&quot;,
+        &quot;SPM_NUMPER&quot;,
+        &quot;A_SEX&quot;,
+        &quot;A_AGE&quot;,
+        &quot;SPM_ID&quot;,
+        &quot;AGI&quot;,
+    ],
+)
+df.columns = df.columns.str.lower()
+df[&quot;weight&quot;] = df.marsupwt / 100
+df[&quot;spm_weight&quot;] = df.spm_weight / 100
+df[&quot;female&quot;] = df.a_sex == 2
+df[&quot;poverty&quot;] = df.spm_resources &amp;lt; df.spm_povthreshold
+df[&quot;deep_poverty&quot;] = df.spm_resources &amp;lt; (df.spm_povthreshold / 2)
+df[&quot;sex&quot;] = np.where(df.female, &quot;Female&quot;, &quot;Male&quot;)
+
+spm = df.groupby(
+    [&quot;spm_id&quot;, &quot;spm_resources&quot;, &quot;spm_weight&quot;, &quot;spm_povthreshold&quot;, &quot;spm_numper&quot;]
+)[[&quot;agi&quot;]].sum()
+spm[&quot;agi_pos&quot;] = np.maximum(spm.agi, 0)
+spm.reset_index(inplace=True)
+
+total_population = df.weight.sum()
+total_agi_pos = mdf.weighted_sum(spm, &quot;agi_pos&quot;, &quot;spm_weight&quot;)
+
+# Bin into ages aligning with 18 year old threshold.
+DARK_PURPLE = &quot;#46296E&quot;  # Official Intl Womens Day Color.
+LIGHT_PURPLE = &quot;#907EA8&quot;  # Lightened version.
+DARK_GREY = &quot;#9E9E9E&quot;  # Gray 500 from Material Design.
+LIGHT_GREY = &quot;#BDBDBD&quot;  # Gray 400.
+
+COLOR_MAP = {
+    &quot;Female&quot;: DARK_PURPLE,
+    &quot;Male&quot;: LIGHT_GREY,
+    &quot;Female poverty&quot;: DARK_PURPLE,
+    &quot;Female deep poverty&quot;: LIGHT_PURPLE,
+    &quot;Male poverty&quot;: DARK_GREY,
+    &quot;Male deep poverty&quot;: LIGHT_GREY,
+    &quot;Poverty&quot;: DARK_PURPLE,
+    &quot;Deep poverty&quot;: LIGHT_PURPLE,
+}
+
+df[&quot;age_group&quot;] = pd.cut(df.a_age + 1, np.arange(0, 91, 5), labels=np.arange(0, 86, 5))
+pov_age = mdf.weighted_mean(
+    df, [&quot;poverty&quot;, &quot;deep_poverty&quot;], &quot;marsupwt&quot;, groupby=[&quot;age_group&quot;, &quot;sex&quot;]
+)
+pov_age = pov_age.round(3)
+pov_age.reset_index(inplace=True)
+pov_age = pov_age.melt([&quot;age_group&quot;, &quot;sex&quot;], [&quot;poverty&quot;, &quot;deep_poverty&quot;])
+pov_age[&quot;label&quot;] = (
+    pov_age.sex
+    + &quot; &quot;
+    + np.where(pov_age.variable == &quot;poverty&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;)
+)
+
+fig = px.line(
+    pov_age, x=&quot;age_group&quot;, y=&quot;value&quot;, color=&quot;label&quot;, color_discrete_map=COLOR_MAP
+)
+fig.update_layout(
+    title=&quot;Poverty by gender and age&quot;,
+    xaxis_title=&quot;Age (in 5-year bins)&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+    yaxis_range=[0, pov_age.value.max() * 1.1] #fig.update_xaxes(range=[1.5, 4.5])
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f1() {
+  var x = document.getElementById(&quot;asset_code_1&quot;);
+  var b = document.getElementById(&quot;button1&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset1&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-1.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset1&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button2&quot; onclick=&quot;f2()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_2&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+pov_age_diff = pov_age[pov_age.variable == &quot;poverty&quot;].pivot_table(
+    values=&quot;value&quot;, index=&quot;age_group&quot;, columns=&quot;sex&quot;
+)
+pov_age_diff[&quot;female_minus_male&quot;] = pov_age_diff.Female - pov_age_diff.Male
+pov_age_diff.female_minus_male.plot()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f2() {
+  var x = document.getElementById(&quot;asset_code_2&quot;);
+  var b = document.getElementById(&quot;button2&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset2&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-2.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset2&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;With a significant difference in rates of poverty for adult women as compared to men, how might a UBI help close that gap?
+Our past modeling has shown that a UBI would lessen poverty across demographic groups, and also shrink poverty disparities by &lt;a href=&quot;https://blog.ubicenter.org/20210118/racial-poverty-disparities-mlk-day-2021.html&quot;&gt;race&lt;/a&gt;, &lt;a href=&quot;https://blog.ubicenter.org/20201012/indigenous.html&quot;&gt;Indigenous heritage&lt;/a&gt;, and &lt;a href=&quot;https://blog.ubicenter.org/20200731/ada30.html&quot;&gt;disability status&lt;/a&gt;.
+Our research here shows that it would do the same by gender.&lt;/p&gt;
+
+&lt;p&gt;After receiving a UBI, the poverty rates for women and men converge as the monthly amount increases (we’ve focused on adults here).
+Consistent with our past simulations, a $300 monthly UBI would halve the rate of female poverty and female deep poverty.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button3&quot; onclick=&quot;f3()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_3&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+def pov(female, monthly_ubi):
+    # Calculate poverty rates for a gender subset given a monthly UBI amount.
+    cost = monthly_ubi * total_population * 12
+    tax_rate = cost / total_agi_pos  # Divide by positive AGI.
+    spm[&quot;new_resources&quot;] = (
+        spm.spm_resources - tax_rate * spm.agi_pos + (12 * monthly_ubi * spm.spm_numper)
+    )
+    person = df[(df.female == female) &amp;amp; (df.a_age &amp;gt; 17)].merge(
+        spm[[&quot;spm_id&quot;, &quot;new_resources&quot;]], on=&quot;spm_id&quot;
+    )
+    return pd.Series(
+        dict(
+            pov=mdf.poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+            deep_pov=mdf.deep_poverty_rate(
+                person, income=&quot;new_resources&quot;, threshold=&quot;spm_povthreshold&quot;, w=&quot;weight&quot;
+            ),
+        )
+    )
+
+
+def pov_row(row):
+    return pov(row.female, row.monthly_ubi)
+
+
+gender_ubi = mdf.cartesian_product(
+    {&quot;female&quot;: [True, False], &quot;monthly_ubi&quot;: np.arange(0, 1001, 100)}
+)
+gender_ubi = pd.concat([gender_ubi, gender_ubi.apply(pov_row, axis=1)], axis=1)
+
+gender_ubi_long = gender_ubi.melt(
+    id_vars=[&quot;female&quot;, &quot;monthly_ubi&quot;], value_vars=[&quot;pov&quot;, &quot;deep_pov&quot;]
+)
+gender_ubi_long[&quot;label&quot;] = (
+    pd.Series(np.where(gender_ubi_long.female, &quot;Female&quot;, &quot;Male&quot;))
+    + &quot; &quot;
+    + pd.Series(np.where(gender_ubi_long.variable == &quot;pov&quot;, &quot;poverty&quot;, &quot;deep poverty&quot;))
+)
+gender_ubi_long.value = gender_ubi_long.value.round(3)
+
+fig = px.line(
+    gender_ubi_long,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;value&quot;,
+    color=&quot;label&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_layout(
+    title=&quot;Poverty by gender and UBI amount&quot;,
+    xaxis_title=&quot;Monthly universal basic income amount (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+    yaxis_tickformat=&quot;%&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f3() {
+  var x = document.getElementById(&quot;asset_code_3&quot;);
+  var b = document.getElementById(&quot;button3&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset3&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-3.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset3&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;UBI significantly narrows the ratio of poverty and deep poverty rates for adult women compared to adult men.
+With a monthly UBI of $500, the rate of women compared to men in poverty is more than halved and the rate of women compared to men in deep poverty is nearly equal.&lt;/p&gt;
+
+&lt;p&gt;&lt;button class=&quot;code-button&quot; id=&quot;button4&quot; onclick=&quot;f4()&quot;&gt;▶ Click to show code&lt;/button&gt;&lt;/p&gt;
+&lt;div class=&quot;code-cell&quot; id=&quot;asset_code_4&quot; style=&quot;display: none;&quot;&gt;
+  &lt;pre&gt;
+    &lt;code&gt;
+gender_ratio = gender_ubi.pivot_table(
+    values=&quot;pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+gender_ratio[&quot;ratio&quot;] = gender_ratio.female / gender_ratio.male
+gender_ratio[&quot;poverty_type&quot;] = &quot;Poverty&quot;
+deep_gender_ratio = gender_ubi.pivot_table(
+    values=&quot;deep_pov&quot;, index=[&quot;monthly_ubi&quot;], columns=&quot;female&quot;
+).reset_index()
+deep_gender_ratio.rename({True: &quot;female&quot;, False: &quot;male&quot;}, axis=1, inplace=True)
+deep_gender_ratio[&quot;ratio&quot;] = deep_gender_ratio.female / deep_gender_ratio.male
+deep_gender_ratio[&quot;poverty_type&quot;] = &quot;Deep poverty&quot;
+
+gender_ratios = pd.concat([gender_ratio, deep_gender_ratio])
+gender_ratios.ratio = gender_ratios.ratio.round(2)
+
+fig = px.line(
+    gender_ratios,
+    x=&quot;monthly_ubi&quot;,
+    y=&quot;ratio&quot;,
+    color=&quot;poverty_type&quot;,
+    color_discrete_map=COLOR_MAP,
+)
+
+fig.update_yaxes(range=[0.94, 1.18])
+fig.add_shape(
+    type=&quot;line&quot;,
+    x0=0,
+    y0=1,
+    x1=1000,
+    y1=1,
+    line=dict(color=LIGHT_GREY, dash=&quot;dash&quot;),
+    xref=&quot;x&quot;,
+    yref=&quot;y&quot;,
+)
+
+fig.update_layout(
+    title=&quot;Poverty disparities by gender with respect to UBI&quot;,
+    xaxis_title=&quot;Monthly universal basic income (funded by flat income tax)&quot;,
+    xaxis_tickprefix=&quot;$&quot;,
+    yaxis_title=&quot;Ratio of women to men SPM poverty rate (2019)&quot;,
+    legend_title=&quot;&quot;,
+)
+
+fig.update_traces(mode=&quot;markers+lines&quot;, hovertemplate=None)
+fig = ubicenter.format_fig(fig, show = False)
+fig.show()
+    &lt;/code&gt;
+  &lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+function f4() {
+  var x = document.getElementById(&quot;asset_code_4&quot;);
+  var b = document.getElementById(&quot;button4&quot;);
+  if (x.style.display === &quot;none&quot;) {
+    x.style.display = &quot;block&quot;;
+    b.innerHTML = &quot;&amp;#9660 Click to hide code&quot;;
+  } else {
+    x.style.display = &quot;none&quot;;
+    b.innerHTML = &quot;&amp;#9654 Click to show code&quot;;
+  }
+}
+&lt;/script&gt;
+
+&lt;div&gt;
+  &lt;script&gt;
+    $(document).ready(function(){
+      $(&quot;#asset4&quot;).load(&quot;/assets/markdown_assets/womens-day-2021/2020-03-08-womens-day-2021-asset-4.html&quot;);
+    });
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&quot;asset4&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The gender income gap is inseparable from the issue of care work.
+On one hand, the &lt;a href=&quot;https://www.vox.com/2018/2/19/17018380/gender-wage-gap-childcare-penalty&quot;&gt;“baby penalty”&lt;/a&gt; explains much of the gap, with mothers earning less than fathers while women and men without children have similar earnings.
+Meanwhile, &lt;a href=&quot;https://aspe.hhs.gov/system/files/aspe-files/260661/brief2-overviewmtranalyses.pdf&quot;&gt;high marginal tax rates&lt;/a&gt; for low-income parents (due to the phasing out of benefits) discourages work disproportionately of mothers.
+A &lt;a href=&quot;https://americancompass.org/essays/home-building-survey-part-2/&quot;&gt;recent poll&lt;/a&gt; found that Americans prefer cash assistance to other family assistance policies like paid family leave, subsidized childcare, wage subsidies, and baby bonds.
+Mothers, fathers, and low-income people especially preferred cash assistance, which would likely be more distributionally progressive than other policy options.&lt;/p&gt;
+
+&lt;p&gt;In her &lt;a href=&quot;https://almazzelleke.files.wordpress.com/2014/01/zelleke-institutionalizing-the-universal-caretaker-dec-2008.pdf&quot;&gt;paper&lt;/a&gt; advocating for UBI as compared to other alternatives, political scientist Almaz Zelleke states that:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Perhaps most importantly for advocates of gender equality, a basic income by virtue of its universality goes to both providers and recipients of care, and thus has the best chance of eliminating poverty for the most vulnerable group in contemporary capitalist economies: single mothers and their children. To any feminist, this should be a strong argument in favor of basic income.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Women provide most of the care work that today goes unpaid and unrecognized.
+UBI compensates for that care work, reducing gender inequities and investing in the well-being of the cared-for.
+Our analysis suggests that a UBI could be a relevant policy in the greater movement for the social, economic, and political equality of women.&lt;/p&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:modeling&quot;&gt;
+      &lt;p&gt;Data was gathered from the US Census Bureau’s March Supplement, which covers economic circumstances in 2019. We use the Supplemental Poverty Measure, which incorporates taxes and transfers (including in-kind benefits like SNAP) and adjusts for local housing costs. The flat income tax is applied on positive adjusted gross income. &lt;a href=&quot;#fnref:modeling&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>[&quot;katarina&quot;, &quot;max&quot;]</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="us" />
+      
+        <category term="gender" />
+      
+        <category term="poverty" />
+      
+
+      
+        <summary type="html">Women are 17% more likely to be in poverty than men, but basic income would shrink the gap.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
